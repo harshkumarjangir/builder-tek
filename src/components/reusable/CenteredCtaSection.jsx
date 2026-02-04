@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom"
 
+// Original centered CTA section used on Solutions page
 const CenteredCtaSection = ({ data }) => {
     return (
         <section className="py-20">
-            <div className="max-w-6xl mx-auto px-6 text-center bg-[#F4F4F4] lg:px-16  pt-16">
+            <div className="max-w-6xl mx-auto px-6 text-center bg-[#F4F4F4] lg:px-16 pt-16">
 
                 {/* Title */}
                 <h2 className="text-3xl lg:text-4xl font-semibold text-gray-900 max-w-[767px] mx-auto">
@@ -11,6 +12,13 @@ const CenteredCtaSection = ({ data }) => {
                     <span className="text-[#126DFB]">
                         {data.highlight}
                     </span>
+                    {
+                        data.title2 && (
+                            <span className="">
+                                {" "}{data.title2}
+                            </span>
+                        )
+                    }
                 </h2>
 
                 {/* Description */}

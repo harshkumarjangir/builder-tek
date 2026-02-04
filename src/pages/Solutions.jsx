@@ -1,12 +1,12 @@
 import { motion } from 'motion/react'
 // import solutionData from '../data/solutions-one.json'
 import SolutionsHero from '../components/reusable/Hero'
-import SectionTitle from '../components/reusable/SectionTitle'
-import FeatureCard from '../components/reusable/FeatureCard'
-import SectionHeader from '../components/reusable/SectionHeader'
-import FeatureGridCard from '../components/reusable/FeatureGridCard'
-import CenteredSectionHeader from '../components/reusable/CenteredSectionHeader'
-import IconFeatureCard from '../components/reusable/IconFeatureCard'
+import CenteredTitle from '../components/reusable/CenteredTitle'
+import ImageTextCard from '../components/reusable/ImageTextCard'
+import TwoColumnHeader from '../components/reusable/TwoColumnHeader'
+import GridCard from '../components/reusable/GridCard'
+import SimpleHeader from '../components/reusable/SimpleHeader'
+import IconCard from '../components/reusable/IconCard'
 import CenteredCtaSection from '../components/reusable/CenteredCtaSection'
 import FaqSection from '../components/reusable/FaqSection'
 import PageTransition from '../components/reusable/PageTransition'
@@ -25,16 +25,16 @@ const Solutions = ({solutionData}) => {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8 }}
                     viewport={{ once: true }}
-                    className="py-20 bg-white"
+                    className="section-bg-white"
                 >
-                    <div className="max-w-7xl mx-auto px-6">
-                        <SectionTitle
+                    <div className="container-main">
+                        <CenteredTitle
                             title={sectionTitle.title}
                             description={sectionTitle.description}
                         />
 
                         {features.map((feature, index) => (
-                            <FeatureCard key={index} feature={feature} index={index} />
+                            <ImageTextCard key={index} feature={feature} index={index} />
                         ))}
                     </div>
                 </motion.section>
@@ -44,10 +44,10 @@ const Solutions = ({solutionData}) => {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8 }}
                     viewport={{ once: true }}
-                    className="bg-blue-50 py-20"
+                    className="section-bg-blue"
                 >
-                    <div className="max-w-7xl mx-auto p-8 lg:p-12">
-                        <SectionHeader
+                    <div className="container-main">
+                        <TwoColumnHeader
                             title={section.title}
                             subtitle={section.subtitle}
                         />
@@ -57,7 +57,7 @@ const Solutions = ({solutionData}) => {
                             whileInView={{ opacity: 1 }}
                             transition={{ duration: 0.8, staggerChildren: 0.2 }}
                             viewport={{ once: true }}
-                            className="grid md:grid-cols-2 gap-8"
+                            className="grid-2"
                         >
                             {whyChoose.features.map((feature, index) => (
                                 <motion.div
@@ -67,7 +67,7 @@ const Solutions = ({solutionData}) => {
                                     transition={{ duration: 0.6, delay: index * 0.2 }}
                                     viewport={{ once: true }}
                                 >
-                                    <FeatureGridCard feature={feature} />
+                                    <GridCard feature={feature} />
                                 </motion.div>
                             ))}
                         </motion.div>
@@ -79,10 +79,10 @@ const Solutions = ({solutionData}) => {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8 }}
                     viewport={{ once: true }}
-                    className="py-20 bg-white"
+                    className="section-bg-white"
                 >
-                    <div className="max-w-7xl mx-auto px-6">
-                        <CenteredSectionHeader
+                    <div className="container-main">
+                        <SimpleHeader
                             title={makeSmarter.section.title}
                             description={makeSmarter.section.description}
                         />
@@ -92,7 +92,7 @@ const Solutions = ({solutionData}) => {
                             whileInView={{ opacity: 1 }}
                             transition={{ duration: 0.8, staggerChildren: 0.2 }}
                             viewport={{ once: true }}
-                            className="grid md:grid-cols-3 gap-8"
+                            className="grid-3"
                         >
                             {makeSmarter.cards.map((card, index) => (
                                 <motion.div
@@ -102,7 +102,7 @@ const Solutions = ({solutionData}) => {
                                     transition={{ duration: 0.6, delay: index * 0.2 }}
                                     viewport={{ once: true }}
                                 >
-                                    <IconFeatureCard card={card} />
+                                    <IconCard card={card} />
                                 </motion.div>
                             ))}
                         </motion.div>

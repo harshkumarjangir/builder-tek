@@ -1,0 +1,77 @@
+{
+    "logo": {
+        "src": "/assets/logos/builder-logo.png",
+        "alt": "BuilderTek",
+        "link": "/"
+    },
+    "menu": [
+        {
+            "label": "Home",
+            "path": "/"
+        },
+        {
+            "label": "About Us",
+            "path": "/about"
+        },
+        {
+            "label": "Solutions",
+            "dropdown": true,
+            "items": [
+                {
+                    "label": "Solutions RFQ",
+                    "path": "/solutions/rfq"
+                },
+                {
+                    "label": "Solutions Quote",
+                    "path": "/solutions/quote"
+                }
+            ]
+        },
+        {
+            "label": "Who We Serve",
+            "dropdown": true,
+            "items": [
+                {
+                    "label": "General Contractors",
+                    "path": "/serve/general-contractors"
+                },
+                {
+                    "label": "Residential Builders",
+                    "path": "/serve/residential-builders"
+                }
+            ]
+        },
+        {
+            "label": "Services",
+            "dropdown": true,
+            "items": [
+                {
+                    "label": "Finance",
+                    "path": "/services/finance"
+                },
+                {
+                    "label": "Construction",
+                    "path": "/services/construction"
+                }
+            ]
+        },
+        {
+            "label": "Resource",
+            "dropdown": true,
+            "items": [
+                {
+                    "label": "Blogs",
+                    "path": "/blogs"
+                },
+                {
+                    "label": "Documentation",
+                    "path": "/docs"
+                }
+            ]
+        }
+    ],
+    "cta": {
+        "label": "Login",
+        "path": "/login"
+    }
+}

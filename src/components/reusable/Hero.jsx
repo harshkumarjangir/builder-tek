@@ -1,8 +1,9 @@
 import { motion } from 'motion/react'
+import Text from './Text'
 
 const Hero = ({ hero }) => {
   return (
-    <section className="relative w-full h-[520px] lg:h-[709px] px-5 md:px-[80px] overflow-hidden">
+    <section className="hero-section">
 
       {/* Background Image */}
       <motion.img
@@ -11,7 +12,7 @@ const Hero = ({ hero }) => {
         transition={{ duration: 1 }}
         src={hero.backgroundImage}
         alt="Hero Background"
-        className="absolute inset-0 w-full h-full object-cover"
+        className="absolute inset-0 img-cover"
       />
 
       {/* White Overlay Gradient */}
@@ -19,11 +20,11 @@ const Hero = ({ hero }) => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 0.3 }}
-        className="absolute inset-0 bg-gradient-to-r from-white via-white/90 to-white/10" 
+        className="hero-overlay" 
       />
 
       {/* Content */}
-      <div className="relative z-10 max-w-7xl mx-auto px-6 h-full flex items-center">
+      <div className="hero-content">
         <motion.div 
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
@@ -32,24 +33,26 @@ const Hero = ({ hero }) => {
         >
 
           {/* Title */}
-          <motion.h1 
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.7 }}
-            className="text-4xl lg:text-5xl font-extrabold text-blue-900 leading-tight whitespace-pre-line"
+          <Text 
+            variant="h1" 
+            color="primary-dark"
+            animated
+            delay={0.7}
+            className="text-pre-line"
           >
             {hero.title}
-          </motion.h1>
+          </Text>
 
           {/* Description */}
-          <motion.p 
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.9 }}
-            className="mt-6 text-gray-600 lg:max-w-[80%] text-base lg:text-lg leading-relaxed"
+          <Text 
+            variant="body-lg"
+            color="muted"
+            animated
+            delay={0.9}
+            className="mt-6 lg:max-w-[80%]"
           >
             {hero.description}
-          </motion.p>
+          </Text>
         </motion.div>
 
         {/* Floating Badge */}
@@ -58,11 +61,15 @@ const Hero = ({ hero }) => {
           animate={{ opacity: 1, x: 0, scale: 1 }}
           transition={{ duration: 0.8, delay: 1.1 }}
           whileHover={{ scale: 1.05 }}
-          className="hidden lg:block absolute right-12 top-32  bg-white shadow-xl rounded-lg px-6 py-4 max-w-xs"
+          className="hidden lg:block absolute right-12 top-32 bg-white shadow-xl rounded-lg px-6 py-4 max-w-xs"
         >
-          <p className="text-[#032D60] font-normal whitespace-pre-line">
+          <Text 
+            variant="body" 
+            color="primary"
+            className="text-pre-line"
+          >
             {hero.badge}
-          </p>
+          </Text>
         </motion.div>
       </div>
     </section>
