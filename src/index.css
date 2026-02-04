@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap');
+
+@import "tailwindcss";
+
+body {
+     font-family: "Inter", sans-serif;
+}
+
+h1 {
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 70px;
+    line-height: 120%;
+    letter-spacing: 1%;
+    color: #032D60;
+    ;
+}
+
+h2 {
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 50px;
+    line-height: 64px;
+    letter-spacing: 1%;
+}
