@@ -11,7 +11,7 @@ const SmartFeatures = ({data}) => {
                 <div className="max-w-3xl mb-14">
                     <h2 className="text-4xl font-semibold text-gray-900 leading-tight">
                         {title.split("\n").map((line, i) => (
-                            <span key={i} className="bloc">
+                            <span key={i} className="block">
                                 {line}
                             </span>
                         ))}

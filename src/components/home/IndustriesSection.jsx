@@ -21,7 +21,7 @@ const IndustriesSection = ({ data }) => {
                 </div>
 
                 {/* Tabs */}
-                <div className="flex flex-wrap justify-center gap-4 mb-12">
+                {/* <div className="flex flex-wrap justify-center gap-4 mb-12">
                     {industriesSection.tabs.map((item, i) => (
                         <button
                             key={i}
@@ -35,7 +35,25 @@ const IndustriesSection = ({ data }) => {
                             {item.name}
                         </button>
                     ))}
+                </div> */}
+                <div className="mb-12 overflow-x-auto no-scrollbar">
+                    <div className="flex w-max gap-4 px-1">
+                        {industriesSection.tabs.map((item, i) => (
+                            <button
+                                key={i}
+                                onClick={() => setActive(i)}
+                                className={`whitespace-nowrap px-6 py-3 rounded-xl border transition shrink-0
+                ${active === i
+                                        ? "bg-white shadow-md font-semibold"
+                                        : "bg-gray-50"
+                                    }`}
+                            >
+                                {item.name}
+                            </button>
+                        ))}
+                    </div>
                 </div>
+
 
                 {/* Content Card */}
                 <div className="relative rounded-3xl bg-gradient-to-r from-[#F5F1ED] to-[#EDEDED] p-0 overflow-hidden">
