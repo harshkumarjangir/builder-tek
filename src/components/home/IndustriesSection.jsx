@@ -13,8 +13,8 @@ const IndustriesSection = ({ data }) => {
 
                 {/* Heading */}
                 <div className="text-center max-w-4xl mx-auto mb-14">
-                    <motion.h2 
-                        className="text-4xl md:text-5xl font-semibold mb-6"
+                    <motion.h2
+                        className="text-4xl md:text-[54px] font-normal mb-6"
                         initial={{ opacity: 0, y: 30 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8 }}
@@ -22,8 +22,8 @@ const IndustriesSection = ({ data }) => {
                     >
                         {industriesSection.title}
                     </motion.h2>
-                    <motion.p 
-                        className="text-lg text-blue-900/80"
+                    <motion.p
+                        className="text-xl text-[#637091]"
                         initial={{ opacity: 0, y: 30 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8, delay: 0.2 }}
@@ -34,7 +34,7 @@ const IndustriesSection = ({ data }) => {
                 </div>
 
                 {/* Tabs */}
-                <motion.div 
+                <motion.div
                     className="mb-12 overflow-x-auto no-scrollbar bg-[#F8F8F8] py-1 rounded-xl"
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
@@ -46,7 +46,7 @@ const IndustriesSection = ({ data }) => {
                             <motion.button
                                 key={i}
                                 onClick={() => setActive(i)}
-                                className={`whitespace-nowrap px-6 py-3 rounded-xl border border-[#1C1B1733] transition shrink-0
+                                className={`max-w-[260px] whitespace-pre-wrap px-6 py-3 rounded-xl border border-[#1C1B1733] transition shrink-0 cursor-pointer
                 ${active === i
                                         ? "bg-white shadow-md font-semibold text-[#020805]"
                                         : "bg-gray-50 text-[#757267]"
@@ -64,7 +64,7 @@ const IndustriesSection = ({ data }) => {
                 </motion.div>
 
                 {/* Content Card */}
-                <motion.div 
+                <motion.div
                     className="relative rounded-3xl bg-gradient-to-r from-[#F5F1ED] to-[#EDEDED] p-0 overflow-hidden"
                     initial={{ opacity: 0, y: 50 }}
                     whileInView={{ opacity: 1, y: 0 }}
@@ -76,7 +76,7 @@ const IndustriesSection = ({ data }) => {
 
                         {/* Left Content */}
                         <AnimatePresence mode="wait">
-                            <motion.div 
+                            <motion.div
                                 key={active}
                                 className="p-10"
                                 initial={{ opacity: 0, x: -30 }}
@@ -84,7 +84,7 @@ const IndustriesSection = ({ data }) => {
                                 exit={{ opacity: 0, x: 30 }}
                                 transition={{ duration: 0.5 }}
                             >
-                                <motion.span 
+                                <motion.span
                                     className="text-blue-600 text-sm font-semibold bg-blue-50 px-3 py-1 rounded-md"
                                     initial={{ opacity: 0, scale: 0.8 }}
                                     animate={{ opacity: 1, scale: 1 }}
@@ -93,7 +93,7 @@ const IndustriesSection = ({ data }) => {
                                     {tab.tag}
                                 </motion.span>
 
-                                <motion.h3 
+                                <motion.h3
                                     className="text-4xl font-semibold mt-4 mb-2"
                                     initial={{ opacity: 0, y: 20 }}
                                     animate={{ opacity: 1, y: 0 }}
@@ -102,7 +102,7 @@ const IndustriesSection = ({ data }) => {
                                     {tab.title}
                                 </motion.h3>
 
-                                <motion.p 
+                                <motion.p
                                     className="text-gray-600 mb-6"
                                     initial={{ opacity: 0, y: 20 }}
                                     animate={{ opacity: 1, y: 0 }}
@@ -111,15 +111,15 @@ const IndustriesSection = ({ data }) => {
                                     {tab.subtitle}
                                 </motion.p>
 
-                                <motion.ul 
+                                <motion.ul
                                     className="space-y-3 mb-6"
                                     initial={{ opacity: 0 }}
                                     animate={{ opacity: 1 }}
                                     transition={{ duration: 0.5, delay: 0.4 }}
                                 >
                                     {tab.points.map((p, idx) => (
-                                        <motion.li 
-                                            key={idx} 
+                                        <motion.li
+                                            key={idx}
                                             className="flex items-center gap-2 text-gray-700"
                                             initial={{ opacity: 0, x: -20 }}
                                             animate={{ opacity: 1, x: 0 }}
@@ -131,7 +131,7 @@ const IndustriesSection = ({ data }) => {
                                     ))}
                                 </motion.ul>
 
-                                <motion.button 
+                                <motion.button
                                     className="px-6 py-3 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition-colors"
                                     initial={{ opacity: 0, y: 20 }}
                                     animate={{ opacity: 1, y: 0 }}
