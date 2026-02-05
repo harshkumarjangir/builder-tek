@@ -36,16 +36,16 @@ const IndustriesSection = ({ data }) => {
                         </button>
                     ))}
                 </div> */}
-                <div className="mb-12 overflow-x-auto no-scrollbar">
-                    <div className="flex w-max gap-4 px-1">
+                <div className="mb-12 overflow-x-auto no-scrollbar bg-[#F8F8F8] py-1 rounded-xl">
+                    <div className="flex w-max mx-auto gap-4 px-1">
                         {industriesSection.tabs.map((item, i) => (
                             <button
                                 key={i}
                                 onClick={() => setActive(i)}
-                                className={`whitespace-nowrap px-6 py-3 rounded-xl border transition shrink-0
+                                className={`whitespace-nowrap px-6 py-3 rounded-xl border border-[#1C1B1733] transition shrink-0
                 ${active === i
-                                        ? "bg-white shadow-md font-semibold"
-                                        : "bg-gray-50"
+                                        ? "bg-white shadow-md font-semibold text-[#020805]"
+                                        : "bg-gray-50 text-[#757267]"
                                     }`}
                             >
                                 {item.name}

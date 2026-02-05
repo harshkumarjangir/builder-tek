@@ -144,24 +144,24 @@
     "features": [
       {
         "id": 1,
+        "title": "Mobile Tools Access",
+        "image": "/assets/home/features-section/mobile.png"
+      },
+      {
+        "id": 2,
         "title": "Bidding & Vendor Management",
         "image": "/assets/home/features-section/feature-one.png"
       },
       {
-        "id": 2,
+        "id": 3,
         "title": "Advanced Scheduling",
         "image": "/assets/home/features-section/feture-two.png",
         "cta": "Approve"
       },
       {
-        "id": 3,
+        "id": 4,
         "title": "Budgeting & Cost Control",
         "image": "/assets/home/features-section/budgetting.png"
-      },
-      {
-        "id": 4,
-        "title": "Mobile Tools Access",
-        "image": "/assets/home/features-section/mobile.png"
       }
     ]
   },

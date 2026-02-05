@@ -2,7 +2,7 @@
 
 ## Container Classes
 ```jsx
-// Instead of: className="max-w-7xl mx-auto px-6"
+// Instead of: className="w-[80%] mx-auto px-6"
 <div className="container-main">
 
 // Instead of: className="max-w-4xl mx-auto px-6"  
@@ -104,7 +104,7 @@
 ### Before (Repetitive)
 ```jsx
 <section className="py-20 bg-white">
-  <div className="max-w-7xl mx-auto px-6">
+  <div className="w-[80%] mx-auto px-6">
     <div className="flex flex-col lg:flex-row justify-between gap-8 mb-16">
       <h2 className="text-3xl font-bold">Title</h2>
     </div>
