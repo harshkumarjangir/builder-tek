@@ -7,11 +7,13 @@ import Home from './pages/Home'
 import Navbar from './components/common/Navbar'
 import Footer from './components/common/Footer'
 import Blogs from './pages/Blogs'
+import ScrollToTop from './components/common/ScrollToTop'
 
 
 const App = () => {
   return (
     <div className=''>
+      <ScrollToTop />
       <Navbar />
       <div className="">
         {/* w-[85%] mx-auto */}
@@ -20,7 +22,7 @@ const App = () => {
           <Route path='/' element={<Home />} />
           <Route path='/solutions/rfq' element={<Solutions solutionData={solutionDataOne} />} />
           <Route path='/solutions/quote' element={<Solutions solutionData={solutionDataTwo} />} />
-          <Route path='/blogs' element={<Blogs/>}/>
+          <Route path='/blogs' element={<Blogs />} />
         </Routes>
       </div>
       {/* <Footer /> */}
