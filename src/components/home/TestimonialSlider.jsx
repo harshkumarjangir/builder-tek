@@ -64,11 +64,11 @@ const TestimonialSlider = ({ data }) => {
 
     return (
         <section className="bg-[#F3F7FF] py-20 relative overflow-hidden">
-            <div className="max-w-full mx-auto px-6 text-center">
+            <div className="max-w-full mx-auto px-4 text-center">
 
                 {/* Title */}
                 <motion.h2
-                    className="text-4xl font-semibold text-gray-900 mb-14"
+                    className="text-4xl lg:text-[54px] font-normal text-black mb-14"
                     initial={{ opacity: 0, y: 30 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8 }}
@@ -88,12 +88,12 @@ const TestimonialSlider = ({ data }) => {
                             {items.map((item, index) => (
                                 <div
                                     key={item.id}
-                                    className={`shrink-0 w-full ${isMobile ? "" : "md:w-[760px]"} transition-all duration-500 ${index === current
+                                    className={`shrink-0 w-full ${isMobile ? "" : "md:w-[760px] lg:w-[800px]"} transition-all duration-500 ${index === current
                                         ? "opacity-100 scale-100 z-10"
                                         : "opacity-40 scale-95"
                                         }`}
                                 >
-                                    <div className={`bg-white rounded-2xl shadow-[0_20px_50px_rgba(0,0,0,0.08)] px-6 md:px-14 py-10 md:py-14 text-center ${isMobile ? "mx-2 w-[360px]" : ""}`}>
+                                    <div className={`bg-white rounded-2xl shadow-[0_20px_50px_rgba(0,0,0,0.08)] px-6 md:px-10 py-10 md:py-10 text-center ${isMobile ? "mx-2 w-[360px]" : ""}`}>
 
                                         {/* Quote Icon */}
                                         <div className="flex justify-center mb-6 md:mb-8">
@@ -105,15 +105,15 @@ const TestimonialSlider = ({ data }) => {
                                         </div>
 
                                         {/* Quote */}
-                                        <p className="text-lg md:text-2xl text-gray-900 leading-relaxed mb-8 md:mb-10">
+                                        <p className="text-lg md:text-2xl lg:text-[28px] text-gray-900 font-normal leading-relaxed mb-8 md:mb-10">
                                             “{item.quote}”
                                         </p>
 
                                         {/* Author */}
-                                        <h4 className="font-semibold text-gray-900 text-base md:text-lg">
+                                        <h4 className="font-normal text-gray-900 text-base md:text-lg">
                                             {item.name}
                                         </h4>
-                                        <p className="text-sm text-gray-500 mt-1">
+                                        <p className="text-sm font-normal text-gray-500 mt-1">
                                             {item.role}
                                         </p>
                                     </div>

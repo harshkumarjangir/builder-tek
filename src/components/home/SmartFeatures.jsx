@@ -12,18 +12,18 @@ const SmartFeatures = ({ data }) => {
             <div className="w-[85%] mx-auto px-6">
 
                 {/* Top Row */}
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start mb-14">
+                <div className="flex items-center justify-between gap-10 items-start mb-14">
 
                     {/* Left Text */}
-                    <motion.div 
-                        className="max-w-xl"
+                    <motion.div
+                        className="max-w-2xl"
                         initial={{ opacity: 0, x: -30 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.8 }}
                         viewport={{ once: true }}
                     >
-                        <motion.h2 
-                            className="text-4xl font-semibold text-gray-900 leading-tight"
+                        <motion.h2
+                            className="text-4xl lg:text-[54px]  font-normal text-gray-900 leading-tight"
                             initial={{ opacity: 0, y: 30 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.8, delay: 0.2 }}
@@ -36,8 +36,8 @@ const SmartFeatures = ({ data }) => {
                             ))}
                         </motion.h2>
 
-                        <motion.p 
-                            className="mt-6 text-gray-600 text-lg"
+                        <motion.p
+                            className="mt-3 text-gray-600 text-lg"
                             initial={{ opacity: 0, y: 30 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.8, delay: 0.4 }}
@@ -48,8 +48,8 @@ const SmartFeatures = ({ data }) => {
                     </motion.div>
 
                     {/* Featured Card */}
-                    <motion.div 
-                        className="bg-white rounded-2xl shadow-md p-6"
+                    <motion.div
+                        className="bg-white rounded-2xl shadow-md p-6 max-w-md"
                         initial={{ opacity: 0, y: 30 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8, delay: 0.3 }}
@@ -66,8 +66,8 @@ const SmartFeatures = ({ data }) => {
                             viewport={{ once: true }}
                             whileHover={{ scale: 1.05 }}
                         />
-                        <motion.h3 
-                            className="text-xl font-semibold text-gray-900"
+                        <motion.h3
+                            className="text-2xl font-normal text-black"
                             initial={{ opacity: 0, y: 20 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.6, delay: 0.7 }}
@@ -86,10 +86,10 @@ const SmartFeatures = ({ data }) => {
                             className="bg-white rounded-2xl shadow-md p-6"
                             initial={{ opacity: 0, y: 30 }}
                             whileInView={{ opacity: 1, y: 0 }}
-                            transition={{ 
-                                duration: 0.6, 
+                            transition={{
+                                duration: 0.6,
                                 delay: index * 0.1 + 0.2,
-                                ease: "easeOut" 
+                                ease: "easeOut"
                             }}
                             viewport={{ once: true }}
                             whileHover={{ y: -8, scale: 1.02 }}
@@ -104,8 +104,8 @@ const SmartFeatures = ({ data }) => {
                                 viewport={{ once: true }}
                                 whileHover={{ scale: 1.05 }}
                             />
-                            <motion.h3 
-                                className="text-xl font-semibold text-gray-900"
+                            <motion.h3
+                                className="text-2xl font-normal text-black"
                                 initial={{ opacity: 0, y: 20 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.5, delay: index * 0.1 + 0.6 }}
