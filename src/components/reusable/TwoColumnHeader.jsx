@@ -5,7 +5,7 @@ const TwoColumnHeader = ({ title, subtitle }) => {
     <div className="two-column-header">
 
       <Text
-        variant="h2"
+        variant="h2-solution"
         color="default"
         className="text-pre-line max-w-xl"
       >

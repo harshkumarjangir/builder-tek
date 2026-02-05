@@ -13,7 +13,7 @@ const PlatformSection = ({ data }) => {
                 {/* Top Heading */}
                 <div className="grid md:grid-cols-2 gap-10 mb-16">
                     <motion.h2
-                        className="text-4xl md:text-5xl font-semibold"
+                        className="text-4xl md:text-[50px] font-medium text-[#0a2540]"
                         initial={{ opacity: 0, y: 30 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8 }}

@@ -15,6 +15,7 @@ const Text = ({
     h1: 'text-4xl lg:text-5xl xl:text-[70px] font-bold leading-tight',
     h2: 'text-3xl md:text-4xl lg:text-[54px] font-bold leading-tight',
     'h2-black': 'text-3xl md:text-4xl lg:text-[54px] font-bold leading-tight', // Extra bold h2
+    'h2-solution': 'text-3xl md:text-4xl lg:text-[48px] font-normal leading-tight',
     h3: 'text-2xl md:text-3xl lg:text-4xl font-bold leading-tight',
     h4: 'text-xl md:text-2xl font-semibold leading-tight',
     h5: 'text-lg md:text-xl font-medium leading-tight text-[#6F6F6F]',
