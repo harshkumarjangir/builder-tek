@@ -4,7 +4,7 @@ const ConnectedOperations = ({ data }) => {
     const section = data.connectedOperations;
 
     return (
-        <section className="py-24 bg-white">
+        <section className="py-24 pt-10 bg-white">
             <div className="w-[85%] mx-auto px-6">
 
                 {/* Heading */}

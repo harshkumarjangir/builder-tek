@@ -12,18 +12,23 @@ const HomeHero = ({ data }) => {
                 className="absolute inset-0 bg-cover bg-center"
                 style={{ backgroundImage: `url(${hero.backgroundImage})` }}
             />
+            {/* Absoluet overlay div on image */}
+            <div className="absolute inset-0 bg-gradient-to-b from-[#F4F4F4] via-[#F4F4F4]/90 to-[#F4F4F4]/10 opacity-90"></div>
+            {/* <div className="absolute inset-0 bg-[#F4F4F4] opacity-90"></div> */}
 
             {/* Content */}
             <div className="relative z-10 w-[80%] mx-auto px-4 sm:px-4">
-                
+
                 {/* Option A: Use the new hero-title class */}
-                <motion.h1 
+                <motion.h1
                     className="hero-title"
                     initial={{ opacity: 0, y: 30 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, delay: 0.2 }}
                 >
                     {hero.title}{" "}
+                    <br />
+                    {hero.subtitle}
                     <span className="text-[#126DFB]">{hero.highlight}</span>
                 </motion.h1>
 
@@ -33,7 +38,7 @@ const HomeHero = ({ data }) => {
                     <span className="text-[#126DFB]">{hero.highlight}</span>
                 </h1> */}
 
-                <motion.p 
+                <motion.p
                     className="mt-4 sm:mt-6 text-base lg:text-lg text-gray-700 max-w-3xl mx-auto"
                     initial={{ opacity: 0, y: 30 }}
                     animate={{ opacity: 1, y: 0 }}
@@ -43,7 +48,7 @@ const HomeHero = ({ data }) => {
                 </motion.p>
 
                 {/* CTA Button */}
-                <motion.div 
+                <motion.div
                     className="mt-6 sm:mt-8 mb-8 sm:mb-16"
                     initial={{ opacity: 0, y: 30 }}
                     animate={{ opacity: 1, y: 0 }}
@@ -51,7 +56,7 @@ const HomeHero = ({ data }) => {
                 >
                     <Link
                         to={hero.cta.link}
-                        className="inline-flex items-center justify-center text-base sm:text-lg lg:text-xl px-6 sm:px-8 py-3 rounded-2xl text-white font-bold bg-[#126DFB] hover:opacity-90 hover:scale-105 transition-all duration-300"
+                        className="inline-flex items-center justify-center text-base sm:text-lg lg:text-xl px-6 sm:px-8 py-3 rounded-2xl font-bold  text-white bg-gradient-to-r from-[#3785FF] to-[#1146F2] border border-[#1146F2] shadow-[0_6px_16px_rgba(0,0,0,0.2),0_0_0_1px_#155BC9] hover:opacity-90 hover:scale-105 transition-all duration-300"
                     >
                         {hero.cta.label}
                     </Link>
@@ -59,7 +64,7 @@ const HomeHero = ({ data }) => {
             </div>
 
             {/* Foreground Image (Drops Down) */}
-            <motion.div 
+            <motion.div
                 className="absolute left-1/2 -translate-x-1/2  w-[80%]  px-0 z-20"
                 initial={{ opacity: 0, y: 50 }}
                 animate={{ opacity: 1, y: 0 }}

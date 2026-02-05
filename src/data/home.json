@@ -1,9 +1,11 @@
 {
   "hero": {
-    "title": "Construction software built natively on",
+    "title": "Construction software built ",
+    "subtitle": "natively on",
     "highlight": "Salesforce",
     "description": "BuilderTek Construction keeps your team on task and on target with intuitive systems to organize, manage, mature, and enhance your business processes.",
-    "backgroundImage": "/assets/home/hero/hero.webp",
+    "backgroundImage": "/assets/home/hero/home_banner.jpg",
+    "backgroundImage3": "/assets/home/hero/hero.webp",
     "backgroundImage2": "/assets/home/hero/hero-bg.png",
     "cta": {
       "label": "Schedule a Demo",

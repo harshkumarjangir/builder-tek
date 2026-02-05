@@ -7,29 +7,41 @@
         "backgroundImage2": "/assets/solutions/hero/hero-bg.png",
         "backgroundImage": "/assets/solutions/hero/hero-image.png"
     },
+    "bringStructure": {
+        "section": {
+            "title": "See BuilderTek In Action: Built for ",
+            "highlight": "General Contractors",
+            "description": "Discover how BuilderTek helps general contractors simplify workflows, gain financial clarity, and deliver projects with confidence.",
+            "cta": {
+                "label": "Schedule a Demo",
+                "link": "/schedule-demo"
+            },
+            "image": "/assets/solutions/bring-structure-one/image.png"
+        }
+    },
     "faq": {
         "title": "FAQs",
         "subtitle": "Find answers to common questions about BuilderTek RFQ.",
         "items": [
             {
-                "question": "How does BuilderTek streamline the bidding process for subcontractors and vendors?",
-                "answer": "BuilderTek centralizes the entire RFQ workflow inside Salesforce. From creating and sending RFQs to subcontractors, you can collect, compare, and award bids through our RFQ module. It helps with structured pricing, real-time status tracking, and side-by-side comparisons, which eliminates manual follow-ups and reduces bid turnaround time."
+                "question": "Why is BuilderTek General Contractor Software different from traditional construction software?",
+                "answer": "BuilderTek is built natively on Salesforce, offering deeper integration, real-time reporting, and enterprise scalability that most traditional, standalone construction management software cannot match."
             },
             {
-                "question": "Do my subcontractors and vendors need a BuilderTek account to submit bids?",
-                "answer": "No. Subcontractors and vendors can submit bids securely through email or shared links without needing a full BuilderTek account."
+                "question": "Can BuilderTek General Contractor software support large, multi-project? ",
+                "answer": "Yes. BuilderTek is designed for complex portfolios, supporting multiple projects, teams, and approval workflows within a single platform."
             },
             {
-                "question": "Do I need a separate estimating software after receiving vendor bids?",
-                "answer": "No. BuilderTek allows you to review, compare, and analyze bids directly within the RFQ module, reducing the need for additional estimating tools."
+                "question": "Does BuilderTek General Construction Software replace separate tools for bidding, budgets, and contracts?",
+                "answer": "Yes. With BuilderTek construction management software, you can consolidate RFQs, quotes, contracts, budgets, and schedules into one connected system."
             },
             {
-                "question": "How does BuilderTek simplify communication with subcontractors and vendors?",
-                "answer": "All RFQ-related communication is centralized in one place, including clarifications, updates, and document sharing, ensuring transparency and faster responses."
+                "question": "How does BuilderTek improve cost and margin control?",
+                "answer": "By using BuilderTek general contractor software, you can link budgets, commitments, and change orders in real time. BuilderTek gives general contractors early visibility into financial risks."
             },
             {
-                "question": "Can BuilderTek RFQ be used for both residential and commercial projects?",
-                "answer": "Yes. BuilderTek RFQ is designed to support both residential and commercial construction projects of any scale."
+                "question": "Is BuilderTek suitable for commercial and mixed-use construction projects?",
+                "answer": "Absolutely. BuilderTek is designed to handle the complexity, scale, and compliance needs of commercial and mixed-use general contractors."
             }
         ]
     }
