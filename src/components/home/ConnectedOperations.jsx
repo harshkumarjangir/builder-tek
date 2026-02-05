@@ -9,8 +9,8 @@ const ConnectedOperations = ({ data }) => {
 
                 {/* Heading */}
                 <div className="text-center max-w-4xl mx-auto mb-16">
-                    <motion.h2 
-                        className="text-4xl md:text-5xl font-semibold mb-4 max-w-lg mx-auto"
+                    <motion.h2
+                        className="text-4xl md:text-[44px] lg:text-[54px] font-normal mb-4 max-w-xl mx-auto"
                         initial={{ opacity: 0, y: 30 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8 }}
@@ -18,7 +18,7 @@ const ConnectedOperations = ({ data }) => {
                     >
                         {section.title}
                     </motion.h2>
-                    <motion.p 
+                    <motion.p
                         className="text-xl font-normal text-[#637091]"
                         initial={{ opacity: 0, y: 30 }}
                         whileInView={{ opacity: 1, y: 0 }}
@@ -37,16 +37,16 @@ const ConnectedOperations = ({ data }) => {
                             className="relative bg-gradient-to-b from-[#F5F1ED] to-[#F7F7F8] rounded-2xl p-8 text-center overflow-hidden h-[400px]"
                             initial={{ opacity: 0, y: 30 }}
                             whileInView={{ opacity: 1, y: 0 }}
-                            transition={{ 
-                                duration: 0.6, 
+                            transition={{
+                                duration: 0.6,
                                 delay: index * 0.2 + 0.3,
-                                ease: "easeOut" 
+                                ease: "easeOut"
                             }}
                             viewport={{ once: true }}
                             whileHover={{ y: -8, scale: 1.02 }}
                         >
                             {/* Image */}
-                            <motion.div 
+                            <motion.div
                                 className="mb-6 flex justify-center"
                                 initial={{ opacity: 0, scale: 0.8 }}
                                 whileInView={{ opacity: 1, scale: 1 }}
@@ -63,7 +63,7 @@ const ConnectedOperations = ({ data }) => {
                             </motion.div>
 
                             {/* Content Overlay */}
-                            <motion.div 
+                            <motion.div
                                 className="absolute bottom-0 left-0 w-full min-h-44 p-6 z-20 bg-gradient-to-t from-[#F7F7F8] to-[#F7F7F8]/50 text-black"
                                 initial={{ opacity: 0, y: 20 }}
                                 whileInView={{ opacity: 1, y: 0 }}
@@ -89,16 +89,16 @@ const ConnectedOperations = ({ data }) => {
                             className="relative bg-gradient-to-b from-[#F5F1ED] via-[#F8F7F6] to-[#F7F7F8] rounded-2xl p-8 text-center overflow-hidden h-[400px]"
                             initial={{ opacity: 0, y: 30 }}
                             whileInView={{ opacity: 1, y: 0 }}
-                            transition={{ 
-                                duration: 0.6, 
+                            transition={{
+                                duration: 0.6,
                                 delay: index * 0.1 + 0.5,
-                                ease: "easeOut" 
+                                ease: "easeOut"
                             }}
                             viewport={{ once: true }}
                             whileHover={{ y: -8, scale: 1.02 }}
                         >
                             {/* Image */}
-                            <motion.div 
+                            <motion.div
                                 className="mb-6 flex justify-center"
                                 initial={{ opacity: 0, scale: 0.8 }}
                                 whileInView={{ opacity: 1, scale: 1 }}
@@ -115,7 +115,7 @@ const ConnectedOperations = ({ data }) => {
                             </motion.div>
 
                             {/* Content Overlay */}
-                            <motion.div 
+                            <motion.div
                                 className="absolute bottom-0 left-0 w-full min-h-48 p-6 z-20 bg-gradient-to-t from-[#F7F7F8] via-[#F8F7F6] to-[#F7F7F8]/50 text-black"
                                 initial={{ opacity: 0, y: 20 }}
                                 whileInView={{ opacity: 1, y: 0 }}

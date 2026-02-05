@@ -94,7 +94,7 @@ const IndustriesSection = ({ data }) => {
                                 </motion.span>
 
                                 <motion.h3
-                                    className="text-4xl font-semibold mt-4 mb-2"
+                                    className="text-4xl lg:text-[44px] font-normal mt-4 mb-2"
                                     initial={{ opacity: 0, y: 20 }}
                                     animate={{ opacity: 1, y: 0 }}
                                     transition={{ duration: 0.5, delay: 0.2 }}
@@ -103,13 +103,15 @@ const IndustriesSection = ({ data }) => {
                                 </motion.h3>
 
                                 <motion.p
-                                    className="text-gray-600 mb-6"
+                                    className="text-gray-600 mb-6 text-xl font-normal"
                                     initial={{ opacity: 0, y: 20 }}
                                     animate={{ opacity: 1, y: 0 }}
                                     transition={{ duration: 0.5, delay: 0.3 }}
                                 >
                                     {tab.subtitle}
                                 </motion.p>
+
+                                <hr className='border-[#0000001A] mb-2' />
 
                                 <motion.ul
                                     className="space-y-3 mb-6"
@@ -120,19 +122,21 @@ const IndustriesSection = ({ data }) => {
                                     {tab.points.map((p, idx) => (
                                         <motion.li
                                             key={idx}
-                                            className="flex items-center gap-2 text-gray-700"
+                                            className="flex items-center gap-2 text-base font-normal text-gray-700"
                                             initial={{ opacity: 0, x: -20 }}
                                             animate={{ opacity: 1, x: 0 }}
                                             transition={{ duration: 0.3, delay: 0.5 + idx * 0.1 }}
                                         >
-                                            <span className="text-green-500">✔</span>
+                                            <div className="w-6 h-6 bg-white rounded-full flex items-center justify-center">
+                                                <span className="text-[#00D278]">✔</span>
+                                            </div>
                                             {p}
                                         </motion.li>
                                     ))}
                                 </motion.ul>
 
                                 <motion.button
-                                    className="px-6 py-3 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition-colors"
+                                    className="px-10 py-3 bg-[#126DFB] text-white text-xl font-medium rounded-2xl hover:bg-blue-700 transition-colors cursor-pointer"
                                     initial={{ opacity: 0, y: 20 }}
                                     animate={{ opacity: 1, y: 0 }}
                                     transition={{ duration: 0.5, delay: 0.8 }}
