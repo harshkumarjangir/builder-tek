@@ -12,7 +12,7 @@ const SmartFeatures = ({ data }) => {
             <div className="w-[85%] mx-auto px-6">
 
                 {/* Top Row */}
-                <div className="flex items-center justify-between gap-10 items-start mb-14">
+                <div className="flex flex-wrap items-center justify-between gap-10 items-start mb-14">
 
                     {/* Left Text */}
                     <motion.div

@@ -13,7 +13,7 @@ const Navbar = () => {
 
     return (
         <nav className="bg-white shadow-sm sticky top-0 z-50">
-            <div className="container-main">
+            <div className="w-[85%] mx-auto">
                 <div className="flex-between h-16 sm:h-20">
 
                     {/* Logo */}
@@ -31,9 +31,9 @@ const Navbar = () => {
                             item.dropdown ? (
                                 <NavDropdown key={index} item={item} />
                             ) : (
-                                <Link 
-                                    key={index} 
-                                    to={item.path} 
+                                <Link
+                                    key={index}
+                                    to={item.path}
                                     className="hover:text-blue-600 transition-colors duration-200"
                                 >
                                     {item.label}
@@ -82,9 +82,9 @@ const Navbar = () => {
                             <div className="flex flex-col space-y-4">
                                 {navData.menu.map((item, index) =>
                                     item.dropdown ? (
-                                        <MobileNavDropdown 
-                                            key={index} 
-                                            item={item} 
+                                        <MobileNavDropdown
+                                            key={index}
+                                            item={item}
                                             onClose={() => setIsMobileMenuOpen(false)}
                                         />
                                     ) : (
@@ -98,7 +98,7 @@ const Navbar = () => {
                                         </Link>
                                     )
                                 )}
-                                
+
                                 {/* Mobile CTA Button */}
                                 <Link
                                     to={navData.cta.path}
@@ -153,12 +153,12 @@ const MobileNavDropdown = ({ item, onClose }) => {
                 className="flex items-center justify-between w-full text-gray-800 hover:text-blue-600 py-2 transition-colors duration-200"
             >
                 {item.label}
-                <ChevronDown 
-                    size={14} 
+                <ChevronDown
+                    size={14}
                     className={`transform transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`}
                 />
             </button>
-            
+
             <AnimatePresence>
                 {isOpen && (
                     <motion.div

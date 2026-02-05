@@ -5,7 +5,7 @@ export default function Footer() {
   const { brand, links, newsletter, bottom } = footerData;
 
   return (
-    <footer className="bg-white border-t">
+    <footer className="bg-white shadow-sm">
       {/* TOP SECTION */}
       <div className="w-[85%] mx-auto px-6 py-16 grid grid-cols-1 lg:grid-cols-[1.3fr_1fr_1fr_1fr_1.3fr] gap-10">
         
@@ -55,8 +55,8 @@ export default function Footer() {
       </div>
 
       {/* BOTTOM BAR */}
-      <div className="border-t">
-        <div className="w-[85%] mx-auto px-6 py-6 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-600">
+      <div className="">
+        <div className="w-[85%] mx-auto px-6 py-6 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-600 border-t border-[#DCDDDF]">
           <p>{bottom.copyright}</p>
 
           <div className="flex gap-6">

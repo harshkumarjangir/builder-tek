@@ -47,7 +47,8 @@ body {
   font-family: Inter;
   font-weight: 400 !important;
   /* Semibold instead of bold */
-  font-size: clamp(1.875rem, 90px, 5rem) !important;
+  /* font-size: clamp(1.5rem, 90px, 5rem) !important; */
+  font-size: clamp(2.5rem, 8vw, 5rem) !important;
   line-height: 1.1 !important;
   letter-spacing: 0.01em !important;
   color: #032D60 !important;
