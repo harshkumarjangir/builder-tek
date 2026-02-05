@@ -15,7 +15,8 @@ const TwoColumnHeader = ({ title, subtitle }) => {
       <Text
         variant="body-lg"
         color="muted"
-        className="max-w-md text-pre-line lg:text-[30px]"
+        className="max-w-md text-pre-line lg:text-[26px]"
+        style={{ lineHeight: '1.2' }}
       >
         {subtitle}
       </Text>

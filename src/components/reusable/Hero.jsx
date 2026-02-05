@@ -1,7 +1,7 @@
 import { motion } from 'motion/react'
 import Text from './Text'
 
-const Hero = ({ hero }) => {
+const Hero = ({ hero, badge = false }) => {
   return (
     <section className="hero-section">
 
@@ -16,35 +16,45 @@ const Hero = ({ hero }) => {
       />
 
       {/* White Overlay Gradient */}
-      <motion.div 
+      <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 0.3 }}
-        className="hero-overlay" 
+        className="hero-overlay"
       />
 
       {/* Content */}
       <div className="hero-content">
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, delay: 0.5 }}
-          className="w-[622px]"
+          className="w-[652px]"
         >
 
+          {/* Top Badge */}
+          {
+            hero.topBadge && <span
+              className="bg-[#D4E1F5] text-[#126DFB] font-medium px-3 py-1 rounded mb-6"
+            >
+              {hero.topBadge}
+            </span>
+          }
+
           {/* Title */}
-          <Text 
-            variant="h1" 
+          <Text
+            variant="h1"
             color="primary-dark"
             animated
             delay={0.7}
-            className="text-pre-line"
+            className="text-pre-line text-[#032D60]"
+            style={{ lineHeight: '1.1', marginTop: '1rem' }}
           >
             {hero.title}
           </Text>
 
           {/* Description */}
-          <Text 
+          <Text
             variant="body-lg"
             color="muted"
             animated
@@ -56,21 +66,23 @@ const Hero = ({ hero }) => {
         </motion.div>
 
         {/* Floating Badge */}
-        <motion.div 
-          initial={{ opacity: 0, x: 50, scale: 0.9 }}
-          animate={{ opacity: 1, x: 0, scale: 1 }}
-          transition={{ duration: 0.8, delay: 1.1 }}
-          whileHover={{ scale: 1.05 }}
-          className="hidden lg:block absolute right-12 top-32 bg-white shadow-xl rounded-lg px-6 py-4 max-w-xs"
-        >
-          <Text 
-            variant="body" 
-            color="primary"
-            className="text-pre-line"
+        {
+          badge && <motion.div
+            initial={{ opacity: 0, x: 50, scale: 0.9 }}
+            animate={{ opacity: 1, x: 0, scale: 1 }}
+            transition={{ duration: 0.8, delay: 1.1 }}
+            whileHover={{ scale: 1.05 }}
+            className="hidden lg:block absolute right-12 top-32 bg-white shadow-xl rounded-lg px-6 py-4 max-w-xs"
           >
-            {hero.badge}
-          </Text>
-        </motion.div>
+            <Text
+              variant="body"
+              color="primary"
+              className="text-pre-line"
+            >
+              {hero.badge}
+            </Text>
+          </motion.div>
+        }
       </div>
     </section>
   )

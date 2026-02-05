@@ -29,7 +29,8 @@
         },
         {
             "label": "Who We Serve",
-            "dropdown": true,
+            "path": "/who-we-serve",
+            "dropdown": false,
             "items": [
                 {
                     "label": "General Contractors",

@@ -35,13 +35,13 @@ const IndustriesSection = ({ data }) => {
 
                 {/* Tabs */}
                 <motion.div
-                    className="mb-12 overflow-x-auto no-scrollbar bg-[#F8F8F8] py-1 rounded-xl"
+                    className="mb-12 overflow-x-auto no-scrollbar"
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6, delay: 0.3 }}
                     viewport={{ once: true }}
                 >
-                    <div className="flex w-max mx-auto gap-4 px-1">
+                    <div className="flex w-max mx-auto gap-4 px-1 bg-[#F8F8F8] py-1 rounded-xl">
                         {industriesSection.tabs.map((item, i) => (
                             <motion.button
                                 key={i}

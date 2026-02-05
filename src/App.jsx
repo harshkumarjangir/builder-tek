@@ -8,6 +8,7 @@ import Navbar from './components/common/Navbar'
 import Footer from './components/common/Footer'
 import Blogs from './pages/Blogs'
 import ScrollToTop from './components/common/ScrollToTop'
+import WhoWeServe from './components/home/WhoWeServe'
 
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
           <Route path='/' element={<Home />} />
           <Route path='/solutions/rfq' element={<Solutions solutionData={solutionDataOne} />} />
           <Route path='/solutions/quote' element={<Solutions solutionData={solutionDataTwo} />} />
+          <Route path='/who-we-serve' element={<WhoWeServe />} />
           <Route path='/blogs' element={<Blogs />} />
         </Routes>
       </div>

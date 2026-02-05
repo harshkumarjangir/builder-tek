@@ -1,0 +1,36 @@
+{
+    "hero": {
+        "title": "Transform\nComplex Projects\nwith BuilderTek",
+        "description": "One platform for General Contractors to manage bids, budgets, schedules, and contracts in one connected Salesforce workflow.",
+        "topBadge": "General Contractors",
+        "badge": "Strengthen Cost Control.\nAward with Confidence.",
+        "backgroundImage2": "/assets/solutions/hero/hero-bg.png",
+        "backgroundImage": "/assets/solutions/hero/hero-image.png"
+    },
+    "faq": {
+        "title": "FAQs",
+        "subtitle": "Find answers to common questions about BuilderTek RFQ.",
+        "items": [
+            {
+                "question": "How does BuilderTek streamline the bidding process for subcontractors and vendors?",
+                "answer": "BuilderTek centralizes the entire RFQ workflow inside Salesforce. From creating and sending RFQs to subcontractors, you can collect, compare, and award bids through our RFQ module. It helps with structured pricing, real-time status tracking, and side-by-side comparisons, which eliminates manual follow-ups and reduces bid turnaround time."
+            },
+            {
+                "question": "Do my subcontractors and vendors need a BuilderTek account to submit bids?",
+                "answer": "No. Subcontractors and vendors can submit bids securely through email or shared links without needing a full BuilderTek account."
+            },
+            {
+                "question": "Do I need a separate estimating software after receiving vendor bids?",
+                "answer": "No. BuilderTek allows you to review, compare, and analyze bids directly within the RFQ module, reducing the need for additional estimating tools."
+            },
+            {
+                "question": "How does BuilderTek simplify communication with subcontractors and vendors?",
+                "answer": "All RFQ-related communication is centralized in one place, including clarifications, updates, and document sharing, ensuring transparency and faster responses."
+            },
+            {
+                "question": "Can BuilderTek RFQ be used for both residential and commercial projects?",
+                "answer": "Yes. BuilderTek RFQ is designed to support both residential and commercial construction projects of any scale."
+            }
+        ]
+    }
+}

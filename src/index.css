@@ -85,6 +85,10 @@ body {
     @apply max-w-4xl mx-auto px-6;
   }
 
+  .container-title {
+    @apply max-w-5xl mx-auto px-6;
+  }
+
   .container-narrow {
     @apply max-w-3xl mx-auto px-6;
   }

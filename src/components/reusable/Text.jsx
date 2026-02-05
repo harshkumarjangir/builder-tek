@@ -22,10 +22,11 @@ const Text = ({
     h6: 'text-base md:text-lg font-semibold leading-tight',
 
     // Body text
-    body: 'text-base leading-relaxed',
-    'body-lg': 'text-lg md:text-lg leading-tight',
+    body: 'text-base md:text-lg leading-relaxed text-right',
+    'body-lg': 'text-lg md:text-xl leading-7 font-normal',
+    'body-lg-left': 'text-baase md:text-lg leading-7 font-normal text-left',
     'body-sm': 'text-sm leading-relaxed',
-    'body-base': 'text-sm md:text-base leading-relaxed',
+    'body-base': 'text-sm md:text-base lg:text-lg leading-relaxed',
 
     // Special variants
     subtitle: 'text-blue-600 font-semibold text-sm uppercase tracking-wide',
@@ -38,7 +39,7 @@ const Text = ({
     default: 'text-gray-900',
     primary: 'text-[#032D60]',
     'primary-light': 'text-blue-600',
-    'primary-dark': 'text-blue-900',
+    'primary-dark': 'text-[#032D60]',
     secondary: 'text-[#505C7A]',
     muted: 'text-gray-600',
     light: 'text-gray-500',

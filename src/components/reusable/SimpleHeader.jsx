@@ -2,11 +2,11 @@ import Text from './Text'
 
 const SimpleHeader = ({ title, description }) => {
     return (
-        <div className="container-narrow text-center-section">
+        <div className="container-title text-center-section">
             <Text
                 variant="h2"
                 color="default"
-                className="text-pre-line"
+                className="text-pre-line text-3xl lg:text-[54px] font-normal"
             >
                 {title}
             </Text>

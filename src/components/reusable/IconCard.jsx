@@ -32,16 +32,16 @@ const IconCard = ({ card }) => {
                 )}
             </div>
 
-            <Text 
-                variant="h5" 
+            <Text
+                variant="h5"
                 color="default"
                 className="lg:text-[30px] leading-8"
             >
                 {card.title}
             </Text>
 
-            <Text 
-                variant="body"
+            <Text
+                variant="body-lg-left"
                 color="muted"
                 className="mt-2"
             >
