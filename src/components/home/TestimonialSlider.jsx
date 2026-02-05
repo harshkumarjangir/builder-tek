@@ -125,14 +125,14 @@ const TestimonialSlider = ({ data }) => {
                     {/* Controls */}
                     <button
                         onClick={prevSlide}
-                        className="hidden md:flex absolute left-10 top-1/2 -translate-y-1/2 bg-white shadow-md rounded-full w-11 h-11 items-center justify-center"
+                        className="hidden md:flex absolute left-10 top-1/2 -translate-y-1/2 bg-blue-600 text-white text-3xl shadow-md rounded-full w-11 h-11 items-center justify-center cursor-pointer"
                     >
                         ‹
                     </button>
 
                     <button
                         onClick={nextSlide}
-                        className="hidden md:flex absolute right-10 top-1/2 -translate-y-1/2 bg-white shadow-md rounded-full w-11 h-11 items-center justify-center"
+                        className="hidden md:flex absolute right-10 top-1/2 -translate-y-1/2 bg-blue-600 text-white text-3xl shadow-md rounded-full w-11 h-11 items-center justify-center cursor-pointer"
                     >
                         ›
                     </button>
