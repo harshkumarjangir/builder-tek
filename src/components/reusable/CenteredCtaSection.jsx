@@ -7,7 +7,7 @@ const CenteredCtaSection = ({ data }) => {
             <div className="max-w-6xl mx-auto px-6 text-center bg-[#F4F4F4] lg:px-16 pt-16">
 
                 {/* Title */}
-                <h2 className="text-3xl lg:text-4xl font-semibold text-gray-900 max-w-[767px] mx-auto">
+                <h2 className="text-3xl lg:text-5xl font-normal leading-14 text-gray-900 max-w-[767px] mx-auto">
                     {data.title}{" "}
                     <span className="text-[#126DFB]">
                         {data.highlight}
@@ -22,7 +22,7 @@ const CenteredCtaSection = ({ data }) => {
                 </h2>
 
                 {/* Description */}
-                <p className="mt-4 text-gray-600 text-base lg:text-xl max-w-[767px] mx-auto">
+                <p className="mt-4 text-gray-600 text-base lg:text-xl font-normal max-w-[767px] mx-auto">
                     {data.description}
                 </p>
 
@@ -30,7 +30,7 @@ const CenteredCtaSection = ({ data }) => {
                 <div className="my-8 mb-16">
                     <Link
                         to={data.cta.link}
-                        className="inline-flex items-center justify-center text-xl px-8 py-3 rounded-2xl text-white font-bold bg-[#126DFB] hover:opacity-90 transition"
+                        className="inline-flex items-center justify-center text-xl px-8 py-3 rounded-2xl text-white font-semibold bg-[#126DFB] hover:opacity-90 transition"
                     >
                         {data.cta.label}
                     </Link>
