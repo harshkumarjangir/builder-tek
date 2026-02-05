@@ -47,7 +47,7 @@ const PlatformSection = ({ data }) => {
                     <img
                         src={main.cloudImage}
                         alt=""
-                        className="absolute inset-0 w-full h-full object-cover opacity-70"
+                        className="absolute inset-0 w-full h-full object-cover bg-center opacity-70"
                     />
 
                     <div className="relative z-10 flex flex-col md:flex-row items-center gap-10">
@@ -64,20 +64,22 @@ const PlatformSection = ({ data }) => {
                                 <img
                                     src={main.circleImage}
                                     alt=""
-                                    className="w-5 h-auto"
+                                    className="h-5 w-auto"
                                 />
                                 <img
                                     src={main.tagImage}
                                     alt=""
-                                    className="h-5  w-auto"
+                                    className="h-4 w-auto"
                                 />
                             </div>
 
-                            <h3 className="text-4xl lg:text-5xl font-normal mb-4 max-w-md">
+                            <h3 className="text-4xl lg:text-5xl font-normal leading-[1.1] mb-4 max-w-md">
                                 {main.title}
+                                <br />
+                                {main.subtitle}
                             </h3>
 
-                            <p className="text-[#1C1B17CC] text-lg max-w-md">
+                            <p className="text-[#1C1B17CC] text-lg max-w-xs">
                                 {main.description}
                             </p>
                         </motion.div>

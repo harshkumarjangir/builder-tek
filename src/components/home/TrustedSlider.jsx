@@ -1,16 +1,16 @@
 
 import { motion } from "motion/react"
 
-const TrustedSlider = ({data}) => {
+const TrustedSlider = ({ data }) => {
     const { trustedLogos } = data;
 
     // duplicate for seamless loop
     const logos = [...trustedLogos.logos, ...trustedLogos.logos];
 
     return (
-        <section className="py-16 bg-white overflow-hidden">
+        <section className="pt-16 bg-white overflow-hidden">
             <div className="w-[85%] mx-auto px-6 text-center">
-                <motion.h3 
+                <motion.h3
                     className="text-lg md:text-xl font-normal text-black mb-10"
                     initial={{ opacity: 0, y: 30 }}
                     whileInView={{ opacity: 1, y: 0 }}
@@ -23,7 +23,7 @@ const TrustedSlider = ({data}) => {
                 </motion.h3>
 
                 {/* Slider */}
-                <motion.div 
+                <motion.div
                     className="relative overflow-hidden w-full"
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}

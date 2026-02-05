@@ -27,7 +27,8 @@
     "description": "As an exclusive ISV partner for Salesforce for over 8 years, BuilderTek is built for efficiency, accuracy, and seamless collaboration. So you deliver every project with confidence.",
     "mainFeature2": {
       "tag": "Salesforce",
-      "title": "Salesforce-Native Power",
+      "title": "Salesforce-",
+      "subtitle": "Native Power",
       "description": "Run your entire project on the world’s most secure and scalable cloud platform- Salesforce.",
       "image": "/assets/home/platform-section/image-lapotp-full.png"
     },
@@ -36,7 +37,8 @@
       "tagImage": "/assets/home/platform-section/salesforce.png",
       "badgeImage": "/assets/home/platform-section/256px-Salesforce.com_logo.svg 1.png",
       "cloudImage": "/assets/home/platform-section/bg-image.png",
-      "title": "Salesforce-Native Power",
+      "title": "Salesforce-",
+      "subtitle": "Native Power",
       "description": "Run your entire project on the world’s most secure and scalable cloud platform- Salesforce.",
       "image": "/assets/home/platform-section/image-lapotp-full.png"
     },
