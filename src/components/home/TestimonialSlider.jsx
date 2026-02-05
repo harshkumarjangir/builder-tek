@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
+import { motion, AnimatePresence } from "motion/react";
 
 const TestimonialSlider = ({ data }) => {
     const { title, items, quoteImage } = data.testimonials;
@@ -66,9 +67,15 @@ const TestimonialSlider = ({ data }) => {
             <div className="max-w-full mx-auto px-6 text-center">
 
                 {/* Title */}
-                <h2 className="text-4xl font-semibold text-gray-900 mb-14">
+                <motion.h2 
+                    className="text-4xl font-semibold text-gray-900 mb-14"
+                    initial={{ opacity: 0, y: 30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.8 }}
+                    viewport={{ once: true }}
+                >
                     {title}
-                </h2>
+                </motion.h2>
 
                 {/* Slider */}
                 <div ref={sliderRef} className="relative overflow-hidden">

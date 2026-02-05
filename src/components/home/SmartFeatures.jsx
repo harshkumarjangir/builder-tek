@@ -1,3 +1,5 @@
+import { motion } from "motion/react"
+
 const SmartFeatures = ({ data }) => {
     const { title, description, features } = data.featuresSection
 
@@ -7,55 +9,111 @@ const SmartFeatures = ({ data }) => {
 
     return (
         <section className="bg-[#F3F7FF] py-20">
-            <div className="max-w-7xl mx-auto px-6">
+            <div className="w-[85%] mx-auto px-6">
 
                 {/* Top Row */}
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start mb-14">
 
                     {/* Left Text */}
-                    <div className="max-w-xl">
-                        <h2 className="text-4xl font-semibold text-gray-900 leading-tight">
+                    <motion.div 
+                        className="max-w-xl"
+                        initial={{ opacity: 0, x: -30 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        transition={{ duration: 0.8 }}
+                        viewport={{ once: true }}
+                    >
+                        <motion.h2 
+                            className="text-4xl font-semibold text-gray-900 leading-tight"
+                            initial={{ opacity: 0, y: 30 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.8, delay: 0.2 }}
+                            viewport={{ once: true }}
+                        >
                             {title.split("\n").map((line, i) => (
                                 <span key={i} className="block">
                                     {line}
                                 </span>
                             ))}
-                        </h2>
+                        </motion.h2>
 
-                        <p className="mt-6 text-gray-600 text-lg">
+                        <motion.p 
+                            className="mt-6 text-gray-600 text-lg"
+                            initial={{ opacity: 0, y: 30 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.8, delay: 0.4 }}
+                            viewport={{ once: true }}
+                        >
                             {description}
-                        </p>
-                    </div>
+                        </motion.p>
+                    </motion.div>
 
                     {/* Featured Card */}
-                    <div className="bg-white rounded-2xl shadow-md p-6">
-                        <img
+                    <motion.div 
+                        className="bg-white rounded-2xl shadow-md p-6"
+                        initial={{ opacity: 0, y: 30 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.8, delay: 0.3 }}
+                        viewport={{ once: true }}
+                        whileHover={{ y: -8, scale: 1.02 }}
+                    >
+                        <motion.img
                             src={featured.image}
                             alt={featured.title}
                             className="w-full h-48 object-contain mb-6"
+                            initial={{ opacity: 0, scale: 0.8 }}
+                            whileInView={{ opacity: 1, scale: 1 }}
+                            transition={{ duration: 0.6, delay: 0.5 }}
+                            viewport={{ once: true }}
+                            whileHover={{ scale: 1.05 }}
                         />
-                        <h3 className="text-xl font-semibold text-gray-900">
+                        <motion.h3 
+                            className="text-xl font-semibold text-gray-900"
+                            initial={{ opacity: 0, y: 20 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.6, delay: 0.7 }}
+                            viewport={{ once: true }}
+                        >
                             {featured.title}
-                        </h3>
-                    </div>
+                        </motion.h3>
+                    </motion.div>
                 </div>
 
                 {/* Bottom Cards */}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    {rest.map((feature) => (
-                        <div
+                    {rest.map((feature, index) => (
+                        <motion.div
                             key={feature.id}
                             className="bg-white rounded-2xl shadow-md p-6"
+                            initial={{ opacity: 0, y: 30 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{ 
+                                duration: 0.6, 
+                                delay: index * 0.1 + 0.2,
+                                ease: "easeOut" 
+                            }}
+                            viewport={{ once: true }}
+                            whileHover={{ y: -8, scale: 1.02 }}
                         >
-                            <img
+                            <motion.img
                                 src={feature.image}
                                 alt={feature.title}
                                 className="w-full h-40 object-contain mb-6"
+                                initial={{ opacity: 0, scale: 0.8 }}
+                                whileInView={{ opacity: 1, scale: 1 }}
+                                transition={{ duration: 0.5, delay: index * 0.1 + 0.4 }}
+                                viewport={{ once: true }}
+                                whileHover={{ scale: 1.05 }}
                             />
-                            <h3 className="text-xl font-semibold text-gray-900">
+                            <motion.h3 
+                                className="text-xl font-semibold text-gray-900"
+                                initial={{ opacity: 0, y: 20 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                transition={{ duration: 0.5, delay: index * 0.1 + 0.6 }}
+                                viewport={{ once: true }}
+                            >
                                 {feature.title}
-                            </h3>
-                        </div>
+                            </motion.h3>
+                        </motion.div>
                     ))}
                 </div>
 

@@ -13,13 +13,12 @@ const ImageTextCard = ({ feature, index = 0 }) => {
             className="card-feature"
         >
             <div
-                className={`grid lg:grid-cols-2 gap-10 items-center ${
-                    isImageRight ? "" : "lg:flex-row-reverse"
-                }`}
+                className={`grid lg:grid-cols-2 gap-10 items-center ${isImageRight ? "" : "lg:flex-row-reverse"
+                    }`}
             >
                 {/* Text */}
                 <motion.div
-                className='max-w-[422px]'
+                    className='max-w-[422px]'
                     initial={{ opacity: 0, x: isImageRight ? -30 : 30 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.6, delay: index * 0.1 + 0.2 }}
@@ -37,16 +36,15 @@ const ImageTextCard = ({ feature, index = 0 }) => {
 
                     <Text
                         variant="h3"
-                        color="primary"
                         animated
                         delay={index * 0.1 + 0.4}
-                        className="mt-3 lg:text-[40px] w-[85%]"
+                        className="mt-3 lg:text-[40px] w-[85%] text-[#0a2540] font-semibold"
                     >
                         {feature.title}
                     </Text>
 
                     <Text
-                        variant="body-lg"
+                        variant="body-base"
                         color="secondary"
                         animated
                         delay={index * 0.1 + 0.5}

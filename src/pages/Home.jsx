@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <div>
       <HomeHero data={homeData} />
-      <section className="pt-24">
+      <section className="pt-[12vw] lg:pt-[25vw]">
         <TrustedSlider data={homeData} />
         <PlatformSection data={homeData} />
         <IndustriesSection data={homeData} />

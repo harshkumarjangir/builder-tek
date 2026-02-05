@@ -1,58 +1,76 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { motion } from "motion/react";
 
 const HomeHero = ({ data }) => {
     const { hero } = data;
 
     return (
-        <section className="relative w-full pt-28 pb-56 text-center overflow-visible">
+        <section className="relative w-full pt-20 sm:pt-28 pb-40 sm:pb-56 text-center overflow-visible">
             {/* Background Image */}
             <div
                 className="absolute inset-0 bg-cover bg-center"
                 style={{ backgroundImage: `url(${hero.backgroundImage})` }}
             />
 
-            {/* White Gradient Overlay */}
-            {/* <div className="absolute inset-0 bg-white/85 backdrop-blur-[1px]" /> */}
-
             {/* Content */}
-            <div className="relative z-10 max-w-5xl mx-auto px-6">
-                {/* text-3xl lg:text-4xl font-semibold text-gray-900 max-w-[767px] mx-auto */}
-                <h2 className="text-3xl lg:text-4xl font-semibold text-[#032D60] leading-tight">
+            <div className="relative z-10 w-[80%] mx-auto px-4 sm:px-4">
+                
+                {/* Option A: Use the new hero-title class */}
+                <motion.h1 
+                    className="hero-title"
+                    initial={{ opacity: 0, y: 30 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.8, delay: 0.2 }}
+                >
                     {hero.title}{" "}
                     <span className="text-[#126DFB]">{hero.highlight}</span>
-                </h2>
+                </motion.h1>
 
-                <p className="mt-6 text-base lg:text-xl text-gray-700 max-w-3xl mx-auto">
-                    {hero.description}
-                </p>
+                {/* Option B: Or continue with Tailwind overrides */}
+                {/* <h1 className="text-3xl lg:text-4xl font-semibold text-[#032D60] leading-tight">
+                    {hero.title}{" "}
+                    <span className="text-[#126DFB]">{hero.highlight}</span>
+                </h1> */}
 
-                {/* <a
-                    href={hero.cta.link}
-                    className="inline-flex items-center justify-center text-xl px-8 py-3 rounded-2xl text-white font-bold bg-[#126DFB] hover:opacity-90 transition"
+                <motion.p 
+                    className="mt-4 sm:mt-6 text-base lg:text-lg text-gray-700 max-w-3xl mx-auto"
+                    initial={{ opacity: 0, y: 30 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.8, delay: 0.4 }}
                 >
-                    {hero.cta.label}
-                </a> */}
-                {/* CTA Button */}
-                <div className="my-8 mb-16">
-                    <Link
+                    {hero.description}
+                </motion.p>
 
+                {/* CTA Button */}
+                <motion.div 
+                    className="mt-6 sm:mt-8 mb-8 sm:mb-16"
+                    initial={{ opacity: 0, y: 30 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.8, delay: 0.6 }}
+                >
+                    <Link
                         to={hero.cta.link}
-                        className="inline-flex items-center justify-center text-xl px-8 py-3 rounded-2xl text-white font-bold bg-[#126DFB] hover:opacity-90 transition"
+                        className="inline-flex items-center justify-center text-base sm:text-lg lg:text-xl px-6 sm:px-8 py-3 rounded-2xl text-white font-bold bg-[#126DFB] hover:opacity-90 hover:scale-105 transition-all duration-300"
                     >
                         {hero.cta.label}
                     </Link>
-                </div>
+                </motion.div>
             </div>
 
             {/* Foreground Image (Drops Down) */}
-            <div className="absolute left-1/2 -bottom-40 -translate-x-1/2 w-full max-w-3xl px-0 z-20">
+            <motion.div 
+                className="absolute left-1/2 -translate-x-1/2  w-[80%]  px-0 z-20"
+                initial={{ opacity: 0, y: 50 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 1, delay: 0.8 }}
+            >
                 <img
                     src={hero.image}
                     alt={hero.imageAlt}
-                    className="w-full rounded-xl"
+                    className="w-full rounded-lg h-full sm:rounded-xl"
                 />
-            </div>
+            </motion.div>
         </section>
     );
 };

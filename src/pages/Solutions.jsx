@@ -11,23 +11,24 @@ import CenteredCtaSection from '../components/reusable/CenteredCtaSection'
 import FaqSection from '../components/reusable/FaqSection'
 import PageTransition from '../components/reusable/PageTransition'
 
-const Solutions = ({solutionData}) => {
+const Solutions = ({ solutionData }) => {
     const { hero, sectionTitle, features, whyChoose, makeSmarter, bringStructure, faq } = solutionData
     const { section } = whyChoose
 
     return (
         <PageTransition>
-                <SolutionsHero hero={hero} />
-            <div className='max-w-7xl mx-auto'>
-                
-                <motion.section 
+            <SolutionsHero hero={hero} />
+            <div className=''>
+                {/* w-[85%] mx-auto */}
+
+                <motion.section
                     initial={{ opacity: 0, y: 50 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8 }}
                     viewport={{ once: true }}
-                    className="section-bg-white"
+                    className="section-bg-white w-[85%] mx-auto"
                 >
-                    <div className="container-main">
+                    <div className="sub-container">
                         <CenteredTitle
                             title={sectionTitle.title}
                             description={sectionTitle.description}
@@ -39,20 +40,20 @@ const Solutions = ({solutionData}) => {
                     </div>
                 </motion.section>
 
-                <motion.section 
+                <motion.section
                     initial={{ opacity: 0, y: 50 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8 }}
                     viewport={{ once: true }}
                     className="section-bg-blue"
                 >
-                    <div className="container-main">
+                    <div className="w-[85%] mx-auto">
                         <TwoColumnHeader
                             title={section.title}
                             subtitle={section.subtitle}
                         />
 
-                        <motion.div 
+                        <motion.div
                             initial={{ opacity: 0 }}
                             whileInView={{ opacity: 1 }}
                             transition={{ duration: 0.8, staggerChildren: 0.2 }}
@@ -74,12 +75,12 @@ const Solutions = ({solutionData}) => {
                     </div>
                 </motion.section>
 
-                <motion.section 
+                <motion.section
                     initial={{ opacity: 0, y: 50 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8 }}
                     viewport={{ once: true }}
-                    className="section-bg-white"
+                    className="section-bg-white "
                 >
                     <div className="container-main">
                         <SimpleHeader
@@ -87,7 +88,7 @@ const Solutions = ({solutionData}) => {
                             description={makeSmarter.section.description}
                         />
 
-                        <motion.div 
+                        <motion.div
                             initial={{ opacity: 0 }}
                             whileInView={{ opacity: 1 }}
                             transition={{ duration: 0.8, staggerChildren: 0.2 }}

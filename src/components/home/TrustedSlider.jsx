@@ -1,4 +1,5 @@
 
+import { motion } from "motion/react"
 
 const TrustedSlider = ({data}) => {
     const { trustedLogos } = data;
@@ -8,26 +9,40 @@ const TrustedSlider = ({data}) => {
 
     return (
         <section className="py-16 bg-white overflow-hidden">
-            <div className="max-w-7xl mx-auto px-6 text-center">
-                <h3 className="text-lg md:text-xl font-normal text-black mb-10">
+            <div className="w-[85%] mx-auto px-6 text-center">
+                <motion.h3 
+                    className="text-lg md:text-xl font-normal text-black mb-10"
+                    initial={{ opacity: 0, y: 30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.8 }}
+                    viewport={{ once: true }}
+                >
                     Trusted by{" "}
                     <span className="font-semibold">construction leaders</span>{" "}
                     across North America
-                </h3>
+                </motion.h3>
 
                 {/* Slider */}
-                <div className="relative overflow-hidden w-full">
+                <motion.div 
+                    className="relative overflow-hidden w-full"
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    transition={{ duration: 0.8, delay: 0.2 }}
+                    viewport={{ once: true }}
+                >
                     <div className="flex gap-16 whitespace-nowrap animate-[scroll_25s_linear_infinite]">
                         {logos.map((logo, index) => (
-                            <img
+                            <motion.img
                                 key={index}
                                 src={logo}
                                 alt="brand"
                                 className="h-16 w-auto object-contain opacity-80 hover:opacity-100 transition"
+                                whileHover={{ scale: 1.1 }}
+                                transition={{ duration: 0.2 }}
                             />
                         ))}
                     </div>
-                </div>
+                </motion.div>
             </div>
 
             {/* Animation defined inside component */}

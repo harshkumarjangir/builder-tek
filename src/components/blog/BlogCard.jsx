@@ -18,7 +18,7 @@ const BlogCard = ({ blog }) => {
                 </span>
 
                 {/* Title */}
-                <h3 className="mt-3 text-[22px] font-medium text-gray-800 leading-tight">
+                <h3 className="mt-3 text-[20px] font-medium text-gray-800 leading-tight">
                     {blog.title}
                 </h3>
 

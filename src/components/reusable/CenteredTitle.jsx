@@ -6,7 +6,9 @@ const CenteredTitle = ({
   description, 
   centered = true, 
   delay = 0,
-  className = "" 
+  className = "",
+  titleClassName = "text-[#00000]",
+  titleColor = "text-[#00000]",
 }) => {
   return (
     <div className={`max-w-[902px] mx-auto pb-16 ${centered ? 'text-center' : ''} ${className}`}>
@@ -23,10 +25,11 @@ const CenteredTitle = ({
       
       <Text
         variant="h2"
-        color="default"
+        color="custom"
         animated
         delay={delay + 0.2}
-        className="mb-4"
+        className={`font-normal mb-4 ${titleClassName}`}
+        style={titleColor ? { color: titleColor } : undefined}
       >
         {title}
       </Text>

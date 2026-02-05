@@ -4,15 +4,15 @@ const GridCard = ({ feature }) => {
     return (
         <div className="card-base card-padding max-w-[620px]">
 
-            <Text 
-                variant="h5" 
+            <Text
+                variant="h5"
                 color="default"
-                className="lg:text-[30px]"
+                className="lg:text-[30px] mb-3"
             >
                 {feature.title}
             </Text>
 
-            <Text 
+            <Text
                 variant="body-lg"
                 color="muted"
                 className="space-small"

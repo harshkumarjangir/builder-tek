@@ -14,7 +14,7 @@ const App = () => {
     <div className=''>
       <Navbar />
       <div className="">
-        {/* max-w-7xl mx-auto */}
+        {/* w-[85%] mx-auto */}
         <Routes>
           {/* <Route path='/' element={<Solutions solutionData={solutionDataOne} />} /> */}
           <Route path='/' element={<Home />} />

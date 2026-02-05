@@ -1,4 +1,5 @@
 
+import { motion } from "motion/react"
 
 const PlatformSection = ({ data }) => {
     const { platformSection } = data;
@@ -7,21 +8,40 @@ const PlatformSection = ({ data }) => {
 
     return (
         <section className="py-24 bg-white">
-            <div className="max-w-7xl mx-auto px-6">
+            <div className="w-[85%] mx-auto px-6">
 
                 {/* Top Heading */}
                 <div className="grid md:grid-cols-2 gap-10 mb-16">
-                    <h2 className="text-4xl md:text-5xl font-semibold">
+                    <motion.h2
+                        className="text-4xl md:text-5xl font-semibold"
+                        initial={{ opacity: 0, y: 30 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.8 }}
+                        viewport={{ once: true }}
+                    >
                         {platformSection.title}
-                    </h2>
+                    </motion.h2>
 
-                    <p className="text-lg text-blue-900/80">
+                    <motion.p
+                        className="text-lg text-[#637091]"
+                        initial={{ opacity: 0, y: 30 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.8, delay: 0.2 }}
+                        viewport={{ once: true }}
+                    >
                         {platformSection.description}
-                    </p>
+                    </motion.p>
                 </div>
 
                 {/* Main Feature Card */}
-                <div className="relative overflow-hidden rounded-3xl bg-blue-100 p-10 py-20 mb-12">
+                <motion.div
+                    className="relative overflow-hidden rounded-3xl bg-blue-100 p-10 py-20 mb-12"
+                    initial={{ opacity: 0, y: 50 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.8, delay: 0.3 }}
+                    viewport={{ once: true }}
+                    whileHover={{ y: -5 }}
+                >
 
                     {/* Cloud Background */}
                     <img
@@ -33,7 +53,13 @@ const PlatformSection = ({ data }) => {
                     <div className="relative z-10 flex flex-col md:flex-row items-center gap-10">
 
                         {/* Left Content */}
-                        <div className="flex-1">
+                        <motion.div
+                            className="flex-1"
+                            initial={{ opacity: 0, x: -30 }}
+                            whileInView={{ opacity: 1, x: 0 }}
+                            transition={{ duration: 0.8, delay: 0.5 }}
+                            viewport={{ once: true }}
+                        >
                             <div className="flex items-center gap-2 mb-4">
                                 <img
                                     src={main.circleImage}
@@ -54,47 +80,54 @@ const PlatformSection = ({ data }) => {
                             <p className="text-[#1C1B17CC] text-lg max-w-md">
                                 {main.description}
                             </p>
-                        </div>
+                        </motion.div>
 
                         {/* Right Image */}
-                        <div className="flex-1 relative">
-                            <img
+                        <motion.div
+                            className="flex-1 relative"
+                            initial={{ opacity: 0, x: 30 }}
+                            whileInView={{ opacity: 1, x: 0 }}
+                            transition={{ duration: 0.8, delay: 0.7 }}
+                            viewport={{ once: true }}
+                        >
+                            <motion.img
                                 src={main.image}
                                 alt=""
                                 className="w-full relative z-10"
+                                whileHover={{ scale: 1.05 }}
+                                transition={{ duration: 0.3 }}
                             />
 
                             {/* Salesforce Badge */}
-                            <img
+                            <motion.img
                                 src={main.badgeImage}
                                 alt=""
                                 className="absolute -top-5 right-10 w-24 z-20"
+                                initial={{ opacity: 0, scale: 0 }}
+                                whileInView={{ opacity: 1, scale: 1 }}
+                                transition={{ duration: 0.5, delay: 1 }}
+                                viewport={{ once: true }}
+                                whileHover={{ scale: 1.1, rotate: 5 }}
                             />
-                        </div>
+                        </motion.div>
                     </div>
-                </div>
+                </motion.div>
 
                 {/* Bottom Cards */}
-                {/* <div className="grid md:grid-cols-2 gap-10">
-                    {platformSection.features.map((item, index) => (
-                        <div key={index} className="bg-gradient-to-b from-[#DAEFFE] to-[#F5F1ED] rounded-3xl px-8 lg:px-12 pt-8 text-center">
-                            <h4 className="text-2xl lg:text-3xl font-normal mb-3">
-                                {item.title}
-                            </h4>
-
-                            <p className="text-gray-600 text-base font-normal mb-6">
-                                {item.description}
-                            </p>
-
-                            <img src={item.image} alt="" className="w-full" />
-                        </div>
-                    ))}
-                </div> */}
                 <div className="grid md:grid-cols-2 gap-10">
                     {platformSection.features.map((item, index) => (
-                        <div
+                        <motion.div
                             key={index}
                             className="bg-gradient-to-b from-[#DAEFFE] to-[#F5F1ED] rounded-3xl pt-10 px-12 text-center overflow-hidden flex flex-col justify-between"
+                            initial={{ opacity: 0, y: 30 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{
+                                duration: 0.6,
+                                delay: index * 0.2 + 0.4,
+                                ease: "easeOut"
+                            }}
+                            viewport={{ once: true }}
+                            whileHover={{ y: -8, scale: 1.02 }}
                         >
                             {/* Content */}
                             <div>
@@ -109,16 +142,17 @@ const PlatformSection = ({ data }) => {
 
                             {/* Image */}
                             <div className="w-full mt-auto flex justify-center">
-                                <img
+                                <motion.img
                                     src={item.image}
                                     alt=""
                                     className="max-w-full object-contain"
+                                    whileHover={{ scale: 1.05 }}
+                                    transition={{ duration: 0.3 }}
                                 />
                             </div>
-                        </div>
+                        </motion.div>
                     ))}
                 </div>
-
 
             </div>
         </section>
