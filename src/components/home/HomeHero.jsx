@@ -6,14 +6,14 @@ const HomeHero = ({ data }) => {
     const { hero } = data;
 
     return (
-        <section className="relative w-full pt-20 sm:pt-28 pb-40 sm:pb-56 text-center overflow-visible">
+        <section className="relative w-full md:h-[130vh] pt-20 sm:pt-28 pb-40 sm:pb-56 text-center overflow-visible">
             {/* Background Image */}
             <div
                 className="absolute inset-0 bg-cover bg-center"
                 style={{ backgroundImage: `url(${hero.backgroundImage})` }}
             />
             {/* Absoluet overlay div on image */}
-            <div className="absolute inset-0 bg-gradient-to-b from-[#F4F4F4] via-[#F4F4F4]/90 to-[#F4F4F4]/10 opacity-90"></div>
+            <div className="absolute inset-0 bg-gradient-to-b from-[#FFFFFF] via-[#F4F4F4]/90 to-[#F4F4F4]/10 opacity-90"></div>
             {/* <div className="absolute inset-0 bg-[#F4F4F4] opacity-90"></div> */}
 
             {/* Content */}
@@ -65,7 +65,7 @@ const HomeHero = ({ data }) => {
 
             {/* Foreground Image (Drops Down) */}
             <motion.div
-                className="absolute left-1/2 -translate-x-1/2  w-[80%]  px-0 z-20"
+                className="absolute left-1/2 -translate-x-1/2 -bottom-[10%] sm:-bottom-[20%]    w-[80%]  px-0 z-20"
                 initial={{ opacity: 0, y: 50 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1, delay: 0.8 }}

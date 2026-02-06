@@ -1,7 +1,7 @@
 import { motion } from 'motion/react'
 import Text from './Text'
 
-const Hero = ({ hero, badge = false }) => {
+const Hero = ({ hero, badge = false, person = false }) => {
   return (
     <section className="hero-section">
 
@@ -23,13 +23,26 @@ const Hero = ({ hero, badge = false }) => {
         className="hero-overlay"
       />
 
+      {/* Person Image */}
+      {
+        person && <motion.img
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1, delay: 0.3 }}
+          src={hero.backgroundImage2}
+          alt="Hero Background"
+          className="absolute right-0 bottom-0 img-contain pointer-events-none"
+        />
+      }
+
       {/* Content */}
+      {/* hero-content */}
       <div className="hero-content">
         <motion.div
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, delay: 0.5 }}
-          className="w-[652px]"
+        // className="w-[652px]"
         >
 
           {/* Top Badge */}
@@ -51,6 +64,19 @@ const Hero = ({ hero, badge = false }) => {
             style={{ lineHeight: '1.1', marginTop: '1rem' }}
           >
             {hero.title}
+            {/* <br />
+            {hero.title2 && (
+              <span>
+                {hero.title2}
+
+              </span>
+            )}
+            {hero.title3 && (
+              <span>
+                {hero.title3}
+
+              </span>
+            )} */}
           </Text>
 
           {/* Description */}
@@ -59,7 +85,7 @@ const Hero = ({ hero, badge = false }) => {
             color="muted"
             animated
             delay={0.9}
-            className="mt-6 lg:max-w-[80%]"
+            className="mt-6 lg:max-w-[600px]"
           >
             {hero.description}
           </Text>
@@ -72,7 +98,7 @@ const Hero = ({ hero, badge = false }) => {
             animate={{ opacity: 1, x: 0, scale: 1 }}
             transition={{ duration: 0.8, delay: 1.1 }}
             whileHover={{ scale: 1.05 }}
-            className="hidden lg:block absolute right-12 top-32 bg-white shadow-xl rounded-lg px-6 py-4 max-w-xs"
+            className="hidden lg:block absolute right-12 top-32 bg-white shadow-xl rounded-lg px-6 py-4 max-w-[360px]"
           >
             <Text
               variant="body"
@@ -84,7 +110,7 @@ const Hero = ({ hero, badge = false }) => {
           </motion.div>
         }
       </div>
-    </section>
+    </section >
   )
 }
 

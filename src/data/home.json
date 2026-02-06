@@ -145,6 +145,7 @@
   "featuresSection": {
     "title": "Smart Features to Elevate\nConstruction Workflow",
     "description": "Every tool is built for accuracy, real-time updates, and seamless collaboration across your construction team.",
+    "rightSideImage": "/assets/home/features-section/right image.png",
     "features": [
       {
         "id": 1,
@@ -187,6 +188,12 @@
       },
       {
         "id": 3,
+        "quote": "Perfect balance between cost optimization and robust security measures makes them an invaluable asset.",
+        "name": "Nicolas Chaillan",
+        "role": "Chief Software Officer (CSO)"
+      },
+      {
+        "id": 4,
         "quote": "Perfect balance between cost optimization and robust security measures makes them an invaluable asset.",
         "name": "Nicolas Chaillan",
         "role": "Chief Software Officer (CSO)"

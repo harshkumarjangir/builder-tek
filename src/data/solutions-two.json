@@ -1,6 +1,8 @@
 {
     "hero": {
-        "title": "Quote Management Simplified With BuilderTek",
+        "title": "Quote Management\nSimplified With\nBuilderTek",
+        "title2": "Simplified With ",
+        "title3": "BuilderTek",
         "description": "BuilderTek Quote Management centralizes pricing, revisions, approvals, and documentation in Salesforce. Reduce time at every stage, maintain consistency, and protect margins throughout the project lifecycle",
         "badge": "Improve accuracy, respond faster, and close winning quotes in minutes",
         "backgroundImage2": "/assets/solutions/hero/hero-bg.png",

@@ -30,7 +30,7 @@ const CenteredCtaSection = ({ data }) => {
                 <div className="my-8 mb-16">
                     <Link
                         to={data.cta.link}
-                        className="inline-flex items-center justify-center text-xl px-8 py-3 rounded-2xl text-white font-semibold bg-[#126DFB] hover:opacity-90 transition"
+                        className="inline-flex items-center justify-center text-xl px-8 py-3 rounded-2xl font-semibold  text-white bg-gradient-to-r from-[#3785FF] to-[#1146F2] border border-[#1146F2] shadow-[0_6px_16px_rgba(0,0,0,0.2),0_0_0_1px_#155BC9]  hover:opacity-90 transition"
                     >
                         {data.cta.label}
                     </Link>

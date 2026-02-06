@@ -7,52 +7,72 @@ export default function Footer() {
   return (
     <footer className="bg-white shadow-sm">
       {/* TOP SECTION */}
-      <div className="w-[85%] mx-auto px-6 py-16 grid grid-cols-1 lg:grid-cols-[1.3fr_1fr_1fr_1fr_1.3fr] gap-10">
-        
-        {/* BRAND */}
-        <div>
-          <img src={brand.logo} alt="BuilderTek" className="h-10 mb-4" />
-          <p className="text-sm text-gray-600 mb-4">{brand.description}</p>
+      <div className="w-[85%] mx-auto px-6 py-16">
+  <div className="flex flex-col lg:flex-row gap-20">
 
-          <div className="text-sm text-gray-700 space-y-1">
-            <p><span className="font-semibold">Address :</span> {brand.address}</p>
-            <p><span className="font-semibold">Email :</span> {brand.email}</p>
-            <p><span className="font-semibold">Phone :</span> {brand.phone}</p>
-          </div>
-        </div>
+    {/* BRAND */}
+    <div >
+      <img src={brand.logo} alt="BuilderTek" className="h-10 mb-4" />
+      <p className="text-sm text-gray-600 mb-4 max-w-sm">
+        {brand.description}
+      </p>
 
-        {/* QUICK LINKS */}
-        <FooterColumn title="Quick Link" items={links.quickLinks} />
-
-        {/* WHO WE SERVE */}
-        <FooterColumn title="Who We Serve" items={links.whoWeServe} />
-
-        {/* SERVICES */}
-        <FooterColumn title="Services" items={links.services} />
-
-        {/* NEWSLETTER */}
-        <div className="bg-[#F4F4F4] rounded-2xl p-6 flex flex-col justify-between">
-          <div>
-            <h4 className="text-lg font-semibold mb-2">{newsletter.title}</h4>
-            <p className="text-sm text-gray-600 mb-4">
-              {newsletter.subtitle}
-            </p>
-
-            <div className="relative mb-4">
-              <input
-                type="email"
-                placeholder="Your Email"
-                className="w-full rounded-lg border px-4 py-3 pr-10 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
-              />
-              <Mail className="absolute right-3 top-3.5 h-4 w-4 text-gray-400" />
-            </div>
-          </div>
-
-          <button className="w-full rounded-xl bg-gradient-to-r from-[#3785FF] to-[#1146F2] text-white py-3 font-medium">
-            {newsletter.buttonText}
-          </button>
-        </div>
+      <div className="text-sm text-gray-700 space-y-1">
+        <p><span className="font-semibold">Address :</span> {brand.address}</p>
+        <p><span className="font-semibold">Email :</span> {brand.email}</p>
+        <p><span className="font-semibold">Phone :</span> {brand.phone}</p>
       </div>
+    </div>
+
+    {/* LInks */}
+{/* <div className="flex flex-[2] gap-20"> */}
+
+  <div>
+    <FooterColumn title="Quick Link" items={links.quickLinks} />
+  </div>
+
+  <div>
+    <FooterColumn title="Who We Serve" items={links.whoWeServe} />
+  </div>
+
+  <div >
+    <FooterColumn title="Services" items={links.services} />
+  </div>
+
+{/* </div> */}
+
+
+
+    {/* NEWSLETTER */}
+    <div className="flex-[1.6]">
+      <div className="bg-[#F4F4F4] rounded-2xl p-8 h-full flex flex-col justify-between">
+        <div>
+          <h4 className="text-lg  text-center lg:text-xl font-semibold mb-2">
+            {newsletter.title}
+          </h4>
+          <p className="text-base font-normal text-[#696A75] mb-6">
+            {newsletter.subtitle}
+          </p>
+
+          <div className="relative mb-6">
+            <input
+              type="email"
+              placeholder="Your Email"
+              className="w-full rounded-lg border px-4 py-3 pr-10 text-sm  border-[#DCDDDF] focus:outline-none focus:ring-0 focus:ring-none"
+            />
+            <Mail className="absolute right-3 top-3.5 h-4 w-4 text-gray-400" />
+          </div>
+        </div>
+
+        <button className="w-full rounded-xl  text-white bg-gradient-to-r from-[#3785FF] to-[#1146F2] border border-[#1146F2] shadow-[0_6px_16px_rgba(0,0,0,0.2),0_0_0_1px_#155BC9] py-3.5 font-medium cursor-pointer">
+          {newsletter.buttonText}
+        </button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
 
       {/* BOTTOM BAR */}
       <div className="">
@@ -74,11 +94,17 @@ export default function Footer() {
 
 function FooterColumn({ title, items }) {
   return (
-    <div>
-      <h4 className="font-semibold mb-4">{title}</h4>
-      <ul className="space-y-2 text-sm text-gray-600">
+    <div className="w-full">
+      <h4 className="font-semibold mb-5 text-gray-900">
+        {title}
+      </h4>
+
+      <ul className="space-y-3 text-sm text-gray-600">
         {items.map((item, i) => (
-          <li key={i} className="hover:text-blue-600 cursor-pointer">
+          <li
+            key={i}
+            className="hover:text-blue-600 cursor-pointer transition-colors"
+          >
             {item}
           </li>
         ))}
@@ -86,6 +112,112 @@ function FooterColumn({ title, items }) {
     </div>
   );
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// import footerData from "../../data/footerData.json";
+// import { Mail } from "lucide-react";
+
+// export default function Footer() {
+//   const { brand, links, newsletter, bottom } = footerData;
+
+//   return (
+//     <footer className="bg-white shadow-sm">
+//       {/* TOP SECTION */}
+//       <div className="w-[85%] mx-auto px-6 py-16 grid grid-cols-1 lg:grid-cols-[1.3fr_1fr_1fr_1fr_1.3fr] gap-10">
+        
+//         {/* BRAND */}
+//         <div>
+//           <img src={brand.logo} alt="BuilderTek" className="h-10 mb-4" />
+//           <p className="text-sm text-gray-600 mb-4">{brand.description}</p>
+
+//           <div className="text-sm text-gray-700 space-y-1">
+//             <p><span className="font-semibold">Address :</span> {brand.address}</p>
+//             <p><span className="font-semibold">Email :</span> {brand.email}</p>
+//             <p><span className="font-semibold">Phone :</span> {brand.phone}</p>
+//           </div>
+//         </div>
+
+//         {/* QUICK LINKS */}
+//         <FooterColumn title="Quick Link" items={links.quickLinks} />
+
+//         {/* WHO WE SERVE */}
+//         <FooterColumn title="Who We Serve" items={links.whoWeServe} />
+
+//         {/* SERVICES */}
+//         <FooterColumn title="Services" items={links.services} />
+
+//         {/* NEWSLETTER */}
+//         <div className="bg-[#F4F4F4] rounded-2xl p-6 flex flex-col justify-between">
+//           <div>
+//             <h4 className="text-lg font-semibold mb-2">{newsletter.title}</h4>
+//             <p className="text-sm text-gray-600 mb-4">
+//               {newsletter.subtitle}
+//             </p>
+
+//             <div className="relative mb-4">
+//               <input
+//                 type="email"
+//                 placeholder="Your Email"
+//                 className="w-full rounded-lg border px-4 py-3 pr-10 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+//               />
+//               <Mail className="absolute right-3 top-3.5 h-4 w-4 text-gray-400" />
+//             </div>
+//           </div>
+
+//           <button className="w-full rounded-xl bg-gradient-to-r from-[#3785FF] to-[#1146F2] text-white py-3 font-medium">
+//             {newsletter.buttonText}
+//           </button>
+//         </div>
+//       </div>
+
+//       {/* BOTTOM BAR */}
+//       <div className="">
+//         <div className="w-[85%] mx-auto px-6 py-6 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-600 border-t border-[#DCDDDF]">
+//           <p>{bottom.copyright}</p>
+
+//           <div className="flex gap-6">
+//             {bottom.legal.map((item, i) => (
+//               <a key={i} href="#" className="hover:text-blue-600">
+//                 {item}
+//               </a>
+//             ))}
+//           </div>
+//         </div>
+//       </div>
+//     </footer>
+//   );
+// }
+
+// function FooterColumn({ title, items }) {
+//   return (
+//     <div>
+//       <h4 className="font-semibold mb-4">{title}</h4>
+//       <ul className="space-y-2 text-sm text-gray-600">
+//         {items.map((item, i) => (
+//           <li key={i} className="hover:text-blue-600 cursor-pointer">
+//             {item}
+//           </li>
+//         ))}
+//       </ul>
+//     </div>
+//   );
+// }
 
 
 

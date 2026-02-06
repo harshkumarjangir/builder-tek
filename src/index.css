@@ -225,7 +225,7 @@ body {
   }
 
   .hero-content {
-    @apply relative z-10 max-w-7xl mx-auto px-6 h-full flex items-center;
+    @apply relative z-10 w-[95%] mx-auto px-6 h-full flex items-center;
   }
 
   /* Animation utilities */
@@ -239,6 +239,13 @@ body {
 }
 
 
+
+/* Move pagination dots down */
+.swiper-pagination {
+  position: relative !important;
+  margin-top: 32px;
+  /* push dots downward */
+}
 
 
 /* Scrollbar Hide */
