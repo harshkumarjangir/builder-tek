@@ -11,6 +11,7 @@ const Hero = ({ hero, badge = false, person = false }) => {
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
         src={hero.backgroundImage}
+        style={{transform:"rotateY(180deg)"}}
         alt="Hero Background"
         className="absolute inset-0 img-cover"
       />
