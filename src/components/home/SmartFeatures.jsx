@@ -56,12 +56,12 @@ const SmartFeatures = ({ data }) => {
                     </div>
 
                     {/* Right Column (Column 3) Stack */}
-                    <div className="flex flex-col gap-8 h-full">
+                    <div className="flex flex-col  gap-8 h-full">
                         {/* Mobile Tools Card: Tall and specific width */}
-                        <FeatureCard feature={features[0]} index={0} className="min-h-[380px]" />
+                        <FeatureCard feature={features[0]} index={0} className="min-h-[380px] ml-auto w-[300px]" />
 
                         {/* Budgeting Card: Shorter but wider container */}
-                        <FeatureCard feature={features[3]} index={3} className="min-h-[280px] min-w-[400px]" />
+                        <FeatureCard feature={features[3]} index={3} className="min-h-[280px] " />
                     </div>
                 </div>
             </div>
