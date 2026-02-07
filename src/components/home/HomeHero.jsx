@@ -73,7 +73,7 @@ const HomeHero = ({ data }) => {
                 <img
                     src={hero.image}
                     alt={hero.imageAlt}
-                    className="w-full rounded-lg sm:rounded-xl shadow-2xl"
+                    className="w-full rounded-lg sm:rounded-xl "
                 />
             </motion.div>
         </section>
