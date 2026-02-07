@@ -44,7 +44,8 @@
         },
         {
             "label": "Services",
-            "dropdown": true,
+            "path": "/services",
+            "dropdown": false,
             "items": [
                 {
                     "label": "Finance",

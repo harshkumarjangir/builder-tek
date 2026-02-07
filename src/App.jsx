@@ -9,6 +9,7 @@ import Footer from './components/common/Footer'
 import Blogs from './pages/Blogs'
 import ScrollToTop from './components/common/ScrollToTop'
 import WhoWeServe from './components/home/WhoWeServe'
+import Services from './pages/Services'
 
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
           <Route path='/solutions/rfq' element={<Solutions solutionData={solutionDataOne} />} />
           <Route path='/solutions/quote' element={<Solutions solutionData={solutionDataTwo} />} />
           <Route path='/who-we-serve' element={<WhoWeServe />} />
+          <Route path='/services' element={<Services />} />
           <Route path='/blogs' element={<Blogs />} />
         </Routes>
       </div>
