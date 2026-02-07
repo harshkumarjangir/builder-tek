@@ -6,7 +6,7 @@ const HomeHero = ({ data }) => {
     const { hero } = data;
 
     return (
-        <section className="relative w-full md:h-[130vh] pt-20 sm:pt-28 pb-40 sm:pb-56 text-center overflow-visible">
+        <section className="relative w-full pt-20 sm:pt-28 pb-10 text-center overflow-visible">
             {/* Background Image */}
             <div
                 className="absolute inset-0 bg-cover bg-center"
@@ -49,7 +49,7 @@ const HomeHero = ({ data }) => {
 
                 {/* CTA Button */}
                 <motion.div
-                    className="mt-6 sm:mt-8 mb-8 sm:mb-16"
+                    className="mt-4 sm:mt-5"
                     initial={{ opacity: 0, y: 30 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, delay: 0.6 }}
@@ -63,9 +63,9 @@ const HomeHero = ({ data }) => {
                 </motion.div>
             </div>
 
-            {/* Foreground Image (Drops Down) */}
+            {/* Foreground Image (Overlaps next section) */}
             <motion.div
-                className="absolute left-1/2 -translate-x-1/2 -bottom-[10%] sm:-bottom-[20%] md:-bottom-[26%] lg:-bottom-[50%]    w-[80%]  px-0 z-20"
+                className="relative mx-auto mt-12 sm:mt-16 md:mt-20 w-[90%] sm:w-[85%] md:w-[80%] max-w-6xl px-4 z-20 -mb-20 sm:-mb-28 md:-mb-36 lg:-mb-44"
                 initial={{ opacity: 0, y: 50 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1, delay: 0.8 }}
@@ -73,10 +73,11 @@ const HomeHero = ({ data }) => {
                 <img
                     src={hero.image}
                     alt={hero.imageAlt}
-                    className="w-full rounded-lg h-full sm:rounded-xl"
+                    className="w-full rounded-lg sm:rounded-xl shadow-2xl"
                 />
             </motion.div>
         </section>
+
     );
 };
 
