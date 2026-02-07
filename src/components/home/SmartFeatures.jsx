@@ -79,7 +79,7 @@ const FeatureCard = ({ feature, index, className = "" }) => {
             viewport={{ once: true }}
             whileHover={{ y: -8, shadow: "0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)" }}
         >
-            <motion.div className="flex-grow flex items-center justify-center mb-8">
+            <motion.div className="flex-grow flex items-center justify-center">
                 <motion.img
                     src={feature.image}
                     alt={feature.title}
