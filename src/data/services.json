@@ -7,6 +7,18 @@
         "backgroundImage2": "/assets/who-we-are/hero/who-we-are-person.png",
         "backgroundImage": "/assets/services/hero/service-hero.png"
     },
+    "financialControl": {
+        "badge": "FINANCIAL CONTROL",
+        "title": "Complete Financial Control On Construction Projects With BuilderTek",
+        "description": "Unify project spending, forecasting, billing, and workflows in one comprehensive, powerful Salesforce-powered construction software. Natively built on Salesforce, BuilderTek financial management software integrates budgets, contracts, change orders, and reporting. Every action aligns with real-time project performance and risk insights.",
+        "features": [
+            "Eliminate disconnected spreadsheets",
+            "Downsize manual reconciliation",
+            "Reduce data blind spots",
+            "Centralize financial visibility"
+        ],
+        "image": "/assets/services/financial-control/dashboard.png"
+    },
     "whyChoose": {
         "section": {
             "title": "Financial Tools Designed for Construction Workflows",
@@ -73,5 +85,15 @@
                 "description": "Complete audit trails and version control reduce compliance risks and disputes."
             }
         ]
+    },
+    "build":{
+        "title":"Built for Precision, Control, and Speed",
+         "features": [
+            "Multi-Project Financial Views",
+            "Salesforce-Native Reporting Tools",
+            "Automated Approvals",
+"Integrated Cost Codes" 
+       ],
+        "image": "/assets/services/financial-control/dashboard.png"
     }
 }

@@ -6,15 +6,18 @@ import TwoColumnHeader from '../components/reusable/TwoColumnHeader';
 import { motion } from 'motion/react'
 import SimpleHeader from '../components/reusable/SimpleHeader';
 import IconCard from '../components/reusable/IconCard';
+import ServiceFeature from '../components/services/ServiceFeature';
 
 
 const Services = () => {
-    const { hero, whyChoose, sharperFinancial } = servicesData
+    const { hero, whyChoose, sharperFinancial, financialControl } = servicesData
     const { section } = whyChoose
     return (
         <PageTransition>
             <div className=''>
                 <SolutionsHero hero={hero} badge={false} />
+
+                <ServiceFeature data={financialControl} />
 
                 {/* Financial Tools Component */}
                 <motion.section
@@ -107,6 +110,7 @@ const Services = () => {
                         </motion.div>
                     </div>
                 </motion.section>
+                <ServiceFeature data={financialControl} />
             </div>
         </PageTransition>
     );
