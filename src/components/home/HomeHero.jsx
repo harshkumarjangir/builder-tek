@@ -65,7 +65,7 @@ const HomeHero = ({ data }) => {
 
             {/* Foreground Image (Drops Down) */}
             <motion.div
-                className="absolute left-1/2 -translate-x-1/2 -bottom-[10%] sm:-bottom-[30%]    w-[80%]  px-0 z-20"
+                className="absolute left-1/2 -translate-x-1/2 -bottom-[10%] sm:-bottom-[20%] md:-bottom-[26%] lg:-bottom-[50%]    w-[80%]  px-0 z-20"
                 initial={{ opacity: 0, y: 50 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1, delay: 0.8 }}
