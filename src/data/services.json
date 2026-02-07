@@ -86,14 +86,53 @@
             }
         ]
     },
-    "build":{
-        "title":"Built for Precision, Control, and Speed",
-         "features": [
-            "Multi-Project Financial Views",
-            "Salesforce-Native Reporting Tools",
-            "Automated Approvals",
-"Integrated Cost Codes" 
-       ],
-        "image": "/assets/services/financial-control/dashboard.png"
+    "build": {
+        "title": "Built for Precision, Control, and Speed",
+        "features": [
+            {
+                "icon": "/assets/services/financial-control/Vector1.png",
+                "title": "Budget vs. Actual Variance Reports",
+                "description": "Compare planned vs. actual spending in real time."
+            },
+            {
+                "icon": "/assets/services/financial-control/Vector2.png",
+                "title": "Multi-Project Financial Views"
+            },
+            {
+                
+                "icon": "/assets/services/financial-control/Vector3.png",
+                "title": "Salesforce-Native Reporting Tools"
+            },
+            {
+                "icon": "/assets/services/financial-control/Group.png",
+                "title": "Automated Approvals"
+            },
+            {
+                "icon": "/assets/services/financial-control/Group(1).png",
+                "title": "Integrated Cost Codes"
+            }
+        ],
+        "image": "/assets/services/financial-control/Group3.png"
+    },
+    "Financial":{
+        "title":"How It Works – Financial Workflow",
+        "features":[
+            {
+                "title":"Define & Track Budgets",
+                "description":"Establish project budgets with cost codes aligned to your scope and track commitments daily."
+            },{
+                "title":"Capture Costs & Change Orders",
+                "description":"Monitor POs, invoices, and change orders against planned costs."
+            },{
+                "title":"Reconcile & Bill",
+                "description":"Generate invoices and align billing with contractual terms and progress."
+            },{
+                "title":"Forecast Cash Requirements",
+                "description":"Predict future cash flow needs with real-time data."
+            },{
+                "title":"Report & Review",
+                "description":"Use Salesforce dashboards to measure performance and inform decisions."
+            }
+        ]
     }
 }

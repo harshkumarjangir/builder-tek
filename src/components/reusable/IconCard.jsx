@@ -15,7 +15,7 @@ const IconCard = ({ card }) => {
     const Icon = iconMap[card.icon]
 
     return (
-        <div className="card-base card-padding min-h-80 border border-[#A0B5FA]">
+        <div className="">
 
             {/* ICON OR IMAGE */}
             <div className="space-element">

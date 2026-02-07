@@ -7,10 +7,12 @@ import { motion } from 'motion/react'
 import SimpleHeader from '../components/reusable/SimpleHeader';
 import IconCard from '../components/reusable/IconCard';
 import ServiceFeature from '../components/services/ServiceFeature';
+import { Build } from '../components/services/Build';
+import { FinancialCom } from '../components/services/Financial';
 
 
 const Services = () => {
-    const { hero, whyChoose, sharperFinancial, financialControl } = servicesData
+    const { hero, whyChoose, sharperFinancial, financialControl,build ,Financial} = servicesData
     const { section } = whyChoose
     return (
         <PageTransition>
@@ -94,7 +96,7 @@ const Services = () => {
                             whileInView={{ opacity: 1 }}
                             transition={{ duration: 0.8, staggerChildren: 0.2 }}
                             viewport={{ once: true }}
-                            className="grid-3"
+                            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10"
                         >
                             {sharperFinancial.cards.map((card, index) => (
                                 <motion.div
@@ -103,6 +105,7 @@ const Services = () => {
                                     whileInView={{ opacity: 1, y: 0 }}
                                     transition={{ duration: 0.6, delay: index * 0.2 }}
                                     viewport={{ once: true }}
+                                    className='w-full h-full card-base card-padding   border border-[#A0B5FA]'
                                 >
                                     <IconCard card={card} />
                                 </motion.div>
@@ -110,7 +113,8 @@ const Services = () => {
                         </motion.div>
                     </div>
                 </motion.section>
-                <ServiceFeature data={financialControl} />
+                <Build data={build}/>
+                <FinancialCom data={Financial}/>
             </div>
         </PageTransition>
     );

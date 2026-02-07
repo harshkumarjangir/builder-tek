@@ -7,8 +7,8 @@ export default function Footer() {
   return (
     <footer className="bg-white shadow-sm">
       {/* TOP SECTION */}
-      <div className="w-[85%] mx-auto px-6 py-16">
-  <div className="flex flex-col lg:flex-row gap-20">
+      <div className="w-[85%] mx-auto  py-16">
+  <div className="flex flex-wrap lg:flex-nowrap gap-10">
 
     {/* BRAND */}
     <div >
@@ -44,7 +44,8 @@ export default function Footer() {
 
 
     {/* NEWSLETTER */}
-    <div className="flex-[1.6]">
+  <div>
+      <div className="w-[300px]">
       <div className="bg-[#F4F4F4] rounded-2xl p-8 h-full flex flex-col justify-between">
         <div>
           <h4 className="text-lg  text-center lg:text-xl font-semibold mb-2">
@@ -69,6 +70,7 @@ export default function Footer() {
         </button>
       </div>
     </div>
+  </div>
 
   </div>
 </div>
