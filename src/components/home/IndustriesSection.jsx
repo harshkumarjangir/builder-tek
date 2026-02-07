@@ -48,8 +48,8 @@ const IndustriesSection = ({ data }) => {
                                 onClick={() => setActive(i)}
                                 className={`${i === 0 || i === 2 ? "max-w-[200px]" : "max-w-[280px]"} text-base lg:text-xl font-medium whitespace-pre-wrap px-6 py-3 rounded-xl border border-[#1C1B1733] transition shrink-0 cursor-pointer
                 ${active === i
-                                        ? "bg-white shadow-md font-semibold text-[#020805]"
-                                        : "bg-gray-50 text-[#757267]"
+                                        ? "bg-white shadow-md  text-[#020805]"
+                                        : "bg-gray-50 font-normal text-[#757267]"
                                     }`}
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
