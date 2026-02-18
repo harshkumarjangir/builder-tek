@@ -1,0 +1,176 @@
+{
+    "hero": {
+        "title": "Simplify Real\n Estate Management\n With BuilderTek ",
+        "description": "Manage listings, inspections, transactions, and closings, connected directly to construction workflows.",
+        "backgroundImage2": "/assets/who-we-are/hero/who-we-are-person.png",
+        "backgroundImage": "/assets/services/hero/service-hero.png"
+    },
+    "financialControl": {
+        "title": " BuilderTek Real Estate Management: Built for Construction-Driven Projects",
+        "description": "Manage properties, transactions, and project handoffs with clarity on one single Salesforce-powered platform. ",
+        "features": [
+            "BuilderTek Realty Management tool is designed for teams managing properties alongside construction or development projects. Centralizes listings, inspections, offers, documentation, and contacts in Salesforce. Get seamless coordination between development, sales, and operations teams without disconnected systems. "
+        ],
+        "image": "/assets/services/financial-control/dashboard.png"
+    },
+    "whyChoose": {
+        "section": {
+            "title": "Choose Realty Tools Designed for End-to-End Property Management in an all-Inclusive Platform.",
+            "subtitle": "Manage listings, inspections, transactions, and closings in one centralized, Salesforce-powered platform. "
+        },
+        "features": [
+            {
+                "title": "Property & Listing Management",
+                "description": "Manage property listings, availability, and details in a centralized system.",
+                "icon": "/assets/services/financial/financial-one.png"
+            },
+            {
+                "title": "Inspection & Compliance Tracking",
+                "description": "Schedule and record inspections with clear documentation and status tracking.",
+                "icon": "/assets/services/financial/financial-two.png"
+            },
+            {
+                "title": "Offer & Transaction Management",
+                "description": "Track offers, approvals, and deal stages from submission through acceptance.",
+                "icon": "/assets/services/financial/financial-three.png"
+            },
+            {
+                "title": "Closing & Handover Coordination",
+                "description": "Manage closing checklists, documentation, and final handoffs with confidence.",
+                "icon": "/assets/services/financial/financial-four.png"
+            },
+            {
+                "title": "CRM-Connected Relationships",
+                "description": "Keep buyers, sellers, agents, and vendors connected through shared CRM records.",
+                "icon": "/assets/services/financial/financial-five.png"
+            }
+        ]
+    },
+    "sharperFinancial": {
+        "section": {
+            "title": " Get Clearer Transactions,\n Smoother Closeouts, and \nStronger Oversight with BuilderTek.",
+            "description": ""
+        },
+        "cards": [
+            {
+                "icon": "pricing",
+                "useImage": true,
+                "image": "/assets/services/sharper/visibility.png",
+                "title": "Improved Property Visibility",
+                "description": "Centralized listings and inspection records give teams real-time insight into property status and readiness."
+            },
+            {
+                "icon": "speed",
+                "useImage": true,
+                "image": "/assets/services/sharper/decision.png",
+                "title": "Better Coordination Between Teams",
+                "description": "Development, sales, and operations teams stay aligned through shared data and workflows"
+            },
+            {
+                "icon": "win",
+                "useImage": true,
+                "image": "/assets/services/sharper/Better.png",
+                "title": "Faster, More Organized Closings",
+                "description": "Structured processes and complete documentation reduce delays and last-minute issues during closings."
+            }
+        ]
+    },
+    "build": {
+        "title": "  BuilderTek Reality Management: Built for Visibility, Accuracy, and Control",
+        "features": [
+            {
+                "icon": "/assets/services/financial-control/Vector1.png",
+                "title": "Salesforce-Native Property Records",
+                "description": "Secure, scalable, and configurable"
+            },
+            {
+                "icon": "/assets/services/financial-control/Vector2.png",
+                "title": "Inspection & Checklist Tracking",
+                "description": "Ensure compliance and readiness"
+            },
+            {
+                "icon": "/assets/services/financial-control/Vector3.png",
+                "title": "Transaction Stage Visibility",
+                "description": "Clear progress from listing to close"
+            },
+            {
+                "icon": "/assets/services/financial-control/Group.png",
+                "title": "Document & Photo Management",
+                "description": "Store agreements, reports, and visuals centrally"
+            },
+            {
+                "icon": "/assets/services/financial-control/Group(1).png",
+                "title": "CRM Integration",
+                "description": "Link properties to contacts, accounts, and opportunities"
+            },
+            {
+                "icon": "/assets/services/financial-control/Group(1).png",
+                "title": "Reporting & Dashboards",
+                "description": "Track portfolio performance in real time"
+            }
+        ],
+        "image": "/assets/services/financial-control/Group3.png"
+    },
+    "Financial": {
+        "title": "How It Works – Realty Workflow",
+        "features": [
+            {
+                "title": "Manage Property Listings",
+                "description": "Create and maintain property records with key details."
+            },
+            {
+                "title": " Track Inspections & Readiness",
+                "description": "Schedule inspections and document results."
+            },
+            {
+                "title": "Handle Offers & Transactions",
+                "description": "Monitor offers, approvals, and deal progression."
+            },
+            {
+                "title": "Coordinate Closings",
+                "description": "Manage closing tasks, documents, and sign-offs."
+            },
+            {
+                "title": "Maintain Post-Close Records",
+                "description": "Store transaction history for future reference."
+            }
+        ]
+    },
+    "bringStructure": {
+        "section": {
+            "title": "BuilderTek Reality Management Software: Bring Structure to Real ",
+            "highlight": " Estate Operations",
+            "description": "Unify property management, transactions, and project data with BuilderTek Realty Management.",
+            "cta": {
+                "label": "Schedule a Demo",
+                "link": "/schedule-demo"
+            }
+        }
+    },
+    "faq": {
+        "title": "FAQs",
+        "subtitle": "Find answers to common questions about BuilderTek RFQ.",
+        "items": [
+            {
+                "question": "Is BuilderTek Realty Management designed for developers and owners?",
+                "answer": "BuilderTek Reality Management tool is built for developers, owners, and teams managing properties alongside construction projects."
+            },
+            {
+                "question": "Can BuilderTek manage inspections and closing checklists?",
+                "answer": "Yes. You and your team can schedule inspections, create checklists, and save documentation- fully trackable and stored."
+            },
+            {
+                "question": "Does Realty Management integrate with BuilderTek CRM?",
+                "answer": "Yes, all properties listed link directly to contacts, accounts, and opportunities."
+            },
+            {
+                "question": "Can it support both residential and commercial properties?",
+                "answer": "Yes. The module is flexible for residential, commercial, and mixed-use portfolios."
+            },
+            {
+                "question": "Does BuilderTek provide reporting across property portfolios?",
+                "answer": "Yes. Salesforce-native dashboards offer real-time insight into portfolio performance."
+            }
+        ]
+    }
+}

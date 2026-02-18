@@ -1,5 +1,5 @@
 import React from 'react'
-import servicesData from '../data/services.json'
+import FinancialManagementData from '../data/FinancialManagement.json'
 import SolutionsHero from '../components/reusable/Hero'
 import PageTransition from '../components/reusable/PageTransition';
 import TwoColumnHeader from '../components/reusable/TwoColumnHeader';
@@ -10,10 +10,9 @@ import ServiceFeature from '../components/services/ServiceFeature';
 import { Build } from '../components/services/Build';
 import { FinancialCom } from '../components/services/Financial';
 
-import FaqSection from '../components/reusable/FaqSection'
 
-const Services = () => {
-    const { hero, whyChoose, sharperFinancial, financialControl,build ,Financial} = servicesData
+const FinancialManagement = () => {
+    const { hero, whyChoose, sharperFinancial, financialControl,build ,Financial} = FinancialManagementData
     const { section } = whyChoose
     return (
         <PageTransition>
@@ -116,19 +115,9 @@ const Services = () => {
                 </motion.section>
                 <Build data={build}/>
                 <FinancialCom data={Financial}/>
-                {
-                    servicesData.faq&& <motion.div
-                initial={{ opacity: 0, y: 50 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8 }}
-                viewport={{ once: true }}
-            >
-                <FaqSection data={servicesData.faq} />
-            </motion.div>
-                }
             </div>
         </PageTransition>
     );
 };
 
-export default Services;
+export default FinancialManagement;

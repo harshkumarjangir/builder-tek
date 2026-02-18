@@ -17,7 +17,7 @@ const Solutions = ({ solutionData }) => {
 
     return (
         <PageTransition>
-            <SolutionsHero hero={hero} badge={true} />
+            <SolutionsHero hero={hero} badge={hero.badge} />
             <div className=''>
                 {/* w-[85%] mx-auto */}
 

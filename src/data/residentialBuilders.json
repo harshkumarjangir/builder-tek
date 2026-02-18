@@ -1,0 +1,148 @@
+{
+    "hero": {
+        "title": " Build Better Homes\n with BuilderTek\n Construction Software",
+        "description": "One platform built for Residential Contractors to manage bids, budgets, schedules, and client expectations, without the chaos.\n\nBecome effective in construction with Salesforce Power Residential Contractor Software. Designed for teams balancing fast timelines, tight budgets, and frequent changes. Centralize RFQs, budgets, schedules, and contracts to keep projects moving smoothly while maintaining transparency with homeowners- from start to finish.",
+        "backgroundImage2": "/assets/who-we-are/hero/who-we-are-person.png",
+        "backgroundImage": "/assets/who-we-are/hero/who-we-are.png"
+    },
+    "simplifyConstruction": {
+        "title": "Simplify Residential Construction Management",
+        "description": "One connected platform for speed, clarity, and control.\n\nResidential projects move fast, and disconnected tools cause delays, errors, and cost overruns. BuilderTek residential contractor software simplifies workflows by providing contractors with a single reliable system for schedules, budgets, documents, and communication.",
+        "tabs": [
+            {
+                "name": "Get a Centralized Project Visibility",
+                "title": "Get a Centralized ",
+                "title2": "Project Visibility",
+                "description": "Manage schedules, budgets, documents, and tasks in one unified system, so everyone works from the same up-to-date information throughout the project lifecycle.",
+                "image": "/assets/who-we-are/simplify-construction/image-lapotp-full.png"
+            },
+            {
+                "name": "Faster Scheduling & Execution of Projects",
+                "title": "Faster Scheduling & ",
+                "title2": "Execution of Projects",
+                "description": "Connected timelines and task tracking help teams respond quickly to changes, reduce delays, and keep residential projects moving on schedule.",
+                "image": "/assets/who-we-are/simplify-construction/image-lapotp-full.png"
+            },
+            {
+                "name": "Real-Time Cost Awareness for Entire Timeline",
+                "title": "Real-Time ",
+                "title2": "Cost Awareness for\n Entire Timeline",
+                "description": "Track commitments, actuals, and homeowner changes as they happen, giving you early visibility into budget impacts before margins are affected.",
+                "image": "/assets/who-we-are/simplify-construction/image-lapotp-full.png"
+            },
+            {
+                "name": "Clear Change Order Management",
+                "title": "Clear Change",
+                "title2": " Order Management",
+                "description": "Capture scope changes with pricing and approvals in one place, reducing confusion and helping maintain transparency with homeowners.",
+                "image": "/assets/who-we-are/simplify-construction/image-lapotp-full.png"
+            },
+            {
+                "name": " Improved Team Coordination- On-site and On-ground",
+                "title": " Improved Team",
+                "title2": "Coordination- On-site\n and On-ground",
+                "description": "Keep office staff, field teams, and subcontractors aligned through shared access, reducing miscommunication and rework. ",
+                "image": "/assets/who-we-are/simplify-construction/image-lapotp-full.png"
+            },
+            {
+                "name": "Consistent, Repeatable Workflows- from Start to Finish",
+                "title": "Consistent,Repeatable ",
+                "title2": " Workflows- from Start\n to Finish",
+                "description": "Standardized processes reduce manual effort and make it easier to scale residential operations without losing control.",
+                "image": "/assets/who-we-are/simplify-construction/image-lapotp-full.png"
+            }
+        ]
+    },
+    "whyChoose": {
+        "section": {
+            "title": " BuilderTek Residential Contractor Software: Built for Speed and Simplicity",
+            "subtitle": "Reduce friction, prevent overruns, and maintain predictable schedules with connected cost, contract, and schedule data on BuilderTek Residential Software. Give teams better visibility, faster approvals, and smoother project execution."
+        },
+        "features": [
+            {
+                "title": "Better Project Control",
+                "description": "Real-time visibility into pricing, scope changes, and approvals helps contractors stay ahead of risks and protect profitability throughout the build.",
+                "icon": "/assets/who-we-are/why-choose/stronger-cost.png"
+            },
+            {
+                "title": "Faster Timeline Management",
+                "description": "Streamlined scheduling and coordinated workflows reduce delays across trades, keeping residential projects on track from start to finish.",
+                "icon": "/assets/who-we-are/why-choose/faster-project.png"
+            },
+            {
+                "title": "Stronger Budget Predictability",
+                "description": "Connected cost, contract, and schedule data make it easier to forecast expenses and avoid unexpected overruns.",
+                "icon": "/assets/who-we-are/why-choose/improved-decision.png"
+            },
+            {
+                "title": "Reduced Administrative Overhead",
+                "description": "Eliminate manual spreadsheets, duplicate data entry, and scattered emails by managing everything in one connected platform.",
+                "icon": "/assets/who-we-are/why-choose/reduced-admin.png"
+            },
+            {
+                "title": "Elevated Client Confidence",
+                "description": "Transparent documentation and clear change records build trust with homeowners and reduce friction during decision-making.",
+                "icon": "/assets/who-we-are/why-choose/greater-acc.png"
+            },
+            {
+                "title": "Scalable Residential Operations",
+                "description": "Standardized processes allow teams to take on more projects without adding complexity or losing control.",
+                "icon": "/assets/who-we-are/why-choose/scalable-ope.png"
+            }
+        ]
+    },
+    "whyGeneral": {
+        "title": "Why Residential Contractors ",
+        "title2": "Choose BuilderTek",
+        "description": "Built on Salesforce for reliability, scale, and long-term growth",
+        "content": {
+            "headline": "BuilderTek is a true ",
+            "headline2": "Salesforce construction ",
+            "headline3": "platform built for General Contractors.",
+            "tick": "/assets/who-we-are/why-general/tick.png",
+            "points": [
+                "A Salesforce-powered platform, BuilderTek residential contractor software offers secure data, real-time reporting, and flexibility as residential operations grow. From small builders to regional firms, BuilderTek supports consistent execution without sacrificing control."
+            ],
+            "image": "/assets/who-we-are/why-general/why-general.png",
+            "badge": ""
+        }
+    },
+    "bringStructure": {
+        "section": {
+            "title": "See BuilderTek in Action for ",
+            "highlight": "Residential Contractors",
+            "description": "Experience in connected residential construction management.",
+            "cta": {
+                "label": "Schedule a Demo",
+                "link": "/schedule-demo"
+            },
+            "image": "/assets/solutions/bring-structure-one/image.png"
+        }
+    },
+    "faq": {
+        "title": "FAQs",
+        "subtitle": "Find answers to common questions about BuilderTek RFQ.",
+        "items": [
+            {
+                "question": "Can BuilderTek residential contractor software manage multiple residential projects at once?",
+                "answer": "Yes. You can easily manage multiple projects with BuilderTek, which supports multi-project oversight with centralized dashboards."
+            },
+            {
+                "question": "Does BuilderTek handle homeowner change orders?",
+                "answer": "Absolutely. All changes are tracked with scope, cost, and approval history on the residential contractor software."
+            },
+            {
+                "question": "Is BuilderTek suitable for custom home builders?",
+                "answer": "Yes. It’s completely flexible for custom and production builders alike."
+            },
+            {
+                "question": "Can vendors submit pricing without BuilderTek accounts?",
+                "answer": "Yes. Vendors can directly respond or send their quotes via a secure link without creating an account on BuilderTek."
+            },
+            {
+                "question": "Does BuilderTek scale as the residential business grows?",
+                "answer": "Yes. BuilderTek is completely scalable. You can manage multiple residential construction projects at a time."
+            }
+        ]
+    }
+}

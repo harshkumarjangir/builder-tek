@@ -1,5 +1,5 @@
 import React from 'react'
-import servicesData from '../data/services.json'
+import CRMManagementData from '../data/RealtyManagement.json'
 import SolutionsHero from '../components/reusable/Hero'
 import PageTransition from '../components/reusable/PageTransition';
 import TwoColumnHeader from '../components/reusable/TwoColumnHeader';
@@ -9,16 +9,17 @@ import IconCard from '../components/reusable/IconCard';
 import ServiceFeature from '../components/services/ServiceFeature';
 import { Build } from '../components/services/Build';
 import { FinancialCom } from '../components/services/Financial';
+import CenteredCtaSection from '../components/reusable/CenteredCtaSection';
+import FaqSection from '../components/reusable/FaqSection';
 
-import FaqSection from '../components/reusable/FaqSection'
 
-const Services = () => {
-    const { hero, whyChoose, sharperFinancial, financialControl,build ,Financial} = servicesData
+const RealtyManagement = () => {
+    const { hero, whyChoose, sharperFinancial, financialControl,build ,Financial,bringStructure} = CRMManagementData
     const { section } = whyChoose
     return (
         <PageTransition>
             <div className=''>
-                <SolutionsHero hero={hero} badge={false} />
+                <SolutionsHero hero={hero}  badge={false} />
 
                 <ServiceFeature data={financialControl} />
 
@@ -116,19 +117,27 @@ const Services = () => {
                 </motion.section>
                 <Build data={build}/>
                 <FinancialCom data={Financial}/>
-                {
-                    servicesData.faq&& <motion.div
+                 <motion.div
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8 }}
                 viewport={{ once: true }}
             >
-                <FaqSection data={servicesData.faq} />
+                <CenteredCtaSection data={bringStructure.section} />
+                {
+                                    CRMManagementData.faq&& <motion.div
+                                initial={{ opacity: 0, y: 50 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                transition={{ duration: 0.8 }}
+                                viewport={{ once: true }}
+                            >
+                                <FaqSection data={CRMManagementData.faq} />
+                            </motion.div>
+                                }
             </motion.div>
-                }
             </div>
         </PageTransition>
     );
 };
 
-export default Services;
+export default RealtyManagement;

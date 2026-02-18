@@ -122,10 +122,10 @@ export default Navbar
 const NavDropdown = ({ item }) => {
     return (
         <div className="relative group cursor-pointer">
-            <div className="flex items-center gap-1 hover:text-blue-600 transition-colors duration-200">
+            <Link to={item.path} className="flex items-center gap-1 hover:text-blue-600 transition-colors duration-200">
                 {item.label}
                 <ChevronDown size={14} />
-            </div>
+            </Link>
 
             <div className="absolute top-full left-0 mt-3 w-48 bg-white shadow-lg rounded-md opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
                 {item.items.map((subItem, i) => (

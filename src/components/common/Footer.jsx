@@ -8,7 +8,7 @@ export default function Footer() {
     <footer className="bg-white shadow-sm">
       {/* TOP SECTION */}
       <div className="w-[85%] mx-auto  py-16">
-  <div className="flex flex-wrap lg:flex-nowrap gap-10">
+  <div className="flex flex-wrap justify-between lg:flex-nowrap gap-10">
 
     {/* BRAND */}
     <div >

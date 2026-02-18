@@ -1,0 +1,146 @@
+{
+    "hero": {
+        "title": "Gain Complete\n Project Oversight\n with BuilderTek",
+        "description": "Built for developers and owners managing complex construction portfolios.\n\nBuilderTek gives developers and owners real-time visibility into budgets, schedules, approvals, and risks without getting buried in day-to-day operations. Centralize project data on a Salesforce-powered platform without oversight, make informed decisions, and achieve predictable outcomes across the entire portfolio.",
+        "backgroundImage2": "/assets/who-we-are/hero/who-we-are-person.png",
+        "backgroundImage": "/assets/who-we-are/hero/who-we-are.png"
+    },
+    "simplifyConstruction": {
+        "title": "Transform your Development Project Without Micromanagement",
+        "description": "One inclusive system for oversight, governance, and control.\n\nGet complete transparency, accountability, and financial confidence without slowing project teams down. BuilderTek delivers structured oversight through real-time data, standardized workflows, and audit-ready reporting while keeping execution teams agile.",
+        "tabs": [
+            {
+                "name": "Real-Time Financial Insight",
+                "title": "Real-Time Financial ",
+                "title2": "Insight",
+                "description": "Track budgets, commitments, and forecasts as they evolve, giving early visibility into cost risks and financial exposure.",
+                "image": "/assets/who-we-are/simplify-construction/image-lapotp-full.png"
+            },
+            {
+                "name": "Structured Approvals",
+                "title": "Structured ",
+                "title2": "Approvals",
+                "description": "Standardized approval workflows accelerate decisions while maintaining clear authority, controls, and documentation.",
+                "image": "/assets/who-we-are/simplify-construction/image-lapotp-full.png"
+            },
+            {
+                "name": "Consistent Reporting",
+                "title": "Consistent ",
+                "title2": "Reporting",
+                "description": "Standardized dashboards ensure all stakeholders see the same metrics, eliminating conflicting reports and assumptions.",
+                "image": "/assets/who-we-are/simplify-construction/image-lapotp-full.png"
+            },
+            {
+                "name": "Audit-Ready Records",
+                "title": "Audit-Ready ",
+                "title2": "Records",
+                "description": "Automatically maintained approval trails and change histories reduce compliance risk and simplify audits.",
+                "image": "/assets/who-we-are/simplify-construction/image-lapotp-full.png"
+            },
+            {
+                "name": "Cross-Team Transparency",
+                "title": "Cross-Team ",
+                "title2": "Transparency",
+                "description": "Provide developers, project managers, finance teams, and partners access to the same trusted data.",
+                "image": "/assets/who-we-are/simplify-construction/image-lapotp-full.png"
+            },
+            {
+                "name": "Portfolio-Level Governance",
+                "title": "Portfolio-Level ",
+                "title2": "Governance",
+                "description": "Apply consistent controls, reporting standards, and workflows across all projects—without managing each one individually.",
+                "image": "/assets/who-we-are/simplify-construction/image-lapotp-full.png"
+            }
+        ]
+    },
+    "whyChoose": {
+        "section": {
+            "title": "BuilderTek Specialty Contractor Software: Predictable Execution",
+            "subtitle": "FPredictable outcomes across every project\nBuilderTek empowers owners and developers to anticipate issues early, manage risk proactively, and maintain financial discipline across portfolios. With centralized visibility and structured processes, leadership gains control without disrupting delivery teams."
+        },
+        "features": [
+            {
+                "title": "Reduced Risk Exposure",
+                "description": "Early detection of budget, schedule, or scope deviations enables proactive intervention before issues escalate.",
+                "icon": "/assets/who-we-are/why-choose/stronger-cost.png"
+            },
+            {
+                "title": "Better Financial Control",
+                "description": "Connected budgets, commitments, and approvals ensure disciplined financial management across every project.",
+                "icon": "/assets/who-we-are/why-choose/faster-project.png"
+            },
+            {
+                "title": "Faster Decisions Making",
+                "description": "Real-time data eliminates delays caused by incomplete or outdated information.",
+                "icon": "/assets/who-we-are/why-choose/improved-decision.png"
+            },
+            {
+                "title": "Multi-Level Visibility",
+                "description": "View performance, risk, and financial health across multiple projects from a single dashboard.",
+                "icon": "/assets/who-we-are/why-choose/reduced-admin.png"
+            },
+            {
+                "title": "Accountability at Every Level",
+                "description": "Clear ownership, approvals, and records ensure decisions are traceable and responsibilities are defined.",
+                "icon": "/assets/who-we-are/why-choose/greater-acc.png"
+            },
+            {
+                "title": "Construct Improved Confidence",
+                "description": "Transparent reporting and predictable outcomes strengthen trust with investors, partners, and regulators.",
+                "icon": "/assets/who-we-are/why-choose/scalable-ope.png"
+            }
+        ]
+    },
+    "whyGeneral": {
+        "title": " Why Developers & Owners Choose BuilderTek",
+        "title2": "",
+        "description": "Built for scale, security, and transparency.",
+        "content": {
+             "headline": "BuilderTek is a true ",
+            "headline2": "Salesforce construction ",
+            "headline3": "platform built for General Contractors.",
+            "tick": "/assets/who-we-are/why-general/tick.png",
+            "points": ["BuilderTek is a true Salesforce construction platform designed for enterprise governance. Its scalable architecture, real-time analytics, and secure data model support growing portfolios while maintaining strict controls, compliance readiness, and long-term operational resilience."],
+            "image": "/assets/who-we-are/why-general/why-general.png",
+            "badge": ""
+        }
+    },
+    "bringStructure": {
+        "section": {
+            "title": "Experience a Smooth Workflow with Real-Time Construction Intelligence in ",
+            "highlight": "BuilderTek Construction. ",
+            "description": "Discover how BuilderTek helps developers and owners gain clarity, reduce risk, and manage portfolios with confidence—without micromanaging project teams.",
+            "cta": {
+                "label": "Schedule a demo",
+                "link": "/schedule-demo"
+            },
+            "image": "/assets/solutions/bring-structure-one/image.png"
+        }
+    },
+    "faq": {
+        "title": "FAQs",
+        "subtitle": "Find answers to common questions about BuilderTek RFQ.",
+        "items": [
+            {
+                "question": "How does BuilderTek give owners project visibility without micromanagement?",
+                "answer": "BuilderTek provides real-time dashboards and reports so owners can monitor progress, costs, and risks without daily oversight."
+            },
+            {
+                "question": "Can BuilderTek support portfolio-level reporting across multiple projects?",
+                "answer": "Yes. Owners can view financials, schedules, and performance across all projects in one place."
+            },
+            {
+                "question": "Does BuilderTek improve approval workflows for owners?",
+                "answer": "Yes. Structured approval workflows help owners review and approve contracts, changes, and budgets faster."
+            },
+            {
+                "question": "How does BuilderTek help reduce risk for developers?",
+                "answer": "With audit-ready records, real-time cost visibility, and clear documentation, BuilderTek reduces financial and operational risk."
+            },
+            {
+                "question": "Is BuilderTek suitable for large-scale commercial and mixed-use developments?",
+                "answer": "Absolutely. BuilderTek is built to handle complex, multi-phase developments with enterprise-level control."
+            }
+        ]
+    }
+}

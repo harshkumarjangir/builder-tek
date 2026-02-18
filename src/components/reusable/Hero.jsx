@@ -1,9 +1,10 @@
 import { motion } from 'motion/react'
 import Text from './Text'
+import { Link } from 'react-router-dom'
 
-const Hero = ({ hero, badge = false, person = false }) => {
+const Hero = ({ hero, badge = false, person = false ,status=false }) => {
   return (
-    <section className="hero-section">
+    <section className="hero-section " style={{minHeight:"100vh"}}>
 
       {/* Background Image */}
       <motion.img
@@ -11,7 +12,7 @@ const Hero = ({ hero, badge = false, person = false }) => {
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
         src={hero.backgroundImage}
-        style={{transform:"rotateY(180deg)"}}
+        style={{ transform: "rotateY(180deg)" }}
         alt="Hero Background"
         className="absolute inset-0 img-cover"
       />
@@ -90,6 +91,14 @@ const Hero = ({ hero, badge = false, person = false }) => {
           >
             {hero.description}
           </Text>
+         {status&& <div className="my-8 mb-16">
+            <Link
+              to={"/schedule-demo"}
+              className="inline-flex items-center justify-center text-xl px-8 py-3 rounded-2xl font-semibold  text-white bg-gradient-to-r from-[#3785FF] to-[#1146F2] border border-[#1146F2] shadow-[0_6px_16px_rgba(0,0,0,0.2),0_0_0_1px_#155BC9]  hover:opacity-90 transition"
+            >
+              Schedule a Demo
+            </Link>
+          </div>}
         </motion.div>
 
         {/* Floating Badge */}

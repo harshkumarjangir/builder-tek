@@ -30,7 +30,7 @@
         {
             "label": "Who We Serve",
             "path": "/who-we-serve",
-            "dropdown": false,
+            "dropdown": true,
             "items": [
                 {
                     "label": "General Contractors",
@@ -39,13 +39,24 @@
                 {
                     "label": "Residential Builders",
                     "path": "/serve/residential-builders"
+                },
+                {
+                    "label": "Remodelers",
+                    "path": "/serve/remodelers"
+                },
+                {
+                    "label": "Specialty Contractors",
+                    "path": "/serve/specialty-contractors"
+                },{
+                    "label": "Developers",
+                    "path": "/serve/developers"
                 }
             ]
         },
         {
             "label": "Services",
             "path": "/services",
-            "dropdown": false,
+            "dropdown": true,
             "items": [
                 {
                     "label": "Finance",
@@ -54,6 +65,15 @@
                 {
                     "label": "Construction",
                     "path": "/services/construction"
+                },{
+                    "label":"CRM Management",
+                    "path":"/services/crm-management"
+                },{
+                    "label":"Realty Management",
+                    "path":"/services/realty-management"
+                },{
+                    "label":"Resource Management",
+                    "path":"/services/resource-management"
                 }
             ]
         },

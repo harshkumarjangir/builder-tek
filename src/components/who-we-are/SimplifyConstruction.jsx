@@ -108,7 +108,7 @@ const SimplifyConstruction = ({ data }) => {
                                 animate={{ opacity: 1, x: 0 }}
                                 exit={{ opacity: 0, x: -30 }}
                             >
-                                <h3 className="text-3xl lg:text-5xl font-bold text-nowrap leading-[1.2] mb-4">
+                                <h3 className="text-3xl lg:text-5xl font-bold text-wrap leading-[1.2] mb-4">
                                     {tab.title}
                                     <br />
                                     {tab.title2}
