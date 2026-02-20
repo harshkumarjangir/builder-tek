@@ -3,6 +3,9 @@ import footerData from './data/footerData.json'
 import solutionDataOne from './data/solutions-one.json'
 import solutionDataTwo from './data/solutions-two.json'
 import Solutions from './pages/Solutions'
+import RequestForQuote from './data/RequestForQuote.json'
+import Budgets from './data/Budgets.json'
+import Schedule  from './data/Schedule.json'
 import Home from './pages/Home'
 import Navbar from './components/common/Navbar'
 import Footer from './components/common/Footer'
@@ -34,6 +37,11 @@ const App = () => {
           <Route path='/' element={<Home />} />
           <Route path='/solutions/rfq' element={<Solutions solutionData={solutionDataOne} />} />
           <Route path='/solutions/quote' element={<Solutions solutionData={solutionDataTwo} />} />
+                    <Route path='/solutions/request' element={<Solutions solutionData={RequestForQuote} />} />
+                    
+                    <Route path='/solutions/budgets' element={<Solutions solutionData={Budgets} />} />
+                    
+                    <Route path='/solutions/schedule' element={<Solutions solutionData={Schedule} />} />
           <Route path='/services/finance' element={<FinancialManagement />} />
           <Route path='/services/construction' element={<ConstructionManagement />} />
              <Route path='/services/crm-management' element={<CRMManagement />} />

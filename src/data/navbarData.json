@@ -24,6 +24,17 @@
                 {
                     "label": "Solutions Quote",
                     "path": "/solutions/quote"
+                },
+                {
+                    "label":"Contracts",
+                    "path":"/solutions/request"
+                },{
+                    "label":"Budgets",
+                    "path":"/solutions/budgets"
+                },
+                {
+                    "label":"Schedule",
+                    "path":"/solutions/schedule"
                 }
             ]
         },
