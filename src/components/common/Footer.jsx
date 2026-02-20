@@ -45,7 +45,7 @@ export default function Footer() {
 
     {/* NEWSLETTER */}
   <div>
-      <div className="w-[300px]">
+      <div className="sm:w-[300px]">
       <div className="bg-[#F4F4F4] rounded-2xl p-8 h-full flex flex-col justify-between">
         <div>
           <h4 className="text-lg  text-center lg:text-xl font-semibold mb-2">

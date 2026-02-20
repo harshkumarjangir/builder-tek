@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const Hero = ({ hero, badge = false, person = false ,status=false }) => {
   return (
-    <section className="hero-section " style={{minHeight:"100vh"}}>
+    <section className="hero-section pt-[15vw] sm:pt-0 " style={{minHeight:"100vh !important"}}>
 
       {/* Background Image */}
       <motion.img

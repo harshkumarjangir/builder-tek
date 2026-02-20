@@ -217,7 +217,7 @@ body {
   }
 
   .hero-section {
-    @apply relative w-full h-[520px] lg:h-[709px] px-5 md:px-[80px] overflow-hidden;
+    @apply relative w-full lg:h-[709px] px-5 md:px-[80px] overflow-hidden;
   }
 
   .hero-overlay {
