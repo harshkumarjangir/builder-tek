@@ -15,7 +15,7 @@ const ServiceFeature = ({ data }) => {
                         </span>}
 
                         {/* Title */}
-                        <h2 className="text-4xl lg:text-[54px] font-normal leading-tight mb-6">
+                        <h2 className="text-3xl lg:text-[54px] font-normal leading-tight mb-6">
                             {data.title}
                         </h2>
 

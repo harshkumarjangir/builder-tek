@@ -1,8 +1,40 @@
+import { Link } from "react-router-dom";
 import footerData from "../../data/footerData.json";
+import navbarData from "../../data/navbarData.json";
 import { Mail } from "lucide-react";
 
 export default function Footer() {
   const { brand, links, newsletter, bottom } = footerData;
+
+  const findPath = (label) => {
+    // Exact match in top level menu
+    const topMatch = navbarData.menu.find(m => m.label === label);
+    if (topMatch?.path) return topMatch.path;
+
+    // Search in dropdown items
+    for (const menu of navbarData.menu) {
+      if (menu.items) {
+        const subMatch = menu.items.find(item => 
+          item.label.toLowerCase() === label.toLowerCase() ||
+          item.label.toLowerCase().includes(label.toLowerCase()) ||
+          label.toLowerCase().includes(item.label.toLowerCase())
+        );
+        if (subMatch?.path) return subMatch.path;
+      }
+    }
+    
+    // Fallbacks for specific footer labels
+    if (label === "Blog") return "/blogs";
+    if (label === "Home") return "/";
+    if (label === "About Us") return "/about";
+    if (label === "Solutions") return "/solutions/rfq"; // Default solution
+    
+    return "#";
+  };
+
+  const quickLinksMapped = links.quickLinks.map(l => ({ label: l, path: findPath(l) }));
+  const whoWeServeMapped = links.whoWeServe.map(l => ({ label: l, path: findPath(l) }));
+  const servicesMapped = links.services.map(l => ({ label: l, path: findPath(l) }));
 
   return (
     <footer className="bg-white  card-padding shadow-sm">
@@ -28,15 +60,15 @@ export default function Footer() {
 {/* <div className="flex flex-[2] gap-20"> */}
 
   <div>
-    <FooterColumn title="Quick Link" items={links.quickLinks} />
+    <FooterColumn title="Quick Link" items={quickLinksMapped} />
   </div>
 
   <div>
-    <FooterColumn title="Who We Serve" items={links.whoWeServe} />
+    <FooterColumn title="Who We Serve" items={whoWeServeMapped} />
   </div>
 
   <div >
-    <FooterColumn title="Services" items={links.services} />
+    <FooterColumn title="Services" items={servicesMapped} />
   </div>
 
 {/* </div> */}
@@ -103,11 +135,13 @@ function FooterColumn({ title, items }) {
 
       <ul className="space-y-3 text-sm text-gray-600">
         {items.map((item, i) => (
-          <li
-            key={i}
-            className="hover:text-blue-600 cursor-pointer transition-colors"
-          >
-            {item}
+          <li key={i}>
+            <Link
+              to={item.path}
+              className="hover:text-blue-600 cursor-pointer transition-colors block"
+            >
+              {item.label}
+            </Link>
           </li>
         ))}
       </ul>

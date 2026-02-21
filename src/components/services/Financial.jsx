@@ -12,7 +12,7 @@ export const FinancialCom = ({ data }) => {
                     </div>
 
                     {/* Right Column - Steps List */}
-                    <div className="lg:col-span-7 flex flex-col gap-6 pl-0 lg:pl-12">
+                    <div className="lg:col-span-7 card-padding flex flex-col gap-6 pl-0 lg:pl-12">
                         {data.features.map((feature, index) => {
                             const stepNumber = String(index + 1).padStart(2, '0');
                             return (

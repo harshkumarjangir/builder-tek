@@ -31,7 +31,7 @@ const ResourceManagement = () => {
                     viewport={{ once: true }}
                     className=""
                 >
-                    <div className="w-[85%] mx-auto mt-14 md:mt-20">
+                    <div className="sm:w-[85%] card-padding mx-auto mt-14 md:mt-20">
                         <TwoColumnHeader
                             title={section.title}
                             subtitle={section.subtitle}
@@ -40,7 +40,7 @@ const ResourceManagement = () => {
                         <div className="pb-16 bg-white">
                             <div className="">
 
-                                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-16 gap-y-20">
+                                <div className="grid grid-cols-1 card-padding md:grid-cols-2 lg:grid-cols-3 gap-x-16 gap-y-20">
 
                                     {whyChoose.features.map((feature, index) => (
                                         <motion.div
@@ -99,7 +99,7 @@ const ResourceManagement = () => {
                             whileInView={{ opacity: 1 }}
                             transition={{ duration: 0.8, staggerChildren: 0.2 }}
                             viewport={{ once: true }}
-                            className="grid relative grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10"
+                            className="grid relative  card-padding grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10"
                         >
                             {sharperFinancial.cards.map((card, index) => (
                                 <motion.div
