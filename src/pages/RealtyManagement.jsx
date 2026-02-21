@@ -14,12 +14,12 @@ import FaqSection from '../components/reusable/FaqSection';
 
 
 const RealtyManagement = () => {
-    const { hero, whyChoose, sharperFinancial, financialControl,build ,Financial,bringStructure} = CRMManagementData
+    const { hero, whyChoose, sharperFinancial, financialControl, build, Financial, bringStructure } = CRMManagementData
     const { section } = whyChoose
     return (
         <PageTransition>
             <div className=''>
-                <SolutionsHero hero={hero}  badge={false} />
+                <SolutionsHero hero={hero} badge={false} />
 
                 <ServiceFeature data={financialControl} />
 
@@ -98,7 +98,7 @@ const RealtyManagement = () => {
                             whileInView={{ opacity: 1 }}
                             transition={{ duration: 0.8, staggerChildren: 0.2 }}
                             viewport={{ once: true }}
-                            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10"
+                            className="grid grid-cols-1 relative   md:grid-cols-2 lg:grid-cols-3 gap-10"
                         >
                             {sharperFinancial.cards.map((card, index) => (
                                 <motion.div
@@ -107,34 +107,36 @@ const RealtyManagement = () => {
                                     whileInView={{ opacity: 1, y: 0 }}
                                     transition={{ duration: 0.6, delay: index * 0.2 }}
                                     viewport={{ once: true }}
-                                    className='w-full h-full card-base card-padding   border border-[#A0B5FA]'
+                                    className='w-full h-full z-10  card-base card-padding   border border-[#A0B5FA]'
                                 >
                                     <IconCard card={card} />
                                 </motion.div>
                             ))}
+                            <div className='absolute bluesh'></div>
+
                         </motion.div>
                     </div>
                 </motion.section>
-                <Build data={build}/>
-                <FinancialCom data={Financial}/>
-                 <motion.div
-                initial={{ opacity: 0, y: 50 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8 }}
-                viewport={{ once: true }}
-            >
-                <CenteredCtaSection data={bringStructure.section} />
-                {
-                                    CRMManagementData.faq&& <motion.div
-                                initial={{ opacity: 0, y: 50 }}
-                                whileInView={{ opacity: 1, y: 0 }}
-                                transition={{ duration: 0.8 }}
-                                viewport={{ once: true }}
-                            >
-                                <FaqSection data={CRMManagementData.faq} />
-                            </motion.div>
-                                }
-            </motion.div>
+                <Build data={build} />
+                <FinancialCom data={Financial} />
+                <motion.div
+                    initial={{ opacity: 0, y: 50 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.8 }}
+                    viewport={{ once: true }}
+                >
+                    <CenteredCtaSection data={bringStructure.section} />
+                    {
+                        CRMManagementData.faq && <motion.div
+                            initial={{ opacity: 0, y: 50 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.8 }}
+                            viewport={{ once: true }}
+                        >
+                            <FaqSection data={CRMManagementData.faq} />
+                        </motion.div>
+                    }
+                </motion.div>
             </div>
         </PageTransition>
     );

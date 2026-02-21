@@ -144,7 +144,9 @@
             "cta": {
                 "label": "Schedule a Demo",
                 "link": "/schedule-demo"
-            }
+            },
+            "image": "/assets/solutions/bring-structure-one/image.png"
+       
         }
     },
     "faq": {

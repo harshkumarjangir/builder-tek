@@ -9,6 +9,14 @@ html {
 body {
   font-family: "Inter", sans-serif;
 }
+.bluesh {
+    box-shadow: 1px -1px 215px 150px #BDD7FF;
+    width: 431px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+}
 
 
 @layer base {

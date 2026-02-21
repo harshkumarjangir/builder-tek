@@ -7,11 +7,11 @@ export default function Footer() {
   return (
     <footer className="bg-white shadow-sm">
       {/* TOP SECTION */}
-      <div className="w-[85%] mx-auto  py-16">
+      <div className="w-[90%] mx-auto  py-16">
   <div className="flex flex-wrap justify-between lg:flex-nowrap gap-10">
 
     {/* BRAND */}
-    <div >
+    <div className="w-[280px]" >
       <img src={brand.logo} alt="BuilderTek" className="h-10 mb-4" />
       <p className="text-sm text-gray-600 mb-4 max-w-sm">
         {brand.description}
@@ -45,7 +45,7 @@ export default function Footer() {
 
     {/* NEWSLETTER */}
   <div>
-      <div className="sm:w-[300px]">
+      <div className="sm:w-[400px]">
       <div className="bg-[#F4F4F4] rounded-2xl p-8 h-full flex flex-col justify-between">
         <div>
           <h4 className="text-lg  text-center lg:text-xl font-semibold mb-2">
@@ -83,7 +83,7 @@ export default function Footer() {
 
           <div className="flex gap-6">
             {bottom.legal.map((item, i) => (
-              <a key={i} href="#" className="hover:text-blue-600">
+              <a key={i} href="#" className={`hover:text-blue-600 ${i == 1 ? ' border-l border-r px-3 border-gray-300 ' : ''}`}>
                 {item}
               </a>
             ))}

@@ -4,15 +4,15 @@ const ServiceFeature = ({ data }) => {
     return (
         <section className="py-24 bg-white">
             <div className="w-[85%] mx-auto px-6">
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
 
                     {/* LEFT CONTENT */}
                     <div className="max-w-xl">
                         {/* Badge */}
-                        <span className="inline-block mb-6 px-4 py-1.5 rounded-md text-sm font-medium
+                 {data.badge &&                        <span className="inline-block mb-6 px-4 py-1.5 rounded-md text-sm font-medium
               bg-blue-50 text-blue-600">
                             {data.badge}
-                        </span>
+                        </span>}
 
                         {/* Title */}
                         <h2 className="text-4xl lg:text-[54px] font-normal leading-tight mb-6">

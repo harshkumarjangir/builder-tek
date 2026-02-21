@@ -96,7 +96,7 @@ const FinancialManagement = () => {
                             whileInView={{ opacity: 1 }}
                             transition={{ duration: 0.8, staggerChildren: 0.2 }}
                             viewport={{ once: true }}
-                            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10"
+                            className="grid grid-cols-1 z-10 relative md:grid-cols-2 lg:grid-cols-3 gap-10"
                         >
                             {sharperFinancial.cards.map((card, index) => (
                                 <motion.div
@@ -110,6 +110,8 @@ const FinancialManagement = () => {
                                     <IconCard card={card} />
                                 </motion.div>
                             ))}
+                             <div className='absolute bluesh'></div>
+                     
                         </motion.div>
                     </div>
                 </motion.section>

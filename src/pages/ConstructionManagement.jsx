@@ -98,7 +98,7 @@ const ConstructionManagement = () => {
                             whileInView={{ opacity: 1 }}
                             transition={{ duration: 0.8, staggerChildren: 0.2 }}
                             viewport={{ once: true }}
-                            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10"
+                            className="grid grid-cols-1 relative  md:grid-cols-2 lg:grid-cols-3 gap-10"
                         >
                             {sharperFinancial.cards.map((card, index) => (
                                 <motion.div
@@ -107,11 +107,15 @@ const ConstructionManagement = () => {
                                     whileInView={{ opacity: 1, y: 0 }}
                                     transition={{ duration: 0.6, delay: index * 0.2 }}
                                     viewport={{ once: true }}
-                                    className='w-full h-full card-base card-padding   border border-[#A0B5FA]'
+                                    className='w-full h-full z-10 card-base card-padding   border border-[#A0B5FA]'
                                 >
                                     <IconCard card={card} />
                                 </motion.div>
                             ))}
+                            <div className='absolute bluesh'></div>
+                     
+                             
+                     
                         </motion.div>
                     </div>
                 </motion.section>

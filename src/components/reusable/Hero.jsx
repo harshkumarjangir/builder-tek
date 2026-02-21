@@ -33,7 +33,7 @@ const Hero = ({ hero, badge = false, person = false ,status=false }) => {
           transition={{ duration: 1, delay: 0.3 }}
           src={hero.backgroundImage2}
           alt="Hero Background"
-          className="absolute right-0 bottom-0 img-contain pointer-events-none"
+          className="absolute md:w-[50%] right-0 bottom-0 img-contain pointer-events-none"
         />
       }
 
@@ -108,7 +108,7 @@ const Hero = ({ hero, badge = false, person = false ,status=false }) => {
             animate={{ opacity: 1, x: 0, scale: 1 }}
             transition={{ duration: 0.8, delay: 1.1 }}
             whileHover={{ scale: 1.05 }}
-            className="hidden lg:block absolute right-12 top-32 bg-white shadow-xl rounded-lg px-6 py-4 max-w-[360px]"
+            className="hidden lg:block absolute -right-5 top-32 bg-white shadow-xl rounded-lg px-6 py-4 max-w-[360px]"
           >
             <Text
               variant="body"

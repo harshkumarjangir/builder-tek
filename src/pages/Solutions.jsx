@@ -93,7 +93,7 @@ const Solutions = ({ solutionData }) => {
                             whileInView={{ opacity: 1 }}
                             transition={{ duration: 0.8, staggerChildren: 0.2 }}
                             viewport={{ once: true }}
-                            className="grid-3"
+                            className="grid-3 relative"
                         >
                             {makeSmarter.cards.map((card, index) => (
                                 <motion.div
@@ -102,10 +102,13 @@ const Solutions = ({ solutionData }) => {
                                     whileInView={{ opacity: 1, y: 0 }}
                                     transition={{ duration: 0.6, delay: index * 0.2 }}
                                     viewport={{ once: true }}
+                                    className='w-full z-10 h-full card-base card-padding   border border-[#A0B5FA]'
                                 >
                                     <IconCard card={card} />
                                 </motion.div>
                             ))}
+                            <div className='absolute bluesh'></div>
+                     
                         </motion.div>
                     </div>
                 </motion.section>
