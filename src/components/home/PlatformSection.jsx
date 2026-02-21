@@ -8,7 +8,7 @@ const PlatformSection = ({ data }) => {
 
     return (
         <section className="py-24 bg-white">
-            <div className="w-[85%] mx-auto px-6">
+            <div className="sm:w-[85%] mx-auto px-6">
 
                 {/* Top Heading */}
                 <div className="grid md:grid-cols-2 gap-10 mb-16">
