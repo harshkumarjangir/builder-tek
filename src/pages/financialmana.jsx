@@ -29,13 +29,13 @@ const FinancialManagement = () => {
                     viewport={{ once: true }}
                     className=""
                 >
-                    <div className="w-[85%] mx-auto mt-14 md:mt-20">
+                    <div className="sm:w-[85%] card-padding mx-auto mt-14 md:mt-20">
                         <TwoColumnHeader
                             title={section.title}
                             subtitle={section.subtitle}
                         />
 
-                        <div className="pb-16 bg-white">
+                        <div className="pb-16 card-padding bg-white">
                             <div className="">
 
                                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-16 gap-y-20">
@@ -85,7 +85,7 @@ const FinancialManagement = () => {
                     viewport={{ once: true }}
                     className="section-bg-white "
                 >
-                    <div className="container-main">
+                    <div className="container-main  ">
                         <SimpleHeader
                             title={sharperFinancial.section.title}
                             description={sharperFinancial.section.description}
@@ -96,7 +96,7 @@ const FinancialManagement = () => {
                             whileInView={{ opacity: 1 }}
                             transition={{ duration: 0.8, staggerChildren: 0.2 }}
                             viewport={{ once: true }}
-                            className="grid grid-cols-1  relative md:grid-cols-2 lg:grid-cols-3 gap-10"
+                            className="grid grid-cols-1 card-padding  relative md:grid-cols-2 lg:grid-cols-3 gap-10"
                         >
                             {sharperFinancial.cards.map((card, index) => (
                                 <motion.div

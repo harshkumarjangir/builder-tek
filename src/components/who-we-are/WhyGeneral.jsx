@@ -5,12 +5,12 @@ const WhyGeneral = ({ data }) => {
 
     return (
         <section className="py-24 bg-gradient-to-b from-[#E7EFFF] to-[#FFFFFF]">
-            <div className="w-[85%] mx-auto px-6">
+            <div className="sm:w-[85%] mx-auto px-8 sm:px-6">
 
                 {/* Heading */}
                 <div className="text-center max-w-4xl mx-auto mb-16">
                     <motion.h2
-                        className="text-4xl md:text-[54px] font-normal mb-6"
+                        className="text-3xl md:text-[54px] font-normal mb-6"
                         initial={{ opacity: 0, y: 30 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
@@ -32,7 +32,7 @@ const WhyGeneral = ({ data }) => {
 
                 {/* Bottom Content */}
                 <motion.div
-                    className="grid md:grid-cols-2 gap-16 items-center"
+                    className="grid md:grid-cols-2 gap-16  card-padding items-center"
                     initial={{ opacity: 0, y: 40 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}

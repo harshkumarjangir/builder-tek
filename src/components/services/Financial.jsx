@@ -3,9 +3,9 @@ export const FinancialCom = ({ data }) => {
         
         <section style={{background: 'linear-gradient(180deg, #E7EFFF 0%, #FFFFFF 100%)'}} className=" py-16 lg:py-24">
             <div className="container-main mx-auto px-4">
-                <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-start">
+                <div className="grid grid-cols-1 lg:grid-cols-12 sm:gap-12  lg:gap-8 items-start">
                     {/* Left Column - Title */}
-                    <div className="lg:col-span-5 lg:sticky lg:top-32">
+                    <div className="lg:col-span-5 card-padding lg:sticky lg:top-32">
                         <h2 className="text-3xl lg:text-[48px] font-normal leading-tight text-gray-900 mb-6">
                             {data.title}
                         </h2>

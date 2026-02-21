@@ -9,7 +9,7 @@ const IndustriesSection = ({ data }) => {
 
     return (
         <section className="py-24 bg-white">
-            <div className="w-[85%] mx-auto px-6">
+            <div className="sm:w-[85%] mx-auto px-6">
 
                 {/* Heading */}
                 <div className="text-center max-w-4xl mx-auto mb-14">

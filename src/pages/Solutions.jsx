@@ -26,7 +26,7 @@ const Solutions = ({ solutionData }) => {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8 }}
                     viewport={{ once: true }}
-                    className="section-bg-white w-[85%] mx-auto"
+                    className="section-bg-white sm:w-[85%] mx-auto"
                 >
                     <div className="sub-container">
                         <CenteredTitle
@@ -93,7 +93,7 @@ const Solutions = ({ solutionData }) => {
                             whileInView={{ opacity: 1 }}
                             transition={{ duration: 0.8, staggerChildren: 0.2 }}
                             viewport={{ once: true }}
-                            className="grid-3 relative"
+                            className="grid-3 card-padding relative"
                         >
                             {makeSmarter.cards.map((card, index) => (
                                 <motion.div

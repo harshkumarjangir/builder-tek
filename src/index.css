@@ -86,7 +86,7 @@ body {
 
   /* Container utilities */
   .container-main {
-    @apply w-[85%] mx-auto px-6;
+    @apply sm:w-[85%] mx-auto px-6;
   }
 
   .container-content {
@@ -94,7 +94,7 @@ body {
   }
 
   .container-title {
-    @apply max-w-5xl mx-auto px-6;
+    @apply max-w-5xl mx-auto sm:px-6;
   }
 
   .container-narrow {
@@ -216,7 +216,7 @@ body {
 
   /* Tag/Badge utilities */
   .tag-primary {
-    @apply text-[14px] font-medium tracking-wider text-[#126DFB] uppercase bg-[#EBF0F9] p-2;
+    @apply text-[14px] font-medium tracking-wider text-[#126DFB] uppercase bg-[#d1def5] p-2;
   }
 
   /* Layout utilities */

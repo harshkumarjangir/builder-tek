@@ -24,7 +24,7 @@ const ImageTextCard = ({ feature, index = 0 }) => {
                     transition={{ duration: 0.6, delay: index * 0.1 + 0.2 }}
                     viewport={{ once: true }}
                 >
-                    <motion.span
+                 {feature.tag &&   <motion.span
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5, delay: index * 0.1 + 0.3 }}
@@ -32,7 +32,7 @@ const ImageTextCard = ({ feature, index = 0 }) => {
                         className="tag-primary"
                     >
                         {feature.tag}
-                    </motion.span>
+                    </motion.span>}
 
                     <Text
                         variant="h3"

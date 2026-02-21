@@ -5,7 +5,7 @@ export default function Footer() {
   const { brand, links, newsletter, bottom } = footerData;
 
   return (
-    <footer className="bg-white shadow-sm">
+    <footer className="bg-white  card-padding shadow-sm">
       {/* TOP SECTION */}
       <div className="w-[90%] mx-auto  py-16">
   <div className="flex flex-wrap justify-between lg:flex-nowrap gap-10">

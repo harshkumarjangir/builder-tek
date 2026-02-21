@@ -8,7 +8,7 @@ const FaqSection = ({ data }) => {
     }
 
     return (
-        <section className="bg-white py-24">
+        <section className="bg-white py-24 card-padding">
             <div className="max-w-4xl mx-auto px-6">
 
                 {/* Heading */}

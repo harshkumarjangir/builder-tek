@@ -6,8 +6,8 @@ const SimplifyConstruction = ({ data }) => {
     const tab = data.tabs[active];
 
     return (
-        <section className="py-24 bg-white">
-            <div className="w-[85%] mx-auto px-6">
+        <section className="py-24  bg-white">
+            <div className="sm:w-[85%]  mx-auto px-6">
 
                 {/* Heading */}
                 <div className="text-center max-w-4xl mx-auto mb-14">
@@ -80,12 +80,12 @@ const SimplifyConstruction = ({ data }) => {
 
                 {/* Content */}
                 <motion.div
-                    className="rounded-3xl bg-[#FAFAFA] border border-[#DCDBD6] shadow-md shadow-[#CFDDFC99] p-10"
+                    className="rounded-3xl  bg-[#FAFAFA] border border-[#DCDBD6] shadow-md shadow-[#CFDDFC99] p-10"
                     initial={{ opacity: 0, y: 40 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                 >
-                    <div className="grid md:grid-cols-2 gap-12 items-center">
+                    <div className="grid  md:grid-cols-2 gap-12 items-center">
 
                         {/* Image Left */}
                         <AnimatePresence mode="wait">

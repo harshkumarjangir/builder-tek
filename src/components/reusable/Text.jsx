@@ -26,7 +26,7 @@ const Text = ({
     'body-lg': 'text-lg md:text-xl leading-7 font-normal',
     'body-lg-left': 'text-baase md:text-lg leading-7 font-normal text-left',
     'body-sm': 'text-sm leading-relaxed',
-    'body-base': 'text-sm md:text-base lg:text-lg leading-relaxed',
+    'body-base': ' md:text-base lg:text-lg leading-relaxed',
 
     // Special variants
     subtitle: 'text-blue-600 font-semibold text-sm uppercase tracking-wide',

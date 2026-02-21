@@ -29,7 +29,7 @@ const Remodelers = () => {
                 viewport={{ once: true }}
                 className=""
             >
-                <div className="w-[85%] mx-auto">
+                <div className="w-[85%]  card-padding mx-auto">
                     <TwoColumnHeader
                         title={section.title}
                         subtitle={section.subtitle}

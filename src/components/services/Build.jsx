@@ -9,7 +9,7 @@ export const Build = ({ data }) => {
                 {data.title}
             </h2>
 
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-start">
+            <div className="grid card-padding grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-start">
                 {/* Left Column - Features List */}
                 <div className="flex flex-col space-y-4">
                     {data.features.map((feature, index) => (

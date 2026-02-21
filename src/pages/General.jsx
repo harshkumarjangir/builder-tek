@@ -29,7 +29,7 @@ const General = () => {
                 viewport={{ once: true }}
                 className=""
             >
-                <div className="w-[85%] mx-auto">
+                <div className="w-[85%]  card-padding mx-auto">
                     <TwoColumnHeader
                         title={section.title}
                         subtitle={section.subtitle}
@@ -54,7 +54,7 @@ const General = () => {
                             </motion.div>
                         ))}
                     </motion.div> */}
-                    <div className="pb-16 bg-white">
+                    <div className="pb-16   bg-white">
                         <div className="">
 
                             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-16 gap-y-20">
@@ -66,7 +66,7 @@ const General = () => {
                                         whileInView={{ opacity: 1, y: 0 }}
                                         transition={{ duration: 0.6, delay: index * 0.1 }}
                                         viewport={{ once: true }}
-                                        className="max-w-sm"
+                                        className="max-w-sm  "
                                     >
                                         {/* Icon */}
                                         <div className="w-14 h-14 mb-6 rounded-xl flex items-center justify-center">
