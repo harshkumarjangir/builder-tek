@@ -136,7 +136,7 @@ const IndustriesSection = ({ data }) => {
                                 </motion.ul>
 
                                 <motion.button
-                                    className="px-10 py-3 bg-[#126DFB] text-white text-xl font-medium rounded-2xl hover:bg-blue-700 transition-colors cursor-pointer"
+                                    className="inline-flex items-center justify-center text-base sm:text-lg lg:text-xl px-6 sm:px-8 py-3 rounded-2xl font-bold  text-white bg-gradient-to-r from-[#3785FF] to-[#1146F2] border border-[#1146F2] shadow-[0_6px_16px_rgba(0,0,0,0.2),0_0_0_1px_#155BC9] hover:opacity-90 hover:scale-105 hover:from-[#1146F2] to-[#3785FF] hover:shadow-2xl transition-all duration-300"
                                     initial={{ opacity: 0, y: 20 }}
                                     animate={{ opacity: 1, y: 0 }}
                                     transition={{ duration: 0.5, delay: 0.8 }}
