@@ -1,7 +1,7 @@
 {
   "hero": {
-    "title": "Construction software built ",
-    "subtitle": "natively on",
+    "title": "Construction Software Built ",
+    "subtitle": "Natively On ",
     "highlight": "Salesforce",
     "description": "BuilderTek Construction keeps your team on task and on target with intuitive systems to organize, manage, mature, and enhance your business processes.",
     "backgroundImage": "/assets/home/hero/home_banner.jpg",
@@ -15,7 +15,7 @@
     "imageAlt": "BuilderTek construction dashboard preview"
   },
   "trustedLogos": {
-    "title": "Trusted by construction leaders across North America",
+    "title": "Powering Construction Success as a Trusted Salesforce ISV Partner",
     "logos": [
       "/assets/home/trusted-slider/image-14.png",
       "/assets/home/trusted-slider/image-16.png",
@@ -64,7 +64,7 @@
       {
         "name": "Commercial Contractors",
         "tag": "COMMERCIAL CONTRACTORS",
-        "title": "Manage complex, large-scale projects",
+        "title": "Manage Complex, Large-Scale Projects",
         "subtitle": "with precision and complete cost control.",
         "points": [
           "Manage complex projects at scale",
@@ -76,7 +76,7 @@
       {
         "name": "Home Builders & Residential Contractors",
         "tag": "HOME BUILDERS",
-        "title": "Streamline residential project workflows",
+        "title": "Streamline Residential Project Workflows",
         "subtitle": "from planning to delivery.",
         "points": [
           "Track builds efficiently",
@@ -88,7 +88,7 @@
       {
         "name": "Specialty Contractors",
         "tag": "SPECIALTY CONTRACTORS",
-        "title": "Optimize specialized trade operations",
+        "title": "Optimize Specialized Trade Operations",
         "subtitle": "with centralized management.",
         "points": [
           "Track subcontractors",
@@ -100,7 +100,7 @@
       {
         "name": "Real Estate & Property Developers",
         "tag": "REAL ESTATE DEVELOPERS",
-        "title": "Manage property development lifecycle",
+        "title": "Manage Property Development Lifecycle",
         "subtitle": "from acquisition to delivery.",
         "points": [
           "Portfolio tracking",
@@ -112,16 +112,16 @@
     ]
   },
   "connectedOperations": {
-    "title": "Connected operations on Salesforce",
+    "title": "Connected Construction Operations On Salesforce-Powered Platform",
     "description": "BuilderTek, a trusted ISV Salesforce partner for 8 years, brings your field, office, and financial teams onto a unified, Salesforce-powered system.",
     "items": [
       {
-        "title": "Construction management",
+        "title": "Construction Management",
         "desc": "From scheduling, to inspections, bidding, tracking, documents, and warranty, organize all construction projects with a single app.",
         "image": "/assets/home/connected-operations/image-one.png"
       },
       {
-        "title": "Financial management",
+        "title": "Financial Management",
         "desc": "All account management tools in one CRM. Monitor budgets, track purchase orders, change orders, manage inventory, expenses, and much more. ",
         "image": "/assets/home/connected-operations/image-two.png"
       },
@@ -143,7 +143,7 @@
     ]
   },
   "featuresSection": {
-    "title": "Smart Features to Elevate\nConstruction Workflow",
+    "title": "Smart Features To Elevate\nConstruction Workflow",
     "description": "Every tool is built for accuracy, real-time updates, and seamless collaboration across your construction team.",
     "rightSideImage": "/assets/home/features-section/right image.png",
     "features": [
@@ -202,9 +202,9 @@
   },
   "bringStructure": {
     "section": {
-      "title": "Ready To Build Smarter With",
-      "highlight": "Salesforce-Powered",
-      "title2": "Construction Software?",
+      "title": "Build Smarter With  ",
+      "highlight": "Salesforce-Powered ",
+      "title2": "Construction Software",
       "description": "Get a deep insight to see how BuilderTek helps your team deliver faster, stay organized, and take full control of every project.",
       "cta": {
         "label": "Schedule a Demo",
