@@ -96,12 +96,12 @@
         "title2": "Choose BuilderTek",
         "description": "Built on Salesforce for reliability, scale, and long-term growth",
         "content": {
-            "headline": "BuilderTek is a true ",
-            "headline2": "Salesforce construction ",
-            "headline3": "platform built for General Contractors.",
+            "headline": "BuilderTek is a purpose-built   ",
+            "headline2": "construction platform engineered  ",
+            "headline3": "for Residential Contractors",
             "tick": "/assets/who-we-are/why-general/tick.png",
             "points": [
-                "A Salesforce-powered platform, BuilderTek residential contractor software offers secure data, real-time reporting, and flexibility as residential operations grow. From small builders to regional firms, BuilderTek supports consistent execution without sacrificing control."
+                "A Salesforce-powered platform, BuilderTek residential contractor software offers secure data, real-time reporting, and flexibility as residential operations grow. ","From small builders to regional firms, BuilderTek supports consistent execution without sacrificing control."
             ],
             "image": "/assets/who-we-are/why-general/why-general.png",
             "badge": ""

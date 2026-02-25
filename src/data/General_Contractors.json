@@ -1,7 +1,7 @@
 
 {
     "hero": {
-        "title": " Transform Complex\n Projects with\n BuilderTek\n Construction \nSoftware",
+        "title": "BuilderTek Construction\n Software for Complex\n Construction Projects",
         "description": "One platform for General Contractors to manage bids, budgets, schedules, and contracts in one connected Salesforce workflow.",
         "backgroundImage2": "/assets/who-we-are/hero/who-we-are-person.png",
         "backgroundImage": "/assets/who-we-are/hero/who-we-are.png"
@@ -56,7 +56,7 @@
     },
     "whyChoose": {
         "section": {
-            "title": "BulderTek General Contractor Software: Built for Control, Clarity, and Scale",
+            "title": "BuilderTek General Contractor Software: Built for Control, Clarity, and Scale",
             "subtitle": "Operational efficiency that protects margins throughout the project timeline. Connect cost, contract, and schedule data to reduce manual effort, improve accuracy, identify risks earlier, and deliver projects on time with stronger margins."
         },
         "features": [
@@ -97,9 +97,9 @@
         "title2": "Choose BuilderTek",
         "description": "More than software; It is an all-around construction operating system!",
         "content": {
-            "headline": "BuilderTek is a true ",
-            "headline2": "Salesforce construction ",
-            "headline3": "platform built for General Contractors.",
+            "headline": "BuilderTek Is A True ",
+            "headline2": "Salesforce Construction ",
+            "headline3": "Platform Built For General Contractors.",
             "tick": "/assets/who-we-are/why-general/tick.png",
             "points": [
                 "BuilderTek is a true Salesforce construction platform with enterprise scalability, real-time reporting, and seamless integrations.",

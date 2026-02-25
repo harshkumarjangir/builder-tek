@@ -1,6 +1,6 @@
 {
     "hero": {
-        "title": "Stay Aligned on\n Every Job with\n BuilderTek",
+        "title": "Stay Aligned on\n Construction Projects\n with BuilderTek",
         "description": "Built for specialty contractors coordinating across multiple projects and schedules.\n\nBuilderTek gives specialty contractors the visibility and structure needed to manage bids, schedules, scope, and billing—without reliance on disconnected emails and spreadsheets.",
         "backgroundImage2": "/assets/who-we-are/hero/who-we-are-person.png",
         "backgroundImage": "/assets/who-we-are/hero/who-we-are.png"
@@ -96,11 +96,11 @@
         "title2": "",
         "description": "Visibility without overcomplication. BuilderTek gives specialty contractors clarity, structure, and professionalism through a Salesforce-native platform.",
         "content": {
-            "headline": "",
-            "headline2": "",
-            "headline3": "",
+            "headline": " BuilderTek Specialty contractor",
+            "headline2": " is a Salesforce-powered ",
+            "headline3": "Platform for Organized Construction",
             "tick": "/assets/who-we-are/why-general/tick.png",
-            "points": [],
+            "points": ["BuilderTek is a Salesforce-powered construction platform delivering structured workflows, real-time visibility, and seamless coordination across every job site.","A future-ready specialty contractor software designed to support operational efficiency, clearer scope management, faster billing cycles, and long-term business growth."],
             "image": "/assets/who-we-are/why-general/why-general.png",
             "badge": ""
         }
