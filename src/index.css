@@ -53,7 +53,7 @@ body {
 
 .hero-title {
   font-family: Inter;
-  font-weight: 400 !important;
+  font-weight: 600 !important;
   /* Semibold instead of bold */
   /* font-size: clamp(1.5rem, 90px, 5rem) !important; */
   font-size: clamp(2.5rem, 8vw, 5rem) !important;
@@ -221,7 +221,7 @@ body {
 
   /* Layout utilities */
   .two-column-header {
-    @apply flex flex-col lg:flex-row justify-between gap-8 mb-16;
+    @apply grid grid-cols-1 md:grid-cols-2 gap-x-16 mb-12 gap-y-20;
   }
 
   .hero-section {
