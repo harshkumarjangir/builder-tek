@@ -44,6 +44,11 @@
                 "title": "Cross-Team Visibility",
                 "description": "Sales, operations, and project teams all work from the same CRM data.",
                 "icon": "/assets/services/financial/financial-five.png"
+            },
+             {
+                "title": " Sales-to-Project Conversion",
+                "description": "Seamlessly convert awarded opportunities into active projects from preconstruction to execution without re-entering data.",
+                "icon": "/assets/services/financial/financial-five.png"
             }
         ]
     },

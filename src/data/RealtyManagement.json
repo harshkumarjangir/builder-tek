@@ -43,6 +43,11 @@
                 "title": "CRM-Connected Relationships",
                 "description": "Keep buyers, sellers, agents, and vendors connected through shared CRM records.",
                 "icon": "/assets/services/financial/financial-five.png"
+            },
+              {
+                "title": " Portfolio & Performance Reporting",
+                "description": "Monitor property status, transaction progress, and financial performance through real-time dashboards.",
+                "icon": "/assets/services/financial/financial-five.png"
             }
         ]
     },

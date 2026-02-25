@@ -46,6 +46,11 @@
                 "title": "Team Collaboration & Communication",
                 "description": "Keep field teams, project managers, and stakeholders aligned with shared access and updates",
                 "icon": "/assets/services/financial/financial-five.png"
+            },
+              {
+                "title": "Risk & Issue Management",
+                "description": "Identify, document, and resolve project risks or field issues quickly with structured tracking, clear ownership, and status visibility.",
+                "icon": "/assets/services/financial/financial-five.png"
             }
         ]
     },
