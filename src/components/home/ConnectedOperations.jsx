@@ -10,7 +10,7 @@ const ConnectedOperations = ({ data }) => {
                 {/* Heading */}
                 <div className="text-center max-w-4xl mx-auto mb-16">
                     <motion.h2
-                        className="text-4xl md:text-[44px] lg:text-[54px] font-normal mb-4 max-w-xl mx-auto"
+                        className="text-4xl md:text-[44px] lg:text-[54px] font-normal mb-4  mx-auto"
                         initial={{ opacity: 0, y: 30 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8 }}

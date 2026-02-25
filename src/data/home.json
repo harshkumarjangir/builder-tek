@@ -58,7 +58,7 @@
     ]
   },
   "industriesSection": {
-    "title": "A Powerful Asset for Modern Construction Teams",
+    "title": "A Powerful Asset For Modern Construction Teams",
     "description": "From large-scale commercial developments to routine renovation projects, BuilderTek serves as a strategic asset for construction teams of every size.",
     "tabs": [
       {
@@ -131,7 +131,7 @@
         "image": "/assets/home/connected-operations/image-three.png"
       },
       {
-        "title": "CRM for Construction",
+        "title": "CRM For Construction",
         "desc": "Build a strong reputation through robust communication across teams and clients, from leads to opportunities to account management.",
         "image": "/assets/home/connected-operations/image-four.png"
       },
@@ -171,7 +171,7 @@
     ]
   },
   "testimonials": {
-    "title": "Trusted by Industry leaders",
+    "title": "Trusted By Industry leaders",
     "quoteImage": "/assets/home/testimonials/quote.png",
     "items": [
       {

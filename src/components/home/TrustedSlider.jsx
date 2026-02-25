@@ -17,9 +17,11 @@ const TrustedSlider = ({ data }) => {
                     transition={{ duration: 0.8 }}
                     viewport={{ once: true }}
                 >
-                    Trusted by{" "}
-                    <span className="font-semibold">construction leaders</span>{" "}
-                    across North America
+                   Powering Construction Success as a 
+
+{" "}
+                    <span className="font-semibold">Trusted Salesforce</span>{" "}
+                     ISV Partner
                 </motion.h3>
 
                 {/* Slider */}
