@@ -1,12 +1,19 @@
+import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Navigation, Pagination } from "swiper/modules";
+import { Autoplay, Navigation } from "swiper/modules";
 
 import "swiper/css";
 import "swiper/css/navigation";
-import "swiper/css/pagination";
+// Removed swiper/css/pagination since we use custom pagination
 
 const TestimonialSlider = ({ data }) => {
     const { title, items, quoteImage } = data.testimonials;
+
+    // Swiper 11+ requires at least slidesPerView * 2 slides for loop mode.
+    // Duplicate the items to ensure there are enough slides for smooth looping.
+    const sliderItems = [...items, ...items, ...items, ...items];
+    const [swiperInstance, setSwiperInstance] = useState(null);
+    const [activeIndex, setActiveIndex] = useState(0);
 
     return (
         <section className="bg-[#F3F7FF] py-20 relative overflow-hidden">
@@ -19,9 +26,10 @@ const TestimonialSlider = ({ data }) => {
 
                 {/* Slider */}
                 <Swiper
-                    modules={[Autoplay, Navigation, Pagination]}
+                    onSwiper={setSwiperInstance}
+                    onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}
+                    modules={[Autoplay, Navigation]}
                     loop={true}
-                    loopedSlides={items.length}       // 🔥 IMPORTANT
                     centeredSlides={true}
                     slidesPerView={"auto"}
                     spaceBetween={40}
@@ -33,13 +41,10 @@ const TestimonialSlider = ({ data }) => {
                         prevEl: ".testimonial-prev",
                         nextEl: ".testimonial-next",
                     }}
-                    pagination={{
-                        clickable: true,
-                    }}
                     watchSlidesProgress={true}
                     className="!overflow-visible"
                 >
-                    {items.map((item, index) => (
+                    {sliderItems.map((item, index) => (
                         <SwiperSlide
                             key={index}
                             className="!w-[360px] md:!w-[760px] lg:!w-[800px]"
@@ -97,6 +102,26 @@ const TestimonialSlider = ({ data }) => {
                 >
                     ›
                 </button>
+
+                {/* Custom Pagination */}
+                <div className="flex justify-center mt-10 gap-3 relative z-10">
+                    {items.map((_, index) => {
+                        const isActive = activeIndex % items.length === index;
+                        return (
+                            <button
+                                key={index}
+                                onClick={() => {
+                                    if (swiperInstance) {
+                                        swiperInstance.slideToLoop(index);
+                                    }
+                                }}
+                                className={`h-2 rounded-full transition-all cursor-pointer ${isActive ? "bg-blue-600 w-8" : "bg-gray-300 w-2"
+                                    }`}
+                                aria-label={`Go to slide ${index + 1}`}
+                            />
+                        );
+                    })}
+                </div>
             </div>
         </section>
     );
