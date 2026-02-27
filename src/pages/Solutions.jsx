@@ -47,7 +47,7 @@ const Solutions = ({ solutionData }) => {
                     viewport={{ once: true }}
                     className="section-bg-blue"
                 >
-                    <div className="w-[85%] mx-auto">
+                    <div className="w-[85%] mx-auto ">
                         <TwoColumnHeader
                             title={section.title}
                             subtitle={section.subtitle}
@@ -58,7 +58,7 @@ const Solutions = ({ solutionData }) => {
                             whileInView={{ opacity: 1 }}
                             transition={{ duration: 0.8, staggerChildren: 0.2 }}
                             viewport={{ once: true }}
-                            className="grid-2"
+                            className="grid-2 place-items-center"
                         >
                             {whyChoose.features.map((feature, index) => (
                                 <motion.div

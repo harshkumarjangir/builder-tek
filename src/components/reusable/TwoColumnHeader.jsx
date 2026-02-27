@@ -2,7 +2,7 @@ import Text from './Text'
 
 const TwoColumnHeader = ({ title, subtitle }) => {
   return (
-    <div className="two-column-header">
+    <div className="two-column-header place-items-center">
 
       <Text
         variant="h2-solution"
