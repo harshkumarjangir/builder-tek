@@ -35,25 +35,7 @@ const Remodelers = () => {
                         subtitle={section.subtitle}
                     />
 
-                    {/* <motion.div
-                        initial={{ opacity: 0 }}
-                        whileInView={{ opacity: 1 }}
-                        transition={{ duration: 0.8, staggerChildren: 0.2 }}
-                        viewport={{ once: true }}
-                        className="grid-2"
-                    >
-                        {whyChoose.features.map((feature, index) => (
-                            <motion.div
-                                key={index}
-                                initial={{ opacity: 0, y: 30 }}
-                                whileInView={{ opacity: 1, y: 0 }}
-                                transition={{ duration: 0.6, delay: index * 0.2 }}
-                                viewport={{ once: true }}
-                            >
-                                <GridCard feature={feature} />
-                            </motion.div>
-                        ))}
-                    </motion.div> */}
+
                     <div className="pb-16 bg-white">
                         <div className="">
 
