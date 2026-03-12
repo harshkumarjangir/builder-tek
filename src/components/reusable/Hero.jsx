@@ -94,7 +94,7 @@ const Hero = ({ hero, badge = false, person = false ,status=false }) => {
          {status&& <div className="my-8 mb-16">
             <Link
               to={"/schedule-demo"}
-              className="inline-flex items-center justify-center text-xl px-8 py-3 rounded-2xl font-semibold  text-white bg-gradient-to-r from-[#3785FF] to-[#1146F2] border border-[#1146F2]    hover:opacity-90 transition"
+              className="inline-flex items-center justify-center text-xl px-8 py-3 rounded-2xl font-semibold  text-white bg-gradient-to-r from-[#3785FF] to-[#1146F2] border border-[#1146F2]   hover:opacity-90 transition"
             >
               Schedule a Demo
             </Link>
