@@ -47,7 +47,7 @@ const Navbar = () => {
                         {/* Desktop CTA Button */}
                  {<Link
                             to={navData.cta.path}
-                            className="hidden lg:inline-flex px-3 sm:px-4 py-2 rounded-lg sm:rounded-xl text-white bg-gradient-to-r from-[#3785FF] to-[#1146F2] border border-[#1146F2]   text-xs sm:text-sm transition-all duration-300 hover:scale-105"
+                            className="hidden lg:inline-flex px-3 sm:px-4 py-2 rounded-lg sm:rounded-xl text-white bg-gradient-to-r from-[#3785FF] to-[#1146F2]    text-xs sm:text-sm transition-all duration-300 hover:scale-105"
                         >
                             {navData.cta.label}
                         </Link>
@@ -102,7 +102,7 @@ const Navbar = () => {
                                 {/* Mobile CTA Button */}
                                 <Link
                                     to={navData.cta.path}
-                                    className="inline-flex items-center justify-center px-4 py-2 rounded-xl text-white bg-gradient-to-r from-[#3785FF] to-[#1146F2] border border-[#1146F2]   text-sm mt-4 w-full transition-all duration-300 hover:scale-105"
+                                    className="inline-flex items-center justify-center px-4 py-2 rounded-xl text-white bg-gradient-to-r from-[#3785FF] to-[#1146F2]    text-sm mt-4 w-full transition-all duration-300 hover:scale-105"
                                     onClick={() => setIsMobileMenuOpen(false)}
                                 >
                                     {navData.cta.label}
