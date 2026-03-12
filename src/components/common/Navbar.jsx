@@ -45,13 +45,13 @@ const Navbar = () => {
                     {/* Desktop CTA + Mobile Menu Button */}
                     <div className="flex items-center gap-3">
                         {/* Desktop CTA Button */}
-                        <Link
+                 {<Link
                             to={navData.cta.path}
-                            className="hidden sm:inline-flex px-3 sm:px-4 py-2 rounded-lg sm:rounded-xl text-white bg-gradient-to-r from-[#3785FF] to-[#1146F2] border border-[#1146F2] shadow-[0_6px_16px_rgba(0,0,0,0.2),0_0_0_1px_#155BC9] text-xs sm:text-sm transition-all duration-300 hover:scale-105"
+                            className="hidden lg:inline-flex px-3 sm:px-4 py-2 rounded-lg sm:rounded-xl text-white bg-gradient-to-r from-[#3785FF] to-[#1146F2] border border-[#1146F2] shadow-[0_6px_16px_rgba(0,0,0,0.2),0_0_0_1px_#155BC9] text-xs sm:text-sm transition-all duration-300 hover:scale-105"
                         >
                             {navData.cta.label}
                         </Link>
-
+}
                         {/* Mobile Menu Button */}
                         <button
                             onClick={toggleMobileMenu}
@@ -71,13 +71,13 @@ const Navbar = () => {
             {/* Mobile Menu */}
             <AnimatePresence>
                 {isMobileMenuOpen && (
-                    <motion.div
-                        initial={{ opacity: 0, height: 0 }}
-                        animate={{ opacity: 1, height: "auto" }}
-                        exit={{ opacity: 0, height: 0 }}
-                        transition={{ duration: 0.3, ease: "easeInOut" }}
-                        className="lg:hidden bg-white border-t border-gray-200 shadow-lg"
-                    >
+                   <motion.div
+    initial={{ opacity: 0, height: 0 }}
+    animate={{ opacity: 1, height: "auto" }}
+    exit={{ opacity: 0, height: 0 }}
+    transition={{ duration: 0.3, ease: "easeInOut" }}
+    className="lg:hidden bg-white border-t border-gray-200 shadow-lg max-h-[calc(100vh-80px)] overflow-y-auto"
+>
                         <div className="container-main py-4">
                             <div className="flex flex-col space-y-4">
                                 {navData.menu.map((item, index) =>
