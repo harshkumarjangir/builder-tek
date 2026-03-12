@@ -97,7 +97,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <button className="w-full rounded-xl  text-white bg-gradient-to-r from-[#3785FF] to-[#1146F2] border border-[#1146F2] shadow-[0_6px_16px_rgba(0,0,0,0.2),0_0_0_1px_#155BC9] py-3.5 font-medium cursor-pointer">
+        <button className="w-full rounded-xl  text-white bg-gradient-to-r from-[#3785FF] to-[#1146F2] border border-[#1146F2]   py-3.5 font-medium cursor-pointer">
           {newsletter.buttonText}
         </button>
       </div>

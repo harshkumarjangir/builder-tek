@@ -56,7 +56,7 @@ const HomeHero = ({ data }) => {
                 >
                     <Link
                         to={hero.cta.link}
-                        className="inline-flex items-center justify-center text-base sm:text-lg lg:text-xl px-6 sm:px-8 py-3 rounded-2xl font-bold  text-white bg-gradient-to-r from-[#3785FF] to-[#1146F2] border border-[#1146F2] shadow-[0_6px_16px_rgba(0,0,0,0.2),0_0_0_1px_#155BC9] hover:opacity-90 hover:scale-105 transition-all duration-300"
+                        className="inline-flex items-center justify-center text-base sm:text-lg lg:text-xl px-6 sm:px-8 py-3 rounded-2xl font-bold  text-white bg-gradient-to-r from-[#3785FF] to-[#1146F2] border border-[#1146F2]   hover:opacity-90 hover:scale-105 transition-all duration-300"
                     >
                         {hero.cta.label}
                     </Link>
