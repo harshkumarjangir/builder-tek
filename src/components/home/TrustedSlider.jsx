@@ -8,7 +8,7 @@ const TrustedSlider = ({ data }) => {
     const logos = [...trustedLogos.logos, ...trustedLogos.logos];
 
     return (
-        <section className="pt-16 bg-white overflow-hidden">
+        <section className="pt-10 rounded-2xl bg-white overflow-hidden">
             <div className="w-[85%] mx-auto px-6 text-center">
                 <motion.h3
                     className="text-lg md:text-xl font-normal text-black mb-10"

@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { motion } from "motion/react";
+import TrustedSlider from "./TrustedSlider";
 
 const HomeHero = ({ data }) => {
     const { hero } = data;
@@ -70,11 +71,7 @@ const HomeHero = ({ data }) => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1, delay: 0.8 }}
             >
-                <img
-                    src={hero.image}
-                    alt={hero.imageAlt}
-                    className="w-full rounded-lg sm:rounded-xl "
-                />
+               <TrustedSlider data={data} />
             </motion.div>
         </section>
 
