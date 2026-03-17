@@ -96,13 +96,13 @@ const FeatureCard = ({ feature, index, className = "" }) => {
                     {feature.title}
                 </h3>
 
-                {feature.cta && (
+                {/* {feature.cta && (
                     <div className="mt-4">
                         <button className="px-5 py-2 rounded-lg bg-[#D9FF00] text-black font-semibold text-sm hover:brightness-95 transition-all">
                             {feature.cta}
                         </button>
                     </div>
-                )}
+                )} */}
             </div>
         </motion.div>
     );

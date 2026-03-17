@@ -5,14 +5,14 @@ import { Link } from 'react-router-dom'
 const Hero = ({ hero, badge = false, person = false ,status=false }) => {
   return (
     <section className="hero-section pt-[15vw] sm:pt-0 " style={{minHeight:"100vh !important"}}>
-
+{/* background: ;
+ */}
       {/* Background Image */}
       <motion.img
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
         src={hero.backgroundImage}
-        style={{ transform: "rotateY(180deg)" }}
         alt="Hero Background"
         className="absolute inset-0 img-cover"
       />
@@ -22,7 +22,8 @@ const Hero = ({ hero, badge = false, person = false ,status=false }) => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 0.3 }}
-        className="hero-overlay"
+        className='hero-overlay'
+        style={{"background":"linear-gradient(269.31deg, rgba(0, 26, 56, 0) 4.28%, rgba(0, 26, 56, 0.514775) 18.91%, rgba(0, 26, 56, 0.86595) 31.83%, rgba(0, 26, 56, 0.93682) 41.23%, #001A38 52.24%)"}}
       />
 
       {/* Person Image */}
@@ -50,7 +51,7 @@ const Hero = ({ hero, badge = false, person = false ,status=false }) => {
           {/* Top Badge */}
           {
             hero.topBadge && <span
-              className="bg-[#D4E1F5] text-[#126DFB] font-medium px-3 py-1 rounded mb-6"
+              className="bg-[#D4E1F5] text-white font-medium px-3 py-1 rounded mb-6"
             >
               {hero.topBadge}
             </span>
@@ -62,7 +63,7 @@ const Hero = ({ hero, badge = false, person = false ,status=false }) => {
             color="primary-dark"
             animated
             delay={0.7}
-            className="text-pre-line text-[#032D60]"
+            className="text-pre-line text-white"
             style={{ lineHeight: '1.1', marginTop: '1rem' }}
           >
             {hero.title}
@@ -87,7 +88,7 @@ const Hero = ({ hero, badge = false, person = false ,status=false }) => {
             color="muted"
             animated
             delay={0.9}
-            className="mt-6 lg:max-w-[600px]"
+            className="mt-6 lg:max-w-[600px] text-white"
           >
             {hero.description}
           </Text>

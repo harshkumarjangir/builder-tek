@@ -15,7 +15,7 @@ const Home = () => {
     <div>
       <HomeHero data={homeData} />
       <section className="pt-[16vw] sm:pt-[14vw] md:pt-[12vw] lg:pt-[10vw]">
-        <TrustedSlider data={homeData} />
+       
         <PlatformSection data={homeData} />
         <IndustriesSection data={homeData} />
         <ConnectedOperations data={homeData} />

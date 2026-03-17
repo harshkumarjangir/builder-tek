@@ -6,8 +6,9 @@
         "description": "BuilderTek Quote Management centralizes pricing, revisions, approvals, and documentation in Salesforce. Reduce time at every stage, maintain consistency, and protect margins throughout the project lifecycle",
         "badge": "Improve accuracy, respond faster, and close winning quotes in minutes",
         "backgroundImage2": "/assets/solutions/hero/hero-bg.png",
-        "backgroundImage": "/assets/solutions/hero/hero-image.png"
+        "backgroundImage": "/assets/solutions/Quote/hero-image.png"
     },
+    
     "sectionTitle": {
         "title": "An All-In-One Platform To Manage Quotes for Construction Projects",
         "description": "BuilderTek Quotes eliminates fragmented pricing workflows. The platform's versatility extends from quote creation, revisions, approvals, and tracking into one unified system. Built natively on Salesforce, it ensures pricing accuracy, version control, and complete visibility, without disconnected spreadsheets or email chains."
@@ -79,21 +80,21 @@
             {
                 "icon": "pricing",
                 "useImage": true,
-                "image": "/assets/solutions/make-smarter-two/fi_5733626.png",
+                "image": "/assets/solutions/make-smarter-two/Group.png",
                 "title": "Pricing consistency",
                 "description": "Follow the same pricing structure, cost logic, and project data from initial estimate through final execution."
             },
             {
                 "icon": "speed",
                 "useImage": true,
-                "image": "/assets/solutions/make-smarter-two/Layer 2.png",
+                "image": "/assets/solutions/make-smarter-two/fi_7927955.png",
                 "title": "Reduced approval delays",
                 "description": "Built-in approval workflows streamline internal reviews and eliminate back-and-forth emails."
             },
             {
                 "icon": "win",
                 "useImage": true,
-                "image": "/assets/solutions/make-smarter-two/Group 39230.png",
+                "image": "/assets/solutions/make-smarter-two/fi_2838815.png",
                 "title": "Increased win rates",
                 "description": "Faster response times and consistent quotes help teams compete more effectively and secure more awarded work."
             }
