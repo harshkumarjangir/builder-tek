@@ -18,7 +18,7 @@ const AboutHero = ({ data }) => {
             {/* <div className="absolute inset-0 bg-[#F4F4F4] opacity-90"></div> */}
 
             {/* Content */}
-            <div className="relative z-10   px-4 sm:px-4" >
+            <div className="relative z-10  w-[90%] mx-auto  px-4 sm:px-4" >
 
                 {/* Option A: Use the new hero-title class */}
                 <motion.h1

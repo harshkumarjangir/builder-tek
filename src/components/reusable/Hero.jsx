@@ -2,10 +2,10 @@ import { motion } from 'motion/react'
 import Text from './Text'
 import { Link } from 'react-router-dom'
 
-const Hero = ({ hero, badge = false, person = false ,status=false }) => {
+const Hero = ({ hero, badge = false, person = false, status = false }) => {
   return (
-    <section className="hero-section pt-[15vw] sm:pt-0 " style={{minHeight:"100vh !important"}}>
-{/* background: ;
+    <section className="hero-section pt-[15vw] sm:pt-0 " style={{ minHeight: "100vh !important" }}>
+      {/* background: ;
  */}
       {/* Background Image */}
       <motion.img
@@ -23,10 +23,22 @@ const Hero = ({ hero, badge = false, person = false ,status=false }) => {
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 0.3 }}
         className='hero-overlay'
-        style={{"background":"linear-gradient(269.31deg, rgba(0, 26, 56, 0) 4.28%, rgba(0, 26, 56, 0.514775) 18.91%, rgba(0, 26, 56, 0.86595) 31.83%, rgba(0, 26, 56, 0.93682) 41.23%, #001A38 52.24%)"}}
+        style={{ "background": "linear-gradient(269.31deg, rgba(0, 26, 56, 0) 40%, rgba(0, 26, 56, 0.514775) 55%, rgba(0, 26, 56, 0.86595) 75%, rgba(0, 26, 56, 0.93682) 85%, #001A38 100%)" }}
       />
 
       {/* Person Image */}
+      {
+
+        hero.isBg && <motion.img
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1, delay: 0.3 }}
+          src={hero.isBg}
+          alt="Hero Background"
+          className="absolute md:w-[35%] right-30 bottom-0 img-contain pointer-events-none"
+        />
+
+      }
       {
         person && <motion.img
           initial={{ opacity: 0 }}
@@ -34,9 +46,8 @@ const Hero = ({ hero, badge = false, person = false ,status=false }) => {
           transition={{ duration: 1, delay: 0.3 }}
           src={hero.backgroundImage2}
           alt="Hero Background"
-          className="absolute md:w-[50%] right-0 bottom-0 img-contain pointer-events-none"
-        />
-      }
+          className="absolute md:w-[50%] h-[70vh] right-0 bottom-0 img-contain pointer-events-none"
+        />}
 
       {/* Content */}
       {/* hero-content */}
@@ -92,7 +103,7 @@ const Hero = ({ hero, badge = false, person = false ,status=false }) => {
           >
             {hero.description}
           </Text>
-         {status&& <div className="my-8 mb-16">
+          {status && <div className="my-8 mb-16">
             <Link
               to={"/schedule-demo"}
               className="inline-flex items-center justify-center text-xl px-8 py-3 rounded-2xl font-semibold  text-white bg-gradient-to-r from-[#3785FF] to-[#1146F2] border border-[#1146F2]   hover:opacity-90 transition"

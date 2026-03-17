@@ -2,7 +2,8 @@
     "hero": {
         "title": "Gain Complete\n Project Oversight\n with BuilderTek",
         "description": "Built for developers and owners managing complex construction portfolios.\n\nBuilderTek gives developers and owners real-time visibility into budgets, schedules, approvals, and risks without getting buried in day-to-day operations. Centralize project data on a Salesforce-powered platform without oversight, make informed decisions, and achieve predictable outcomes across the entire portfolio.",
-        "backgroundImage2": "/assets/who-we-are/hero/who-we-are-person.png",
+        "backgroundImage2": "/assets/who-we-are/hero/who-we-are-person3.png",
+              "isBg":"/assets/who-we-are/hero/Vector.png",
         "backgroundImage": "/assets/who-we-are/hero/who-we-are.png"
     },
     "simplifyConstruction": {

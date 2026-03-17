@@ -1,15 +1,15 @@
 import { Check } from "lucide-react";
 
-const ServiceFeature = ({ data }) => {
+const ServiceFeature = ({ data, reverse }) => {
     return (
         <section className="py-24 bg-white">
             <div className="w-[85%] mx-auto px-6">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
 
                     {/* LEFT CONTENT */}
-                    <div className="max-w-xl">
+                    <div className={`max-w-xl ${reverse ? "lg:order-2" : "lg:order-1"}`}>
                         {/* Badge */}
-                 {data.badge &&                        <span className="inline-block mb-6 px-4 py-1.5 rounded-md text-sm font-medium
+                        {data.badge && <span className="inline-block mb-6 px-4 py-1.5 rounded-md text-sm font-medium
               bg-blue-50 text-blue-600">
                             {data.badge}
                         </span>}
@@ -20,7 +20,7 @@ const ServiceFeature = ({ data }) => {
                         </h2>
 
                         {/* Description */}
-                        <p className="text-[22px] text-gray-600 mb-10">
+                        <p className="text-[22px] text-gray-600 text-pre-line mb-10" >
                             {data.description}
                         </p>
 
@@ -41,12 +41,12 @@ const ServiceFeature = ({ data }) => {
                     </div>
 
                     {/* RIGHT IMAGE */}
-                    <div className="flex max-w-xl justify-center">
-                        <div className="bg-[#EDE7E1] rounded-2xl p-0">
+                    <div className={`flex max-w-xl h-full justify-center ${reverse ? "lg:order-1" : "lg:order-2"}`}>
+                        <div className="bg-[#EDE7E1] h-full rounded-2xl p-0">
                             <img
                                 src={data.image}
                                 alt={data.title}
-                                className="rounded-xl"
+                                className="rounded-xl h-full"
                             />
                         </div>
                     </div>

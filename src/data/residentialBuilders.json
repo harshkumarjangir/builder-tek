@@ -2,7 +2,8 @@
     "hero": {
         "title": " Build Better Homes\n with BuilderTek\n Construction\n Software",
         "description": "One platform built for Residential Contractors to manage bids, budgets, schedules, and client expectations, without the chaos.\n\nBecome effective in construction with Salesforce Power Residential Contractor Software. Designed for teams balancing fast timelines, tight budgets, and frequent changes. Centralize RFQs, budgets, schedules, and contracts to keep projects moving smoothly while maintaining transparency with homeowners- from start to finish.",
-        "backgroundImage2": "/assets/who-we-are/hero/who-we-are-person.png",
+        "backgroundImage2": "/assets/who-we-are/hero/who-we-are-person1.png",
+        "isBg":"/assets/who-we-are/hero/Vector.png",
         "backgroundImage": "/assets/who-we-are/hero/who-we-are.png"
     },
     "simplifyConstruction": {

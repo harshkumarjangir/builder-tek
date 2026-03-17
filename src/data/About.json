@@ -1,7 +1,7 @@
 {
   "hero": {
     "title": "Construction Management Software Built for Real-World Results",
-    "description": "BuilderTek Construction keeps your team on task and on target with intuitive systems to organize, manage, mature, and enhance your business processes.",
+    "description": "Trusted by builders, teams, and project leaders for complete project control.",
     "backgroundImage": "/assets/home/hero/home_banner.jpg",
     "backgroundImage3": "/assets/home/hero/hero.webp",
     "backgroundImage2": "/assets/home/hero/hero-bg.png",
@@ -13,45 +13,23 @@
     "imageAlt": "BuilderTek construction dashboard preview"
   },
   "trustedLogos": {
-    "title": "Powering Construction Success as a Trusted Salesforce ISV Partner",
-    "logos": [
-      "/assets/home/trusted-slider/image-14.png",
-      "/assets/home/trusted-slider/image-16.png",
-      "/assets/home/trusted-slider/image-17.png",
-      "/assets/home/trusted-slider/image-18.png",
-      "/assets/home/trusted-slider/image-22.png"
-    ]
+    "title": "Today, BuilderTek is dominating in the construction Landscape with:",
+    "image":"/assets/about/dominating.jpg"
   },
   "platformSection": {
-    "title": "The All-in-One Construction Platform",
-    "description": "As an exclusive ISV partner for Salesforce for over 8 years, BuilderTek is built for efficiency, accuracy, and seamless collaboration. So you deliver every project with confidence.",
-    "mainFeature2": {
-      "tag": "Salesforce",
-      "title": "Salesforce-",
-      "subtitle": "Native Power",
-      "description": "Run your entire project on the world’s most secure and scalable cloud platform- Salesforce.",
-      "image": "/assets/home/platform-section/image-lapotp-full.png"
-    },
-    "mainFeature": {
-      "circleImage": "/assets/home/platform-section/clip-path-group.png",
-      "tagImage": "/assets/home/platform-section/salesforce.png",
-      "badgeImage": "/assets/home/platform-section/256px-Salesforce.com_logo.svg 1.png",
-      "cloudImage": "/assets/home/platform-section/bg-image.png",
-      "title": "Salesforce-",
-      "subtitle": "Native Power",
-      "description": "Run your entire project on the world’s most secure and scalable cloud platform- Salesforce.",
-      "image": "/assets/home/platform-section/image-lapotp-full.png"
-    },
+    "title": "Built for Construction. Powered by Salesforce.",
+    "description": "A platform created to eliminate silos and streamline project workflows across the construction lifecycle.",
+   
     "features": [
       {
-        "title": "End-to-End Project Visibility",
-        "description": "Track budgets, schedules, resources, and documents in real time- everything on one reliable platform.",
-        "image": "/assets/home/platform-section/image-screen.png"
+        "title": "BuilderTek began as a passion project of our Founder & CEO in a small one-room apartment with a clear objective: to solve real-world construction challenges with a connected, real-time platform. What began as a focused initiative to streamline day-to-day construction workflows has evolved over more than two decades into one of the leading construction management platforms in the United States.",
+        "description": "Since its inception in 2005, BuilderTek has addressed fragmented processes by connecting field and office teams, centralizing communication, and maintaining structured transaction records between project managers, vendors, and stakeholders. The platform was built to replace disconnected systems with one unified environment designed specifically for construction.",
+        "image": "/assets/about/Placeholder Image.png"
       },
       {
-        "title": "Accurate Project Execution",
-        "description": "Automate tasks, eliminate duplicate work, and improve decision-making with centralized project insights and built-in reporting.",
-        "image": "/assets/home/platform-section/Group.png"
+        "title": "As BuilderTek expanded across projects nationwide, its quality, reliability, and architectural strength gained industry recognition. This foundation led to an early partnership with Salesforce, establishing BuilderTek as a trusted ISV partner. ",
+        "description": "For over 15 years, BuilderTek has remained a leading Salesforce-powered construction software platform, supporting businesses of all sizes with performance, transparency, and scalable growth.",
+        "image": "/assets/about/Placeholder Image.png"
       }
     ]
   },
@@ -109,101 +87,38 @@
       }
     ]
   },
-  "connectedOperations": {
-    "title": "Connected Construction Operations On Salesforce-Powered Platform",
-    "description": "BuilderTek, a trusted ISV Salesforce partner for 8 years, brings your field, office, and financial teams onto a unified, Salesforce-powered system.",
-    "items": [
-      {
-        "title": "Construction Management",
-        "desc": "From scheduling, to inspections, bidding, tracking, documents, and warranty, organize all construction projects with a single app.",
-        "image": "/assets/home/connected-operations/image-one.png"
-      },
-      {
-        "title": "Financial Management",
-        "desc": "All account management tools in one CRM. Monitor budgets, track purchase orders, change orders, manage inventory, expenses, and much more. ",
-        "image": "/assets/home/connected-operations/image-two.png"
-      },
-      {
-        "title": "Realty & Closing Management",
-        "desc": "From managing listings to inspections and closings, keep everything well-organized and seamless for the desired outcome.",
-        "image": "/assets/home/connected-operations/image-three.png"
-      },
-      {
-        "title": "CRM For Construction",
-        "desc": "Build a strong reputation through robust communication across teams and clients, from leads to opportunities to account management.",
-        "image": "/assets/home/connected-operations/image-four.png"
-      },
-      {
-        "title": "Resource & Labor Management",
-        "desc": "Automate time cards, crews, and workforce allocation.",
-        "image": "/assets/home/connected-operations/image-five.png"
-      }
-    ]
-  },
-  "featuresSection": {
-    "title": "Smart Features To Elevate\nConstruction Workflow",
-    "description": "Every tool is built for accuracy, real-time updates, and seamless collaboration across your construction team.",
-    "rightSideImage": "/assets/home/features-section/right image.png",
-    "features": [
-      {
-        "id": 1,
-        "title": "Mobile Tools Access",
-        "image": "/assets/home/features-section/mobile.png"
-      },
-      {
-        "id": 2,
-        "title": "Bidding & Vendor Management",
-        "image": "/assets/home/features-section/feature-one.png"
-      },
-      {
-        "id": 3,
-        "title": "Advanced Scheduling",
-        "image": "/assets/home/features-section/feture-two.png",
-        "cta": "Approve"
-      },
-      {
-        "id": 4,
-        "title": "Budgeting & Cost Control",
-        "image": "/assets/home/features-section/budgetting.png"
-      }
-    ]
-  },
-  "testimonials": {
-    "title": "Trusted By Industry leaders",
-    "quoteImage": "/assets/home/testimonials/quote.png",
-    "items": [
-      {
-        "id": 1,
-        "quote": "Perfect balance between cost optimization and robust security measures makes them an invaluable asset.",
-        "name": "Nicolas Chaillan",
-        "role": "Chief Software Officer (CSO)"
-      },
-      {
-        "id": 2,
-        "quote": "Perfect balance between cost optimization and robust security measures makes them an invaluable asset.",
-        "name": "Nicolas Chaillan",
-        "role": "Chief Software Officer (CSO)"
-      },
-      {
-        "id": 3,
-        "quote": "Perfect balance between cost optimization and robust security measures makes them an invaluable asset.",
-        "name": "Nicolas Chaillan",
-        "role": "Chief Software Officer (CSO)"
-      },
-      {
-        "id": 4,
-        "quote": "Perfect balance between cost optimization and robust security measures makes them an invaluable asset.",
-        "name": "Nicolas Chaillan",
-        "role": "Chief Software Officer (CSO)"
-      }
-    ]
-  },
+  "financialControl": {
+        "badge": "Unique market Positioning",
+        "title": "Proven at Scale;\n Trusted by Thousands Worldwide",
+        "description": "An Exclusive Salesforce Partnership: Reinforcing deep integration and platform reliability.\n\nPreferred by Government & NGO Projects: BuilderTek’s robust, auditable workflows made it a recognized software partner for government, nonprofit, and public-sector construction programs.\n\nThis combination of depth and scale reflects real-world confidence from teams that demand clarity, compliance, and control.",
+        "features": [
+        ],
+        "image": "/assets/about/Placeholder Image.png"
+    },
+     "financialControl2": {
+        "badge": "Why Choose BuilderTek",
+        "title": "The Best Construction Platform for All Projects",
+        "description": "One system to manage RFQs, scheduling, budgets, CRM, financials, and more, built on Salesforce and optimized for construction workflows.\n\n BuilderTek stands apart because it:",
+        "features": [
+          "Operates 100% natively on Salesforce for security, scalability, and performance",
+          "Provides a unified platform instead of fragmented point solutions",
+          "Scales from small builders to enterprise portfolios",
+          "Offers audit-ready controls for governance and compliance"
+        ],
+        "image": "/assets/about/Placeholder Image.png"
+    },
+    "Results":{
+      "badge": "Our Commitment",
+      "title": "Built for Results, Designed for Growth",
+      "description": "We continuously invest in features and integrations that evolve with your business and industry needs.",
+      "sub":"From mobile field access to executive dashboards, BuilderTek focuses on efficiency, usability, and transparency, helping construction teams stay ahead without complexity."
+    },
   "bringStructure": {
     "section": {
-      "title": "Build Smarter With Salesforce-Powered ",
-      "highlight": "Construction Software",
-      "title2": "",
-      "description": "Get a deep insight to see how BuilderTek helps your team deliver faster, stay organized, and take full control of every project.",
+      "title": "Ready to Transform",
+      "highlight": "",
+      "title2": "How You Build?",
+      "description": "Discover how BuilderTek can bring clarity, control, and connected workflows to your construction projects.",
       "cta": {
         "label": "Schedule a Demo",
         "link": "/schedule-demo"

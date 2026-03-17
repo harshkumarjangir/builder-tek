@@ -2,9 +2,11 @@
     "hero": {
         "title": "Take Control of\n Remodeling Projects\n with BuilderTek",
         "description": "One platform built for Residential Contractors to manage bids, budgets, schedules, and client expectations, without the chaos.\n\nBecome effective in construction with Salesforce Power Residential Contractor Software. Designed for teams balancing fast timelines, tight budgets, and frequent changes. Centralize RFQs, budgets, schedules, and contracts to keep projects moving smoothly while maintaining transparency with homeowners- from start to finish.",
-        "backgroundImage2": "/assets/who-we-are/hero/who-we-are-person.png",
+        "backgroundImage2": "/assets/who-we-are/hero/who-we-are-person4.png",
+       
+               "isBg":"/assets/who-we-are/hero/Vector.png",
         "backgroundImage": "/assets/who-we-are/hero/who-we-are.png"
-    },
+      },
     "simplifyConstruction": {
         "title": " Remodel with confidence with BuildeTek",
         "description": "One system to manage complex remodeling projects without confusion.\n\nRemodeling projects call for frequent updates. BuilderTek remodeling management software gives a structured way to capture changes, track costs, and document decisions, without slowing execution.",

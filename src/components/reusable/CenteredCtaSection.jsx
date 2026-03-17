@@ -14,9 +14,9 @@ const CenteredCtaSection = ({ data }) => {
                     </span>
                     {
                         data.title2 && (
-                            <span className="">
+                            <div className="">
                                 {" "}{data.title2}
-                            </span>
+                            </div>
                         )
                     }
                 </h2>

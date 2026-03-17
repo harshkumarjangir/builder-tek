@@ -104,7 +104,7 @@
         }
     ],
     "cta": {
-        "label": "Login",
-        "path": "/login"
+        "label": "Support Hub",
+        "path": "/Support_Hub"
     }
 }
