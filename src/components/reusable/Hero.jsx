@@ -59,10 +59,11 @@ const Hero = ({ hero, badge = false, person = false, status = false }) => {
         // className="w-[652px]"
         >
 
+
           {/* Top Badge */}
           {
             hero.topBadge && <span
-              className="bg-[#D4E1F5] text-white font-medium px-3 py-1 rounded mb-6"
+              className="bg-[#126DFB80] text-white font-medium px-3 py-1 rounded mb-6"
             >
               {hero.topBadge}
             </span>
