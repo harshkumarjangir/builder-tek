@@ -23,6 +23,7 @@ import ConstructionManagement from './pages/ConstructionManagement'
 import CRMManagement from './pages/CRMManagement'
 import RealtyManagement from './pages/RealtyManagement'
 import ResourceManagement from './pages/ResourceManagement'
+import { About } from './pages/About'
 
 
 const App = () => {
@@ -34,6 +35,7 @@ const App = () => {
         {/* w-[85%] mx-auto */}
         <Routes>
           {/* <Route path='/' element={<Solutions solutionData={solutionDataOne} />} /> */}
+          <Route path='/about' element={<About/>}/>
           <Route path='/' element={<Home />} />
           <Route path='/solutions/rfq' element={<Solutions solutionData={solutionDataOne} />} />
           <Route path='/solutions/quote' element={<Solutions solutionData={solutionDataTwo} />} />
