@@ -4,7 +4,7 @@
         "description": "Keep your project in full control with BuilderTek Scheduling Solutions- the project command center for timelines. Give teams a clear, shared view of tasks, resources, and progress from kickoff to closeout. ",
         "badge": "  Plan Smarter. Communicate\n Better. Deliver On Time.",
         "backgroundImage2": "/assets/solutions/hero/hero-bg.png",
-        "backgroundImage": "/assets/solutions/hero/hero-image.png"
+        "backgroundImage": "/assets/solutions/Schedule/hero-image.png"
     },
     "sectionTitle": {
         "title": "Keep Your Project Streamlined with The \nCentral Command Center for Project Timelines",
@@ -73,21 +73,21 @@
             {
                 "icon": "pricing",
                 "useImage": true,
-                "image": "/assets/solutions/make-smarter-one/Group-39239.png",
+                "image": "/assets/solutions/make-smarter-one/fi_17399294.png",
                 "title": "Improved Visibility",
                 "description": "See the full project timeline and current progress at a glance."
             },
             {
                 "icon": "speed",
                 "useImage": true,
-                "image": "/assets/solutions/make-smarter-one/fi_2612924.png",
+                "image": "/assets/solutions/make-smarter-one/fi_2669764.png",
                 "title": "Reduced Downtime",
                 "description": "Proactive planning helps prevent idle crews and scheduling conflicts."
             },
             {
                 "icon": "win",
                 "useImage": true,
-                "image": "/assets/solutions/make-smarter-one/Group-43.png",
+                "image": "/assets/solutions/make-smarter-one/fi_3722005.png",
                 "title": "Team Coordination",
                 "description": "Shared access and real-time updates keep everyone aligned"
             }

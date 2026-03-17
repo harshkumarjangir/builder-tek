@@ -4,7 +4,7 @@
         "description": "Design, manage, amend, and approve contracts while staying compliant. Simplify contract management during your construction project with all-around visibility in one place. ",
         "badge": " Reduce Risk. Maintain\n Control. Stay Compliant.",
         "backgroundImage2": "/assets/solutions/hero/hero-bg.png",
-        "backgroundImage": "/assets/solutions/hero/hero-image.png"
+        "backgroundImage": "/assets/solutions/Request/hero-image.png"
     },
     "sectionTitle": {
         "title": "Streamline Contract Management-\n Built for Construction Complexity",
@@ -73,21 +73,21 @@
             {
                 "icon": "pricing",
                 "useImage": true,
-                "image": "/assets/solutions/make-smarter-one/Group-39239.png",
+                "image": "/assets/solutions/make-smarter-one/fi_6895190.png",
                 "title": "Reduce disputes",
                 "description": "Clear, documented records of contracts, change orders, approvals, and revisions."
             },
             {
                 "icon": "speed",
                 "useImage": true,
-                "image": "/assets/solutions/make-smarter-one/fi_2612924.png",
+                "image": "/assets/solutions/make-smarter-one/fi_6083641.png ",
                 "title": "Improve compliance",
                 "description": "Captures approval histories, timestamps, and version control to stay compliant."
             },
             {
                 "icon": "win",
                 "useImage": true,
-                "image": "/assets/solutions/make-smarter-one/Group-43.png",
+                "image": "/assets/solutions/make-smarter-one/fi_7402524.png",
                 "title": "Maintain contractual visibility across teams",
                 "description": "Provide project, operations, and finance teams with real-time access to the same contract data."
             }

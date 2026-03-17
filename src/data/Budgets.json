@@ -4,7 +4,7 @@
         "description": "BuilderTek Budgets gives construction teams real-time visibility into costs, commitments, and forecasts—all within Salesforce—so financial decisions stay aligned with project realities from start to finish.",
         "badge": "Plan Accurately. Track \nContinuously. Protect Margins.",
         "backgroundImage2": "/assets/solutions/hero/hero-bg.png",
-        "backgroundImage": "/assets/solutions/hero/hero-image.png"
+        "backgroundImage": "/assets/solutions/Budgets/hero-image.png"
     },
     "sectionTitle": {
         "title": "Experience Real-Time Budget\n Management for Construction Projects",
@@ -73,21 +73,21 @@
             {
                 "icon": "pricing",
                 "useImage": true,
-                "image": "/assets/solutions/make-smarter-one/Group-39239.png",
+                "image": "/assets/solutions/make-smarter-one/fi_15171204.png",
                 "title": "Reduce Cost Overruns",
                 "description": "Early visibility into variances allows teams to address issues before they impact profitability."
             },
             {
                 "icon": "speed",
                 "useImage": true,
-                "image": "/assets/solutions/make-smarter-one/fi_2612924.png",
+                "image": "/assets/solutions/make-smarter-one/fi_10158785.png",
                 "title": "Improve Forecasting Accuracy",
                 "description": "Real-time cost data ensures forecasts reflect actual project conditions—not outdated assumptions."
             },
             {
                 "icon": "win",
                 "useImage": true,
-                "image": "/assets/solutions/make-smarter-one/Group-43.png",
+                "image": "/assets/solutions/make-smarter-one/fi_15171254.png",
                 "title": "Maintain Financial Transparency",
                 "description": "Clear, centralized budgets keep all stakeholders aligned on financial performance."
             }
