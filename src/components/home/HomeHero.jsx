@@ -7,7 +7,7 @@ const HomeHero = ({ data }) => {
     const { hero } = data;
 
     return (
-        <section className="relative w-full pt-20 sm:pt-28 pb-10 text-center overflow-visible">
+        <section className="relative w-full  pt-20 sm:pt-28 pb-10 text-center overflow-visible">
             {/* Background Image */}
          
             {/* Absoluet overlay div on image */}
@@ -17,15 +17,17 @@ const HomeHero = ({ data }) => {
             {/* <div className="absolute inset-0 bg-[#F4F4F4] opacity-90"></div> */}
 
             {/* Content */}
-            <div className="relative w-[85%] z-10 text-start  mx-auto px-4 sm:px-4">
+            <div className="relative w-[95%]  flex justify-between gap-2 z-10 text-start  ms-auto ps-4 sm:ps-4">
 
-                {/* Option A: Use the new hero-title class */}
+      <div>
+                  {/* Option A: Use the new hero-title class */}
                 <motion.h1
                     className="hero-title2 "
-                    style={{color:"white !important"}}
+                    style={{color:"white "}}
                     initial={{ opacity: 0, y: 30 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, delay: 0.2 }}
+                
                 >
                     {hero.title}{" "}
                     {hero.subtitle}
@@ -35,7 +37,7 @@ const HomeHero = ({ data }) => {
                 {/* Option B: Or continue with Tailwind overrides */}
                 {/* <h1 className="text-3xl lg:text-4xl font-semibold text-[#032D60] leading-tight">
                     {hero.title}{" "}
-                    <span className="text-[#126DFB]">{hero.highlight}</span>
+   List.png                 <span className="text-[#126DFB]">{hero.highlight}</span>
                 </h1> */}
 
                 <motion.p
@@ -70,6 +72,11 @@ const HomeHero = ({ data }) => {
                   <a href=" https://appexchange.salesforce.com/appxListingDetail?listingId=a0N30000009wK46EAE" target="_blank"><img src={hero.image1} className="cursor-pointer"  alt="" /></a>
                      <img src={hero.image2}  className="cursor-pointer" alt="" />
                 </motion.div>
+      </div>
+      <div className="relative  w-[50%] w-full">
+        <img src={hero.sideimage.image1} className="absolute  w-full top-0 right-0" alt="" />
+        <img src={hero.sideimage.image2} className="absolute top-1/2  left-[-10%] translate-y-[-50%]" alt="" />
+      </div>
             </div>
 
             {/* Foreground Image (Overlaps next section) */}

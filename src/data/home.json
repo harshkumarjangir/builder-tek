@@ -14,6 +14,10 @@
     },
     "image1":"/assets/home/hero/image 43.png",
     "image2":"/assets/home/hero/image 44.png",
+    "sideimage":{
+      "image1":"/assets/home/hero/Frame 39268.png",
+      "image2":"/assets/home/hero/Frame 39269.png"
+    },
     "image": "/assets/home/hero/hero-forground.png",
     "imageAlt": "BuilderTek construction dashboard preview"
   },
