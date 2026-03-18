@@ -9,26 +9,25 @@ const HomeHero = ({ data }) => {
     return (
         <section className="relative w-full pt-20 sm:pt-28 pb-10 text-center overflow-visible">
             {/* Background Image */}
-            <div
-                className="absolute inset-0 bg-cover bg-center"
-                style={{ backgroundImage: `url(${hero.backgroundImage})` }}
-            />
+         
             {/* Absoluet overlay div on image */}
-            <div className="absolute inset-0 bg-gradient-to-b from-[#FFFFFF] via-[#F4F4F4]/90 to-[#F4F4F4]/10 opacity-90"></div>
+            <div className="absolute inset-0 opacity-90"
+            style={{background: "linear-gradient(9.07deg, #126DFB -40.55%, #001A38 54.18%)"}}
+            ></div>
             {/* <div className="absolute inset-0 bg-[#F4F4F4] opacity-90"></div> */}
 
             {/* Content */}
-            <div className="relative z-10 w-[80%] mx-auto px-4 sm:px-4">
+            <div className="relative w-[85%] z-10 text-start  mx-auto px-4 sm:px-4">
 
                 {/* Option A: Use the new hero-title class */}
                 <motion.h1
-                    className="hero-title"
+                    className="hero-title2 "
+                    style={{color:"white !important"}}
                     initial={{ opacity: 0, y: 30 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, delay: 0.2 }}
                 >
                     {hero.title}{" "}
-                    <br />
                     {hero.subtitle}
                     <span className="text-[#126DFB]">{hero.highlight}</span>
                 </motion.h1>
@@ -40,7 +39,7 @@ const HomeHero = ({ data }) => {
                 </h1> */}
 
                 <motion.p
-                    className="mt-4 sm:mt-6 text-base lg:text-lg text-gray-700 max-w-3xl mx-auto"
+                    className="mt-4 sm:mt-6 text-base lg:text-lg text-white max-w-3xl "
                     initial={{ opacity: 0, y: 30 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, delay: 0.4 }}
@@ -59,14 +58,23 @@ const HomeHero = ({ data }) => {
                         to={hero.cta.link}
                         className="inline-flex items-center justify-center text-base sm:text-lg lg:text-xl px-6 sm:px-8 py-3 rounded-2xl font-bold  text-white bg-gradient-to-r from-[#3785FF] to-[#1146F2] border border-[#1146F2]   hover:opacity-90 hover:scale-105 transition-all duration-300"
                     >
-                        {hero.cta.label}
+                        {hero.cta.label} <img src={hero.cta.icon} className="ml-2 max-w-6" alt="" />
                     </Link>
+                </motion.div>
+                 <motion.div
+                    className="mt-4 sm:mt-5 flex  "
+                    initial={{ opacity: 0, y: 30 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.8, delay: 0.6 }}
+                >
+                  <a href=" https://appexchange.salesforce.com/appxListingDetail?listingId=a0N30000009wK46EAE" target="_blank"><img src={hero.image1} className="cursor-pointer"  alt="" /></a>
+                     <img src={hero.image2}  className="cursor-pointer" alt="" />
                 </motion.div>
             </div>
 
             {/* Foreground Image (Overlaps next section) */}
             <motion.div
-                className="relative mx-auto mt-12 sm:mt-16 md:mt-20 w-[90%] sm:w-[85%] md:w-[80%] max-w-6xl px-4 z-20 -mb-20 sm:-mb-28 md:-mb-36 lg:-mb-44"
+                className="relative mx-auto mt-12 sm:mt-16 md:mt-20 w-[90%] sm:w-[85%]   px-4 z-20 -mb-20 sm:-mb-28 md:-mb-36 lg:-mb-44"
                 initial={{ opacity: 0, y: 50 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1, delay: 0.8 }}

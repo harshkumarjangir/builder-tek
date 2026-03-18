@@ -9,8 +9,11 @@
     "backgroundImage2": "/assets/home/hero/hero-bg.png",
     "cta": {
       "label": "Schedule a Demo",
-      "link": "/schedule-demo"
+      "link": "/schedule-demo",
+      "icon": "/assets/home/hero/arrow.png"
     },
+    "image1":"/assets/home/hero/image 43.png",
+    "image2":"/assets/home/hero/image 44.png",
     "image": "/assets/home/hero/hero-forground.png",
     "imageAlt": "BuilderTek construction dashboard preview"
   },

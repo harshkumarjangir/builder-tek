@@ -105,7 +105,9 @@ export default function Footer() {
   </div>
 
   </div>
+     <img src="/assets/logos/List.png" className="w-full" alt="" />
 </div>
+      
 
 
       {/* BOTTOM BAR */}
@@ -121,7 +123,8 @@ export default function Footer() {
             ))}
           </div>
         </div>
-      </div>
+                   </div>
+      
     </footer>
   );
 }
