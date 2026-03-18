@@ -74,7 +74,7 @@ const HomeHero = ({ data }) => {
                 </motion.div>
       </div>
       <div className="relative  w-[50%] ">
-        <img src={hero.sideimage.image1} className="absolute  w-full top-0 right-0" alt="" />
+        <img src={hero.sideimage.image1} className="absolute   top-0 right-0" alt="" />
         <img src={hero.sideimage.image2} className="absolute top-1/2  left-[-10%] translate-y-[-50%]" alt="" />
       </div>
             </div>
