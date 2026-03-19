@@ -27,31 +27,12 @@ const Hero = ({ hero, badge = false, person = false, status = false }) => {
       />
 
       {/* Person Image */}
-      {
-
-        hero.isBg && <motion.img
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 1, delay: 0.3 }}
-          src={hero.isBg}
-          alt="Hero Background"
-          className="absolute md:w-[35%] right-30 bottom-0 img-contain pointer-events-none"
-        />
-
-      }
-      {
-        person && <motion.img
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 1, delay: 0.3 }}
-          src={hero.backgroundImage2}
-          alt="Hero Background"
-          className="absolute md:w-[50%] h-[70vh] right-0 bottom-0 img-contain pointer-events-none"
-        />}
+   
+      
 
       {/* Content */}
       {/* hero-content */}
-      <div className="hero-content">
+      <div className="hero-content justify-between">
         <motion.div
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
@@ -113,7 +94,17 @@ const Hero = ({ hero, badge = false, person = false, status = false }) => {
             </Link>
           </div>}
         </motion.div>
-
+ {
+        person && <motion.img
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1, delay: 0.3 }}
+          src={hero.backgroundImage2}
+          alt="Hero Background"
+          className=" w-[80%] sm:w-[40%] lg:h-[50%]  right-10 bottom-0 img-contain pointer-events-none"
+          style={{alignSelf:"end"}}
+        />
+      }
         {/* Floating Badge */}
         {
           badge && <motion.div
