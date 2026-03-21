@@ -18,7 +18,7 @@ const ResidentialBuilders = () => {
 
     return (
         <div>
-            <SolutionsHero hero={whoWeServe.hero} badge={false} person={true} />
+            <SolutionsHero hero={whoWeServe.hero} bgImage={window.innerWidth < 768} h={window.innerWidth < 768} badge={false} person={true} />
 
             <SimplifyConstruction data={whoWeServe.simplifyConstruction} />
 

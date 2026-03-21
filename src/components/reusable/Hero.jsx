@@ -2,30 +2,32 @@ import { motion } from 'motion/react'
 import Text from './Text'
 import { Link } from 'react-router-dom'
 
-const Hero = ({ hero, badge = false,showTheme=false, person = false, status = false }) => {
+const Hero = ({ hero, badge = false,showTheme=true,bgImage=false, person = false, status = false,h=false }) => {
+
+  
   return (
-    <section className="hero-section pt-[15vw] sm:pt-0 " style={{ minHeight: "100vh !important",height:"60vh" }}>
+    <section className={`hero-section pt-[15vw] sm:pt-0 ${!h&&"h-[40vh]"}`} style={{ minHeight: "100vh !important" }}>
       {/* background: ;
  */}
       {/* Background Image */}
-      <motion.img
+     {!bgImage&& <motion.img
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
         src={hero.backgroundImage}
         alt="Hero Background"
         className="absolute inset-0 img-cover"
-      />
+      />}
 
       {/* White Overlay Gradient */}
-{showTheme&&window.innerWidth>769   &&  <>
+{showTheme   &&  <>
 
  <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 0.3 }}
         className='hero-overlay'
-        style={{ "background": "linear-gradient(269.31deg, rgba(0, 26, 56, 0) 40%, rgba(0, 26, 56, 0.514775) 55%, rgba(0, 26, 56, 0.86595) 75%, rgba(0, 26, 56, 0.93682) 85%, #001A38 100%)" }}
+        style={{ "background":!bgImage? "linear-gradient(269.31deg, rgba(0, 26, 56, 0) 40%, rgba(0, 26, 56, 0.514775) 55%, rgba(0, 26, 56, 0.86595) 75%, rgba(0, 26, 56, 0.93682) 85%, #001A38 100%)" :"#001A38"}}
       />
 
       {/* Person Image */}
@@ -34,7 +36,7 @@ const Hero = ({ hero, badge = false,showTheme=false, person = false, status = fa
 
       {/* Content */}
       {/* hero-content */}
-      <div className="hero-content justify-between">
+      <div className={`hero-content justify-between ${h&&"flex-col"}`}>
         <motion.div
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}

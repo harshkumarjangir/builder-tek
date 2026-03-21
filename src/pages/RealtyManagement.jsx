@@ -20,7 +20,7 @@ const RealtyManagement = () => {
     return (
         <PageTransition>
             <div className=''>
-                      <SolutionsHero hero={hero} showTheme={true} badge={false} />
+                      <SolutionsHero hero={hero} showTheme={window.innerWidth>769} badge={false} />
                        {window.innerWidth<769   && 
       <div className="hero-content2 w-full bg-[#001A38] flex-col p-10 items-start justify-center" style={{width:"100% !important"}}>
      
