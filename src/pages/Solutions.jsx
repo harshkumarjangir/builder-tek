@@ -10,6 +10,7 @@ import IconCard from '../components/reusable/IconCard'
 import CenteredCtaSection from '../components/reusable/CenteredCtaSection'
 import FaqSection from '../components/reusable/FaqSection'
 import PageTransition from '../components/reusable/PageTransition'
+import Text from '../components/reusable/Text'
 
 const Solutions = ({ solutionData }) => {
     const { hero, sectionTitle, features, whyChoose, makeSmarter, bringStructure, faq } = solutionData
@@ -17,7 +18,67 @@ const Solutions = ({ solutionData }) => {
 
     return (
         <PageTransition>
-            <SolutionsHero hero={hero} badge={hero.badge} />
+            <SolutionsHero hero={hero} showTheme={true} badge={hero.badge} />
+            {window.innerWidth<769   && 
+      <div className="hero-content2 w-full bg-[#001A38] flex-col p-10 items-start justify-center" style={{width:"100% !important"}}>
+     
+  {
+          hero.badge && <motion.div
+            initial={{ opacity: 0, x: 50, scale: 0.9 }}
+            animate={{ opacity: 1, x: 0, scale: 1 }}
+            transition={{ duration: 0.8, delay: 1.1 }}
+            whileHover={{ scale: 1.05 }}
+            className=" bg-white shadow-xl w-fit rounded-lg px-6 my-4"
+          >
+            <Text
+              variant="body"
+              color="primary"
+              className="text-pre-line"
+            >
+              {hero.badge}
+            </Text>
+          </motion.div>
+        }
+
+          {/* Top Badge */}
+          {
+            hero.topBadge && <span
+              className="bg-[#126DFB80] text-white font-medium px-3 py-1 rounded mb-6"
+            >
+              {hero.topBadge}
+            </span>
+          }
+
+          {/* Title */}
+          <Text
+            variant="h1"
+            color="primary-dark"
+            animated
+            delay={0.7}
+            className="text-pre-line text-white"
+            style={{ lineHeight: '1.1', marginTop: '1rem' }}
+          >
+            {hero.title}
+          
+          </Text>
+
+          <Text
+            variant="body-lg"
+            color="muted"
+            animated
+            delay={0.9}
+            className="mt-6 lg:max-w-[600px] text-white"
+          >
+            {hero.description}
+          </Text>
+      
+       
+
+      
+      </div>
+
+      }
+
             <div className=''>
                 {/* w-[85%] mx-auto */}
 

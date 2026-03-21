@@ -2,9 +2,9 @@ import { motion } from 'motion/react'
 import Text from './Text'
 import { Link } from 'react-router-dom'
 
-const Hero = ({ hero, badge = false, person = false, status = false }) => {
+const Hero = ({ hero, badge = false,showTheme=false, person = false, status = false }) => {
   return (
-    <section className="hero-section pt-[15vw] sm:pt-0 " style={{ minHeight: "100vh !important" }}>
+    <section className="hero-section pt-[15vw] sm:pt-0 " style={{ minHeight: "100vh !important",height:"60vh" }}>
       {/* background: ;
  */}
       {/* Background Image */}
@@ -18,7 +18,9 @@ const Hero = ({ hero, badge = false, person = false, status = false }) => {
       />
 
       {/* White Overlay Gradient */}
-      <motion.div
+{showTheme&&window.innerWidth>769   &&  <>
+
+ <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 0.3 }}
@@ -124,6 +126,8 @@ const Hero = ({ hero, badge = false, person = false, status = false }) => {
           </motion.div>
         }
       </div>
+</>
+      }
     </section >
   )
 }
