@@ -1,0 +1,88 @@
+{
+    "hero": {
+        "title": "Talk to a construction\n technology expert",
+        "description": "Questions? Feedback? We want to hear it all. Reach out today and\n a member of our team will connect with you quickly.",
+        "topBadge": "Contact Us",
+        "badge": "",
+        "backgroundImage2": "/assets/contact/contact-hero.png",
+        "backgroundImage": "/assets/contact/contact-hero.png"
+    },
+    "financialControl": {
+        "badge": "",
+        "title": "How can we help you?",
+        "description": "Whether you're looking for a product demo, have a technical question, or want to discuss global scalability, our team is equipped to provide high-impact solutions."
+    },
+    "form": {
+        "title": "Get in Touch",
+        "subtitle": "Required fields are marked with an asterisk (*)",
+        "fields": {
+            "department": {
+                "label": "Select Department *",
+                "placeholder": "Select Department",
+                "options": [
+                    "Sales",
+                    "Customer Support",
+                    "Partner Program",
+                    "Careers",
+                    "Other"
+                ]
+            },
+            "firstName": {
+                "label": "First Name *"
+            },
+            "lastName": {
+                "label": "Last Name *"
+            },
+            "email": {
+                "label": "Email *"
+            },
+            "phone": {
+                "label": "Phone Number *"
+            },
+            "companyName": {
+                "label": "Company Name *"
+            },
+            "companyType": {
+                "label": "Company Type *",
+                "placeholder": "Select",
+                "options": [
+                    "General Contractor",
+                    "Subcontractor",
+                    "Owner",
+                    "Consultant",
+                    "Other"
+                ]
+            },
+            "comments": {
+                "label": "Comments/Questions",
+                "placeholder": "Describe your needs..."
+            },
+            "optIn": "Yes, I want to get emails from BuilderTek about products, promotions, events, and featured content at the email address above.",
+            "submitButton": "SUBMIT REQUEST"
+        },
+        "footer": "By clicking submit, you agree to our Privacy Policy and Terms of Service. We may contact you regarding our professional services."
+    },
+      "cards": [
+            {
+                "icon": "pricing",
+                "useImage": true,
+                "image": "/assets/contact/Group 39314.png",
+                "title": "Missouri",
+                "description": "605 SW US Highway 40, #452 Blue Springs, MO. 64014 United States"
+            },
+            {
+                "icon": "speed",
+                "useImage": true,
+                "image": "/assets/contact/phone.png",
+                "title": "Phone",
+                "description": "1-844-547-7225 Ext. 700"
+            },
+            {
+                "icon": "win",
+                "useImage": true,
+                "image": "/assets/contact/Group 39314 (1).png",
+                "title": "  Email",
+                "description": "info@buildertek.com"
+            }
+        ]
+}

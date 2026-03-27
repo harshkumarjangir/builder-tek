@@ -22,31 +22,31 @@
             {
                 "title": "Crew & Labor Allocation",
                 "description": "Assign crews to tasks and projects based on availability, skill sets, and schedules.",
-                "icon": "/assets/services/financial/financial-one.png"
+                "icon": "/assets/services/financial/Group 39236.png"
             },
             {
                 "title": "Equipment & Asset Visibility",
                 "description": "Track where equipment is assigned, in use, or available across jobs.",
-                "icon": "/assets/services/financial/financial-two.png"
+                "icon": "/assets/services/financial/Group 39231.png"
             },
             {
                 "title": "Availability & Utilization Tracking",
                 "description": "Identify overbooked or underutilized resources in real time.",
-                "icon": "/assets/services/financial/financial-three.png"
+                "icon": "/assets/services/financial/Group 39232.png"
             },
             {
                 "title": "Schedule-Driven Resource Planning",
                 "description": "Align labor and equipment directly to project schedules and milestones.",
-                "icon": "/assets/services/financial/financial-four.png"
+                "icon": "/assets/services/financial/Group 39233.png"
             },
             {
                 "title": "Cross-Project Resource View",
                 "description": "See workforce and equipment distribution across multiple projects.",
-                "icon": "/assets/services/financial/financial-five.png"
+                "icon": "/assets/services/financial/Group 39234.png"
             }, {
                 "title": "Audit-Ready Assignment History",
                 "description": "Maintain a complete record of resource assignments and changes.",
-                "icon": "/assets/services/financial/financial-six.png"
+                "icon": "/assets/services/financial/Group 39235.png"
             }
         ]
     },
@@ -59,21 +59,21 @@
             {
                 "icon": "pricing",
                 "useImage": true,
-                "image": "/assets/services/sharper/visibility.png",
+                "image": "/assets/services/sharper/Group 39287.png",
                 "title": "Reduced Downtime",
                 "description": "Smarter resource allocation minimizes idle crews and unused equipment between tasks and projects."
             },
             {
                 "icon": "speed",
                 "useImage": true,
-                "image": "/assets/services/sharper/decision.png",
+                "image": "/assets/services/sharper/fi_10319171.png",
                 "title": "Improved Planning Accuracy",
                 "description": "Real-time availability and utilization data help teams plan labor and equipment with confidence."
             },
             {
                 "icon": "win",
                 "useImage": true,
-                "image": "/assets/services/sharper/Better.png",
+                "image": "/assets/services/sharper/Group.png",
                 "title": "Stronger Project Coordination",
                 "description": "By linking resources directly to schedules, BuilderTek ensures field and office teams stay aligned."
             }
@@ -83,32 +83,32 @@
         "title": "  Keep Track of Every Resource Allocation With BuilderTek Resource Management ",
         "features": [
             {
-                "icon": "/assets/services/financial-control/Vector1.png",
+                "icon": "/assets/services/financial-control/material-symbols_dashboard-outline-rounded.png",
                 "title": "Centralized Resource Dashboard",
                 "description": "View crews and assets across all projects"
             },
             {
-                "icon": "/assets/services/financial-control/Vector2.png",
+                "icon": "/assets/services/financial-control/mdi_error-outline.png",
                 "title": "Conflict Detection",
                 "description": "Identify scheduling overlaps before they cause delays"
             },
             {
-                "icon": "/assets/services/financial-control/Vector3.png",
+                "icon": "/assets/services/financial-control/uil_lock-access.png",
                 "title": "Role-Based Access",
                 "description": "Ensure teams see only the resources they manage"
             },
             {
-                "icon": "/assets/services/financial-control/Group.png",
+                "icon": "/assets/services/financial-control/Group copy.png",
                 "title": "Salesforce-Native Reporting",
                 "description": " Analyze utilization and productivity trends"
             },
             {
-                "icon": "/assets/services/financial-control/Group(1).png",
+                "icon": "/assets/services/financial-control/Group (1).png",
                 "title": "Multi-Project Planning",
                 "description": " Balance demand across active jobs"
             },
             {
-                "icon": "/assets/services/financial-control/Group(1).png",
+                "icon": "/assets/services/financial-control/Group (2).png",
                 "title": "Mobile-Friendly Views",
                 "description": "Support field and operations teams on the go"
             }

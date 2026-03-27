@@ -22,32 +22,32 @@
             {
                 "title": "Property & Listing Management",
                 "description": "Manage property listings, availability, and details in a centralized system.",
-                "icon": "/assets/services/financial/financial-one.png"
+                "icon": "/assets/services/financial-control/Group 39236.png"
             },
             {
                 "title": "Inspection & Compliance Tracking",
                 "description": "Schedule and record inspections with clear documentation and status tracking.",
-                "icon": "/assets/services/financial/financial-two.png"
+                "icon": "/assets/services/financial-control/Group 39231.png"
             },
             {
                 "title": "Offer & Transaction Management",
                 "description": "Track offers, approvals, and deal stages from submission through acceptance.",
-                "icon": "/assets/services/financial/financial-three.png"
+                "icon": "/assets/services/financial-control/Group 39233.png"
             },
             {
                 "title": "Closing & Handover Coordination",
                 "description": "Manage closing checklists, documentation, and final handoffs with confidence.",
-                "icon": "/assets/services/financial/financial-four.png"
+                "icon": "/assets/services/financial-control/Group 39234.png"
             },
             {
                 "title": "CRM-Connected Relationships",
                 "description": "Keep buyers, sellers, agents, and vendors connected through shared CRM records.",
-                "icon": "/assets/services/financial/financial-five.png"
+                "icon": "/assets/services/financial-control/Group 39235.png"
             },
               {
                 "title": " Portfolio & Performance Reporting",
                 "description": "Monitor property status, transaction progress, and financial performance through real-time dashboards.",
-                "icon": "/assets/services/financial/financial-six.png"
+                "icon": "/assets/services/financial-control/Group 39232.png"
             }
         ]
     },

@@ -1,6 +1,6 @@
 import { Check } from "lucide-react";
 
-const ServiceFeature = ({ data, reverse }) => {
+const ServiceFeature = ({ data, reverse ,form}) => {
     return (
         <section className="py-24 bg-white">
             <div className="w-[85%] mx-auto px-6">
@@ -25,7 +25,7 @@ const ServiceFeature = ({ data, reverse }) => {
                         </p>
 
                         {/* Bullet Points */}
-                        <ul className="space-y-4">
+                   {data?.features&&     <ul className="space-y-4">
                             {data.features.map((item, index) => (
                                 <li key={index} className="flex items-start gap-3 text-gray-800">
                                     <span className="mt-1 flex items-center justify-center w-6 h-6
@@ -37,11 +37,11 @@ const ServiceFeature = ({ data, reverse }) => {
                                     </span>
                                 </li>
                             ))}
-                        </ul>
+                        </ul>}
                     </div>
 
                     {/* RIGHT IMAGE */}
-                    <div className={`flex max-w-xl h-full justify-center ${reverse ? "lg:order-1" : "lg:order-2"}`}>
+                {data?.image&&    <div className={`flex max-w-xl h-full justify-center ${reverse ? "lg:order-1" : "lg:order-2"}`}>
                         <div className="bg-[#EDE7E1] h-full rounded-2xl p-0">
                             <img
                                 src={data.image}
@@ -49,7 +49,7 @@ const ServiceFeature = ({ data, reverse }) => {
                                 className="rounded-xl h-full"
                             />
                         </div>
-                    </div>
+                    </div>}
 
                 </div>
             </div>

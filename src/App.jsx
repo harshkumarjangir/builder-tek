@@ -24,6 +24,7 @@ import CRMManagement from './pages/CRMManagement'
 import RealtyManagement from './pages/RealtyManagement'
 import ResourceManagement from './pages/ResourceManagement'
 import { About } from './pages/About'
+import Contact from './pages/Contact'
 
 
 const App = () => {
@@ -57,6 +58,7 @@ const App = () => {
              <Route path='/serve/developers' element={<Developer />} />
           <Route path='/services' element={<Services />} />
           <Route path='/blogs' element={<Blogs />} />
+          <Route path='/contact' element={<Contact />} /> 
         </Routes>
       </div>
       {/* <Footer /> */}
