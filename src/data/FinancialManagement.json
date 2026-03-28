@@ -28,32 +28,32 @@
             {
                 "title": "Real-Time Cost Tracking",
                 "description": "Track budgets, commitments, and actuals in one place—with up-to-the-minute accuracy.",
-                "icon": "/assets/services/financial/financial-one.png"
+                "icon": "/assets/services/financial/Group 39236 copy 2.png"
             },
             {
                 "title": "Automated Billing & Invoicing",
                 "description": "Generate invoices directly from contract terms and change orders with minimal effort.",
-                "icon": "/assets/services/financial/financial-two.png"
+                "icon": "/assets/services/financial/Group 39231 copy 3.png"
             },
             {
                 "title": "Change Order Financial Impact",
                 "description": "Monitor how every change order affects the bottom line with full approval history.",
-                "icon": "/assets/services/financial/financial-three.png"
+                "icon": "/assets/services/financial/Group 39232 copy 2.png"
             },
             {
                 "title": "Cash Flow & Forecasting",
                 "description": "Project cash needs and identify cost pressures before they become problems.",
-                "icon": "/assets/services/financial/financial-four.png"
+                "icon": "/assets/services/financial/Group 39233 copy 3.png"
             },
             {
                 "title": "Purchase Order Alignment",
                 "description": "Link POs back to budgets and contracts to eliminate disconnects.",
-                "icon": "/assets/services/financial/financial-five.png"
+                "icon": "/assets/services/financial/Group 39234 copy 3.png"
             },
             {
                 "title": "Audit-Ready Recordkeeping",
                 "description": "Capture every financial action with timestamps, user history, and searchable logs.",
-                "icon": "/assets/services/financial/financial-six.png"
+                "icon": "/assets/services/financial/Group 39235 copy 3.png"
             }
         ]
     },
@@ -66,21 +66,21 @@
             {
                 "icon": "pricing",
                 "useImage": true,
-                "image": "/assets/services/sharper/visibility.png",
+                "image": "/assets/services/sharper/fi_17399294 copy.png",
                 "title": "Greater Financial Visibility",
                 "description": "One source of truth for costs, billing, and commitments—eliminating guesswork across finance and operations."
             },
             {
                 "icon": "speed",
                 "useImage": true,
-                "image": "/assets/services/sharper/decision.png",
+                "image": "/assets/services/sharper/Group copy 2.png",
                 "title": "Improved decision making",
                 "description": "Real-time visibility to respond to risk, optimize cash flow, and predict budget pressures."
             },
             {
                 "icon": "win",
                 "useImage": true,
-                "image": "/assets/services/sharper/Better.png",
+                "image": "/assets/services/sharper/Group 39253.png",
                 "title": "Better accountability and compliance",
                 "description": "Complete audit trails and version control reduce compliance risks and disputes."
             }
@@ -95,7 +95,7 @@
                 "description": "Compare planned vs. actual spending in real time."
             },
             {
-                "icon": "/assets/services/financial-control/Vector2.png",
+                "icon": "/assets/services/financial-control/Group (1).png",
                 "title": "Multi-Project Financial Views"
             },
             {

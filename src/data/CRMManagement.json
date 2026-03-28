@@ -85,17 +85,17 @@
         "title": " Built for Visibility, Consistency, and Growth",
         "features": [
             {
-                "icon": "/assets/services/financial-control/Vector1.png",
+                "icon": "/assets/services/financial-control/Group copy.png",
                 "title": "Salesforce-Native CRM Framework",
                 "description": "Leverage the world’s most powerful CRM foundation"
             },
             {
-                "icon": "/assets/services/financial-control/Vector2.png",
+                "icon": "/assets/services/financial-control/Group (1).png",
                 "title": "Pipeline & Forecast Views",
                 "description": "Track opportunities and expected revenue"
             },
             {
-                "icon": "/assets/services/financial-control/Vector3.png",
+                "icon": "/assets/services/financial-control/entypo_email.png",
                 "title": "Integrated Email Communication",
                 "description": "Send branded emails without leaving Salesforce"
             },
@@ -105,7 +105,7 @@
                 "description": "See every interaction in one timeline"
             },
             {
-                "icon": "/assets/services/financial-control/Group(1).png",
+                "icon": "/assets/services/financial-control/Group (2).png",
                 "title": "Project-to-CRM Linking",
                 "description": "Maintain continuity from sales to execution"
             }
