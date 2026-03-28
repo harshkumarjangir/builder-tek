@@ -3,7 +3,7 @@
         "title": " Build Better Homes\n with BuilderTek\n Construction\n Software",
         "description": "One platform built for Residential Contractors to manage bids, budgets, schedules, and client expectations, without the chaos.\n\nBecome effective in construction with Salesforce Power Residential Contractor Software. Designed for teams balancing fast timelines, tight budgets, and frequent changes. Centralize RFQs, budgets, schedules, and contracts to keep projects moving smoothly while maintaining transparency with homeowners- from start to finish.",
         "backgroundImage2": "/assets/who-we-are/hero/who-we-are-person1.png",
-        "isBg":"/assets/who-we-are/hero/Vector.png",
+        "isBg": "/assets/who-we-are/hero/Vector.png",
         "backgroundImage": "/assets/who-we-are/hero/who-we-are.png"
     },
     "simplifyConstruction": {
@@ -63,32 +63,32 @@
             {
                 "title": "Better Project Control",
                 "description": "Real-time visibility into pricing, scope changes, and approvals helps contractors stay ahead of risks and protect profitability throughout the build.",
-                "icon": "/assets/who-we-are/why-choose/stronger-cost.png"
+                "icon": "/assets/who-we-are/residential-builders/one.png"
             },
             {
                 "title": "Faster Timeline Management",
                 "description": "Streamlined scheduling and coordinated workflows reduce delays across trades, keeping residential projects on track from start to finish.",
-                "icon": "/assets/who-we-are/why-choose/faster-project.png"
+                "icon": "/assets/who-we-are/residential-builders/two.png"
             },
             {
                 "title": "Stronger Budget Predictability",
                 "description": "Connected cost, contract, and schedule data make it easier to forecast expenses and avoid unexpected overruns.",
-                "icon": "/assets/who-we-are/why-choose/improved-decision.png"
+                "icon": "/assets/who-we-are/residential-builders/three.png"
             },
             {
                 "title": "Reduced Administrative Overhead",
                 "description": "Eliminate manual spreadsheets, duplicate data entry, and scattered emails by managing everything in one connected platform.",
-                "icon": "/assets/who-we-are/why-choose/reduced-admin.png"
+                "icon": "/assets/who-we-are/residential-builders/four.png"
             },
             {
                 "title": "Elevated Client Confidence",
                 "description": "Transparent documentation and clear change records build trust with homeowners and reduce friction during decision-making.",
-                "icon": "/assets/who-we-are/why-choose/greater-acc.png"
+                "icon": "/assets/who-we-are/residential-builders/five.png"
             },
             {
                 "title": "Scalable Residential Operations",
                 "description": "Standardized processes allow teams to take on more projects without adding complexity or losing control.",
-                "icon": "/assets/who-we-are/why-choose/scalable-ope.png"
+                "icon": "/assets/who-we-are/residential-builders/six.png"
             }
         ]
     },
@@ -102,7 +102,8 @@
             "headline3": "for Residential Contractors",
             "tick": "/assets/who-we-are/why-general/tick.png",
             "points": [
-                "A Salesforce-powered platform, BuilderTek residential contractor software offers secure data, real-time reporting, and flexibility as residential operations grow. ","From small builders to regional firms, BuilderTek supports consistent execution without sacrificing control."
+                "A Salesforce-powered platform, BuilderTek residential contractor software offers secure data, real-time reporting, and flexibility as residential operations grow. ",
+                "From small builders to regional firms, BuilderTek supports consistent execution without sacrificing control."
             ],
             "image": "/assets/who-we-are/why-general/why-general.png",
             "badge": ""

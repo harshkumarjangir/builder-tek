@@ -3,7 +3,7 @@
         "title": "Stay Aligned on\n Construction Projects\n with BuilderTek",
         "description": "Built for specialty contractors coordinating across multiple projects and schedules.\n\nBuilderTek gives specialty contractors the visibility and structure needed to manage bids, schedules, scope, and billing—without reliance on disconnected emails and spreadsheets.",
         "backgroundImage2": "/assets/who-we-are/hero/who-we-are-person2.png",
-               "isBg":"/assets/who-we-are/hero/Vector.png",
+        "isBg": "/assets/who-we-are/hero/Vector.png",
         "backgroundImage": "/assets/who-we-are/hero/who-we-are.png"
     },
     "simplifyConstruction": {
@@ -63,32 +63,32 @@
             {
                 "title": "Improved Schedule Coordination",
                 "description": "Clear alignment with project timelines helps reduce idle time and last-minute schedule conflicts.",
-                "icon": "/assets/who-we-are/why-choose/stronger-cost.png"
+                "icon": "/assets/who-we-are/specialty-contractors/one.png"
             },
             {
                 "title": "Faster Billing Cycles",
                 "description": "Streamlined approvals and documentation speed up billing and reduce payment delays.",
-                "icon": "/assets/who-we-are/why-choose/faster-project.png"
+                "icon": "/assets/who-we-are/specialty-contractors/two.png"
             },
             {
                 "title": "Better Resource Utilization",
                 "description": "Optimized crew planning minimizes over-allocation and under-utilization across jobs.",
-                "icon": "/assets/who-we-are/why-choose/improved-decision.png"
+                "icon": "/assets/who-we-are/specialty-contractors/three.png"
             },
             {
                 "title": "Clear Communication",
                 "description": "Structured updates and shared records eliminate misunderstandings and rework.",
-                "icon": "/assets/who-we-are/why-choose/reduced-admin.png"
+                "icon": "/assets/who-we-are/specialty-contractors/four.png"
             },
             {
                 "title": "Stronger GC Relationships",
                 "description": "Consistent processes and reliable execution build trust with general contractors.",
-                "icon": "/assets/who-we-are/why-choose/greater-acc.png"
+                "icon": "/assets/who-we-are/specialty-contractors/five.png"
             },
             {
                 "title": "Reduced Project Disruptions",
                 "description": "Early visibility into changes and dependencies helps trade teams respond quickly and stay productive.",
-                "icon": "/assets/who-we-are/why-choose/scalable-ope.png"
+                "icon": "/assets/who-we-are/specialty-contractors/six.png"
             }
         ]
     },
@@ -101,7 +101,10 @@
             "headline2": "contractor is a Salesforce- ",
             "headline3": " powered Platform for Organized Construction",
             "tick": "/assets/who-we-are/why-general/tick.png",
-            "points": ["BuilderTek is a Salesforce-powered construction platform delivering structured workflows, real-time visibility, and seamless coordination across every job site.","A future-ready specialty contractor software designed to support operational efficiency, clearer scope management, faster billing cycles, and long-term business growth."],
+            "points": [
+                "BuilderTek is a Salesforce-powered construction platform delivering structured workflows, real-time visibility, and seamless coordination across every job site.",
+                "A future-ready specialty contractor software designed to support operational efficiency, clearer scope management, faster billing cycles, and long-term business growth."
+            ],
             "image": "/assets/who-we-are/why-general/why-general.png",
             "badge": ""
         }
