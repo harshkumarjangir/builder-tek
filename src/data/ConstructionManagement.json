@@ -25,32 +25,32 @@
             {
                 "title": "Project Scheduling & Planning",
                 "description": "Build and manage detailed project timelines with tasks, dependencies, and milestones to keep work moving efficiently.",
-                "icon": "/assets/services/financial/financial-one.png"
+                "icon": "/assets/services/financial/Group 39233.png"
             },
             {
                 "title": "Inspection & Quality Management",
                 "description": "Schedule, conduct, and track inspections digitally to maintain quality standards and compliance.",
-                "icon": "/assets/services/financial/financial-two.png"
+                "icon": "/assets/services/financial/Group 39231 copy 2.png"
             },
             {
                 "title": "Centralized Document Management",
                 "description": "Store drawings, specifications, photos, and reports in one secure, searchable location.",
-                "icon": "/assets/services/financial/financial-three.png"
+                "icon": "/assets/services/financial/Group 39235.png"
             },
             {
                 "title": "Real-Time Project Tracking",
                 "description": "Monitor task status, completion percentages, and milestones as work progresses.",
-                "icon": "/assets/services/financial/financial-four.png"
+                "icon": "/assets/services/financial/Group 39233 copy 2.png"
             },
             {
                 "title": "Team Collaboration & Communication",
                 "description": "Keep field teams, project managers, and stakeholders aligned with shared access and updates",
-                "icon": "/assets/services/financial/financial-five.png"
+                "icon": "/assets/services/financial/Group 39234 copy 2.png"
             },
               {
                 "title": "Risk & Issue Management",
                 "description": "Identify, document, and resolve project risks or field issues quickly with structured tracking, clear ownership, and status visibility.",
-                "icon": "/assets/services/financial/financial-six.png"
+                "icon": "/assets/services/financial/Group 39235 copy 2.png"
             }
         ]
     },
@@ -70,14 +70,14 @@
             {
                 "icon": "speed",
                 "useImage": true,
-                "image": "/assets/services/sharper/decision.png",
+                "image": "/assets/services/sharper/fi_3722005.png",
                 "title": "Better Team Coordination",
                 "description": "Shared schedules, documents, and updates ensure field and office teams stay aligned, minimizing miscommunication and rework."
             },
             {
                 "icon": "win",
                 "useImage": true,
-                "image": "/assets/services/sharper/Better.png",
+                "image": "/assets/services/sharper/fi_837989.png",
                 "title": "Predictable Project Delivery",
                 "description": "Clear timelines, structured workflows, and consistent tracking. Teams identify risks early and keep projects moving on schedule."
             }
