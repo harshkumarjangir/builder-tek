@@ -77,21 +77,21 @@
             {
                 "icon": "pricing",
                 "useImage": true,
-                "image": "/assets/solutions/make-smarter-one/Group-39239.png",
+                "image": "/assets/solutions/Rfq/Great-Pricing.png",
                 "title": "Greater Pricing Accuracy",
                 "description": "Accuracy in every vendor bid from the same scope—line items, quantities, drawings, and specifications."
             },
             {
                 "icon": "speed",
                 "useImage": true,
-                "image": "/assets/solutions/make-smarter-one/fi_2612924.png",
+                "image": "/assets/solutions/Rfq/RFQ-preparation.png",
                 "title": "Faster, Easier RFQ Preparation",
                 "description": "Direct RFQ creation in just a few clicks. No manual spreadsheets and email chains. Reduced repeatable workflow and administrative effort."
             },
             {
                 "icon": "win",
                 "useImage": true,
-                "image": "/assets/solutions/make-smarter-one/Group-43.png",
+                "image": "/assets/solutions/Rfq/Awards.png",
                 "title": "Higher Win Rates on Awards",
                 "description": "Clear scopes, professional communication, and structured bidding for stronger vendor engagement."
             }
