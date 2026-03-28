@@ -23,32 +23,32 @@
             {
                 "title": "Account & Contact Management",
                 "description": "Maintain a centralized database for customers, subcontractors, vendors, and partners—fully connected to projects.",
-                "icon": "/assets/services/financial/financial-one.png"
+                "icon": "/assets/services/financial/Group 39236 copy.png"
             },
             {
                 "title": "Lead & Opportunity Tracking",
                 "description": "Manage leads and opportunities from first contact through contract award with full visibility into sales pipelines.",
-                "icon": "/assets/services/financial/financial-two.png"
+                "icon": "/assets/services/financial/Group 39231 copy.png"
             },
             {
                 "title": "Project-Connected Communication",
                 "description": "Link emails, notes, and activity history directly to accounts, opportunities, and projects.",
-                "icon": "/assets/services/financial/financial-three.png"
+                "icon": "/assets/services/financial/Group 39232 copy.png"
             },
             {
                 "title": "Automated Follow-Ups & Tasks",
                 "description": "Create reminders and task workflows to ensure timely communication and consistent outreach.",
-                "icon": "/assets/services/financial/financial-four.png"
+                "icon": "/assets/services/financial/Group 39233 copy.png"
             },
             {
                 "title": "Cross-Team Visibility",
                 "description": "Sales, operations, and project teams all work from the same CRM data.",
-                "icon": "/assets/services/financial/financial-five.png"
+                "icon": "/assets/services/financial/Group 39234 copy.png"
             },
              {
                 "title": " Sales-to-Project Conversion",
                 "description": "Seamlessly convert awarded opportunities into active projects from preconstruction to execution without re-entering data.",
-                "icon": "/assets/services/financial/financial-six.png"
+                "icon": "/assets/services/financial/Group 39235 copy.png"
             }
         ]
     },
@@ -61,21 +61,21 @@
             {
                 "icon": "pricing",
                 "useImage": true,
-                "image": "/assets/services/sharper/visibility.png",
+                "image": "/assets/services/sharper/fi_17399294.png",
                 "title": "Improved Relationship Visibility",
                 "description": "With all communication and data centralized, teams gain a complete understanding of each client and vendor relationship, reducing miscommunication and missed follow-ups."
             },
             {
                 "icon": "speed",
                 "useImage": true,
-                "image": "/assets/services/sharper/decision.png",
+                "image": "/assets/services/sharper/fi_9410339.png",
                 "title": "Smoother Handoffs from Sales to Delivery",
                 "description": "Project teams inherit full context from CRM records, ensuring nothing is lost between opportunity award and project execution."
             },
             {
                 "icon": "win",
                 "useImage": true,
-                "image": "/assets/services/sharper/Better.png",
+                "image": "/assets/services/sharper/fi_11620696.png",
                 "title": "Greater Consistency & Accountability",
                 "description": "Standardized workflows and activity tracking help teams maintain professionalism and follow-through across every interaction."
             }
