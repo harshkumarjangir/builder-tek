@@ -3,7 +3,7 @@
         "title": "Gain Complete\n Project Oversight\n with BuilderTek",
         "description": "Built for developers and owners managing complex construction portfolios.\n\nBuilderTek gives developers and owners real-time visibility into budgets, schedules, approvals, and risks without getting buried in day-to-day operations. Centralize project data on a Salesforce-powered platform without oversight, make informed decisions, and achieve predictable outcomes across the entire portfolio.",
         "backgroundImage2": "/assets/who-we-are/hero/who-we-are-person3.png",
-              "isBg":"/assets/who-we-are/hero/Vector.png",
+        "isBg": "/assets/who-we-are/hero/Vector.png",
         "backgroundImage": "/assets/who-we-are/hero/who-we-are.png"
     },
     "simplifyConstruction": {
@@ -63,32 +63,32 @@
             {
                 "title": "Reduced Risk Exposure",
                 "description": "Early detection of budget, schedule, or scope deviations enables proactive intervention before issues escalate.",
-                "icon": "/assets/who-we-are/why-choose/stronger-cost.png"
+                "icon": "/assets/who-we-are/developers/one.png"
             },
             {
                 "title": "Better Financial Control",
                 "description": "Connected budgets, commitments, and approvals ensure disciplined financial management across every project.",
-                "icon": "/assets/who-we-are/why-choose/faster-project.png"
+                "icon": "/assets/who-we-are/developers/two.png"
             },
             {
                 "title": "Faster Decisions Making",
                 "description": "Real-time data eliminates delays caused by incomplete or outdated information.",
-                "icon": "/assets/who-we-are/why-choose/improved-decision.png"
+                "icon": "/assets/who-we-are/developers/three.png"
             },
             {
                 "title": "Multi-Level Visibility",
                 "description": "View performance, risk, and financial health across multiple projects from a single dashboard.",
-                "icon": "/assets/who-we-are/why-choose/reduced-admin.png"
+                "icon": "/assets/who-we-are/developers/four.png"
             },
             {
                 "title": "Accountability at Every Level",
                 "description": "Clear ownership, approvals, and records ensure decisions are traceable and responsibilities are defined.",
-                "icon": "/assets/who-we-are/why-choose/greater-acc.png"
+                "icon": "/assets/who-we-are/developers/five.png"
             },
             {
                 "title": "Construct Improved Confidence",
                 "description": "Transparent reporting and predictable outcomes strengthen trust with investors, partners, and regulators.",
-                "icon": "/assets/who-we-are/why-choose/scalable-ope.png"
+                "icon": "/assets/who-we-are/developers/six.png"
             }
         ]
     },
@@ -97,11 +97,13 @@
         "title2": "",
         "description": "Built for scale, security, and transparency.",
         "content": {
-             "headline": "Enterprise-Grade  ",
+            "headline": "Enterprise-Grade  ",
             "headline2": "Construction Platform ",
             "headline3": "Built for Home Developers ",
             "tick": "/assets/who-we-are/why-general/tick.png",
-            "points": ["BuilderTek is a true Salesforce construction platform designed for enterprise governance. Its scalable architecture, real-time analytics, and secure data model support growing portfolios while maintaining strict controls, compliance readiness, and long-term operational resilience."],
+            "points": [
+                "BuilderTek is a true Salesforce construction platform designed for enterprise governance. Its scalable architecture, real-time analytics, and secure data model support growing portfolios while maintaining strict controls, compliance readiness, and long-term operational resilience."
+            ],
             "image": "/assets/who-we-are/why-general/why-general.png",
             "badge": ""
         }

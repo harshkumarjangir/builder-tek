@@ -3,10 +3,9 @@
         "title": "Take Control of\n Remodeling Projects\n with BuilderTek",
         "description": "One platform built for Residential Contractors to manage bids, budgets, schedules, and client expectations, without the chaos.\n\nBecome effective in construction with Salesforce Power Residential Contractor Software. Designed for teams balancing fast timelines, tight budgets, and frequent changes. Centralize RFQs, budgets, schedules, and contracts to keep projects moving smoothly while maintaining transparency with homeowners- from start to finish.",
         "backgroundImage2": "/assets/who-we-are/hero/who-we-are-person4.png",
-       
-               "isBg":"/assets/who-we-are/hero/Vector.png",
+        "isBg": "/assets/who-we-are/hero/Vector.png",
         "backgroundImage": "/assets/who-we-are/hero/who-we-are.png"
-      },
+    },
     "simplifyConstruction": {
         "title": " Remodel with confidence with BuildeTek",
         "description": "One system to manage complex remodeling projects without confusion.\n\nRemodeling projects call for frequent updates. BuilderTek remodeling management software gives a structured way to capture changes, track costs, and document decisions, without slowing execution.",
@@ -64,32 +63,32 @@
             {
                 "title": " Controlled Scope Changes",
                 "description": "Structured change management minimizes misunderstandings and ensures every update is clearly approved and priced.",
-                "icon": "/assets/who-we-are/why-choose/stronger-cost.png"
+                "icon": "/assets/who-we-are/remodelers/one.png"
             },
             {
                 "title": " Budget Accuracy",
                 "description": "Real-time cost tracking helps remodelers understand the financial impact of changes before margins are affected.",
-                "icon": "/assets/who-we-are/why-choose/faster-project.png"
+                "icon": "/assets/who-we-are/remodelers/two.png"
             },
             {
                 "title": " Stronger Client Trust",
                 "description": "Transparent records and clear communication build homeowner confidence and reduce friction throughout the remodel.",
-                "icon": "/assets/who-we-are/why-choose/improved-decision.png"
+                "icon": "/assets/who-we-are/remodelers/three.png"
             },
             {
                 "title": "Less Administrative Work",
                 "description": "Automated workflows and centralized data reduce manual tracking, freeing teams to focus on execution.",
-                "icon": "/assets/who-we-are/why-choose/reduced-admin.png"
+                "icon": "/assets/who-we-are/remodelers/four.png"
             },
             {
                 "title": " Repeatable Processes",
                 "description": "Consistent workflows bring structure to every remodel, improving efficiency regardless of project size.",
-                "icon": "/assets/who-we-are/why-choose/greater-acc.png"
+                "icon": "/assets/who-we-are/remodelers/five.png"
             },
             {
                 "title": " Fewer Delays & Disruptions",
                 "description": "Better visibility into schedules and scope changes helps teams anticipate issues and keep work moving forward.",
-                "icon": "/assets/who-we-are/why-choose/scalable-ope.png"
+                "icon": "/assets/who-we-are/remodelers/six.png"
             }
         ]
     },
