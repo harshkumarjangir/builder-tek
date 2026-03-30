@@ -223,7 +223,7 @@ const ContactForm = ({ data }) => {
                                     </svg>
                                 </div>
                             </div>
-                            <span className="text-[15px] md:text-lg text-gray-500 group-hover:text-gray-900 transition-colors leading-relaxed font-semibold">
+                            <span className="text-[7px] md:text-lg text-gray-500 group-hover:text-gray-900 transition-colors leading-relaxed font-normal">
                                 {fields.optIn}
                             </span>
                         </label>
@@ -234,7 +234,7 @@ const ContactForm = ({ data }) => {
                                 whileHover={{ scale: 1.02, backgroundColor: '#155bd1', boxShadow: '0 25px 50px -12px rgba(24, 104, 240, 0.4)' }}
                                 whileTap={{ scale: 0.98 }}
                                 type="submit"
-                                className="w-full py-7 px-10 bg-[#1868f0] text-white font-black rounded-2xl shadow-2xl shadow-blue-500/30 transition-all uppercase tracking-[0.25em] text-xl flex items-center justify-center gap-4 group"
+                                className="w-full py-4 px-5 bg-[#1868f0] text-white font-black rounded-2xl shadow-2xl shadow-blue-500/30 transition-all uppercase tracking-[0.25em] text-xl flex items-center justify-center gap-4 group"
                             >
                                 {fields.submitButton}
                                 <svg className="w-7 h-7 transform group-hover:translate-x-2 transition-transform duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">

@@ -100,13 +100,14 @@ const Navbar = () => {
                                 )}
 
                                 {/* Mobile CTA Button */}
-                                <Link
-                                    to={navData.cta.path}
+                                <a
+                                target="_blank"
+                                    href="https://buildertek3-dev-ed.develop.my.site.com/CaseManagement/login"
                                     className="inline-flex items-center justify-center px-4 py-2 rounded-xl text-white bg-gradient-to-r from-[#3785FF] to-[#1146F2]    text-sm mt-4 w-full transition-all duration-300 hover:scale-105"
                                     onClick={() => setIsMobileMenuOpen(false)}
                                 >
                                     {navData.cta.label}
-                                </Link>
+                                </a>
                             </div>
                         </div>
                     </motion.div>

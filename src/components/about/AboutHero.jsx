@@ -54,13 +54,13 @@ const AboutHero = ({ data }) => {
 
             {/* Foreground Image (Overlaps next section) */}
             <motion.div
-                className="relative w-[90%] mx-auto mt-12 sm:mt-16 md:mt-20   px-4 z-20 -mb-20 sm:-mb-28 md:-mb-36 lg:-mb-44 flex justify-center gap-3.5"
+                className="relative w-[90%] flex h-[30vh] justify-between mx-auto mt-12 sm:mt-16 md:mt-20   px-4 z-20   gap-3.5"
                 initial={{ opacity: 0, y: 50 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1, delay: 0.8 }}
             >
-               <img src="/assets/about/hero1.png" className="rounded-2xl w-[60%]" alt="" />
-               <img src="/assets/about/Group 39256.png" className="rounded-2xl w-[40%]" alt="" />
+               <img src="/assets/about/hero1.png" className="rounded-2xl w-[65%] h-[390px]" alt="" />
+               <img src="/assets/about/Group 39256.png" className="rounded-2xl w-[33%] h-[390px]" alt="" />
 
             </motion.div>
         </section>

@@ -10,10 +10,11 @@ import ServiceFeature from '../components/services/ServiceFeature';
 import { Build } from '../components/services/Build';
 import { FinancialCom } from '../components/services/Financial';
 import Text from '../components/reusable/Text';
+import FaqSection from '../components/reusable/FaqSection';
 
 
 const FinancialManagement = () => {
-    const { hero, whyChoose, sharperFinancial, financialControl,build ,Financial} = FinancialManagementData
+    const { hero, whyChoose, sharperFinancial, financialControl,build ,Financial,faq} = FinancialManagementData
     const { section } = whyChoose
     return (
         <PageTransition>
@@ -161,6 +162,16 @@ const FinancialManagement = () => {
                 </motion.section>
                 <Build data={build}/>
                 <FinancialCom data={Financial}/>
+                 {
+                    faq&& <motion.div
+                initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8 }}
+                viewport={{ once: true }}
+            >
+                <FaqSection data={faq} />
+            </motion.div>
+                }
             </div>
         </PageTransition>
     );

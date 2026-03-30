@@ -101,6 +101,9 @@
                     "path": "/docs"
                 }
             ]
+        },{
+        "label":"Contact Us",
+        "path":"/contact"
         }
     ],
     "cta": {

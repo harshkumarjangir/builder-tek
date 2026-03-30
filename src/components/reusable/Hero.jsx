@@ -6,7 +6,7 @@ const Hero = ({ hero, badge = false,showTheme=true,bgImage=false, person = false
 
   
   return (
-    <section className={`hero-section pt-[15vw] sm:pt-0 ${!h&&"h-[40vh]"}`} style={{ minHeight: "100vh !important" }}>
+    <section className={`hero-section  pt-[15vw] sm:pt-0  h-[50vh] md:h-[100vh]`} style={{ minHeight: "100vh !important" }}>
       {/* background: ;
  */}
       {/* Background Image */}
@@ -36,7 +36,7 @@ const Hero = ({ hero, badge = false,showTheme=true,bgImage=false, person = false
 
       {/* Content */}
       {/* hero-content */}
-      <div className={`hero-content justify-between ${h&&"flex-col"}`}>
+      <div className={`${badge?"hero-content20  justify-between h-[50vh] lg:h-max  -translate-y-1/2 top-1/2 ":"hero-content"} ${h&&"justify-between"} ${h&&"flex-col"}`}>
         <motion.div
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
@@ -60,9 +60,8 @@ const Hero = ({ hero, badge = false,showTheme=true,bgImage=false, person = false
             color="primary-dark"
             animated
             delay={0.7}
-            className="text-pre-line text-white"
-            style={{ lineHeight: '1.1', marginTop: '1rem' }}
-          >
+            className={`text-pre-line text-white ${hero.topBadge?"mt-[1rem]":"lg:mt-[-1.5rem]"}` }
+            style={{ lineHeight: '1.1'}}      >
             {hero.title}
             {/* <br />
             {hero.title2 && (
@@ -92,7 +91,7 @@ const Hero = ({ hero, badge = false,showTheme=true,bgImage=false, person = false
           {status && <div className="my-8 mb-16">
             <Link
               to={"/schedule-demo"}
-              className="inline-flex items-center justify-center text-xl px-8 py-3 rounded-2xl font-semibold  text-white bg-gradient-to-r from-[#3785FF] to-[#1146F2] border border-[#1146F2]   hover:opacity-90 transition"
+              className="inline-flex items-center justify-center  text-xl px-8 py-3 rounded-2xl font-semibold  text-white bg-gradient-to-r from-[#3785FF] to-[#1146F2] border border-[#1146F2]   hover:opacity-90 transition"
             >
               Schedule a Demo
             </Link>
@@ -105,7 +104,7 @@ const Hero = ({ hero, badge = false,showTheme=true,bgImage=false, person = false
           transition={{ duration: 1, delay: 0.3 }}
           src={hero.backgroundImage2}
           alt="Hero Background"
-          className=" w-[80%] sm:w-[40%] lg:h-[50%]  right-10 bottom-0 img-contain pointer-events-none"
+          className=" w-[80%] sm:w-[40%] lg:h-[70%]  self-baseline img-contain pointer-events-none"
           style={{alignSelf:"end"}}
         />
       }
@@ -116,7 +115,7 @@ const Hero = ({ hero, badge = false,showTheme=true,bgImage=false, person = false
             animate={{ opacity: 1, x: 0, scale: 1 }}
             transition={{ duration: 0.8, delay: 1.1 }}
             whileHover={{ scale: 1.05 }}
-            className="hidden lg:block absolute -right-5 top-32 bg-white shadow-xl rounded-lg px-6 py-4 max-w-[360px]"
+            className="hidden lg:block self-baseline bg-white shadow-xl rounded-lg px-6 py-4 max-w-[360px]"
           >
             <Text
               variant="body"

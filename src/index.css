@@ -250,7 +250,9 @@ body {
    .hero-content {
     @apply relative z-10 w-[100%] mx-auto px-6 h-full flex;
   }
-
+ .hero-content20 {
+    @apply relative z-10 w-[100%] mx-auto px-6  flex;
+  }
   /* Animation utilities */
   .hover-lift {
     @apply hover:scale-105 transition-transform duration-200;
