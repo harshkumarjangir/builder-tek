@@ -6,7 +6,7 @@ const Hero = ({ hero, badge = false,showTheme=true,bgImage=false, person = false
 
   
   return (
-    <section className={`${person?"hero-section2":"hero-section"}  pt-[15vw] sm:pt-0  `} style={{ minHeight:person?"": "100vh !important" }}>
+    <section className={`${person?"hero-section2 h-[100vh]":"hero-section min-h-[100vh]"}  align-bottom pt-[15vw] sm:pt-0  `} >
       {/* background: ;
  */}
       {/* Background Image */}
@@ -36,7 +36,7 @@ const Hero = ({ hero, badge = false,showTheme=true,bgImage=false, person = false
 
       {/* Content */}
       {/* hero-content */}
-      <div className={`${badge?"hero-content20  justify-between h-[50vh] lg:h-max  -translate-y-1/2 top-1/2 ":"hero-content"} ${h&&"justify-between"} ${h&&"flex-col"}`}>
+      <div className={`${badge?"hero-content20  justify-between h-[50vh] lg:h-max  lg:-translate-y-1/2 lg:top-1/2 ":"hero-content"} ${h&&"justify-between"} ${h&&"flex-col"}`}>
         <motion.div
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
@@ -104,7 +104,7 @@ const Hero = ({ hero, badge = false,showTheme=true,bgImage=false, person = false
           transition={{ duration: 1, delay: 0.3 }}
           src={hero.backgroundImage2}
           alt="Hero Background"
-          className=" w-[80%] sm:w-[40%] lg:h-[50%]  self-baseline img-contain pointer-events-none"
+          className=" self-baseline img-contain pointer-events-none"
           style={{alignSelf:"end"}}
         />
       }
