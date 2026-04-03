@@ -247,6 +247,9 @@ body {
   .hero-content {
     @apply relative z-10 w-[95%] mx-auto px-6 h-full flex items-center;
   }
+    .hero-section2 {
+    @apply relative w-full  px-5 md:px-[80px] overflow-hidden;
+  }
    .hero-content {
     @apply relative z-10 w-[100%] mx-auto px-6 h-full flex;
   }

@@ -6,7 +6,7 @@ const Hero = ({ hero, badge = false,showTheme=true,bgImage=false, person = false
 
   
   return (
-    <section className={`hero-section  pt-[15vw] sm:pt-0  h-[50vh] md:h-[100vh]`} style={{ minHeight: "100vh !important" }}>
+    <section className={`${person?"hero-section2":"hero-section"}  pt-[15vw] sm:pt-0  `} style={{ minHeight:person?"": "100vh !important" }}>
       {/* background: ;
  */}
       {/* Background Image */}
@@ -60,7 +60,7 @@ const Hero = ({ hero, badge = false,showTheme=true,bgImage=false, person = false
             color="primary-dark"
             animated
             delay={0.7}
-            className={`text-pre-line text-white ${hero.topBadge?"mt-[1rem]":"lg:mt-[-1.5rem]"}` }
+            className={`text-pre-line ${person&&"pt-10"} text-white ${hero.topBadge?"mt-[1rem]":"lg:mt-[-1.5rem]"}` }
             style={{ lineHeight: '1.1'}}      >
             {hero.title}
             {/* <br />
@@ -84,7 +84,7 @@ const Hero = ({ hero, badge = false,showTheme=true,bgImage=false, person = false
             color="muted"
             animated
             delay={0.9}
-            className="mt-6 lg:max-w-[600px] text-white"
+            className={`mt-6 lg:max-w-[600px] text-white ${person&&"pb-10"}`}
           >
             {hero.description}
           </Text>
@@ -104,7 +104,7 @@ const Hero = ({ hero, badge = false,showTheme=true,bgImage=false, person = false
           transition={{ duration: 1, delay: 0.3 }}
           src={hero.backgroundImage2}
           alt="Hero Background"
-          className=" w-[80%] sm:w-[40%] lg:h-[70%]  self-baseline img-contain pointer-events-none"
+          className=" w-[80%] sm:w-[40%] lg:h-[50%]  self-baseline img-contain pointer-events-none"
           style={{alignSelf:"end"}}
         />
       }
