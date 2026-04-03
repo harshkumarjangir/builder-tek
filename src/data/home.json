@@ -78,7 +78,7 @@
           "Bring strategic initiatives to life",
           "Detect and mitigate project risks"
         ],
-        "image": "/assets/industries-section/screenshot.png"
+        "image": "/assets/home/sw/Commercial Contractors.png"
       },
       {
         "name": "Home Builders & Residential Contractors",
@@ -90,7 +90,7 @@
           "Manage teams and vendors",
           "Control project timelines"
         ],
-        "image": "/assets/industries-section/screenshot.png"
+        "image": "/assets/home/sw/Home Builders & Residential Contractors.png"
       },
       {
         "name": "Specialty Contractors",
@@ -102,7 +102,7 @@
           "Improve job costing",
           "Reduce delays"
         ],
-        "image": "/assets/industries-section/screenshot.png"
+        "image": "/assets/home/sw/Specialty Contractors.png"
       },
       {
         "name": "Real Estate & Property Developers",
@@ -114,7 +114,7 @@
           "Financial forecasting",
           "Project visibility"
         ],
-        "image": "/assets/industries-section/screenshot.png"
+        "image": "/assets/home/sw/Real Estate & Property Developers.png"
       }
     ]
   },

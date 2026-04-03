@@ -1,8 +1,10 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
+import { useLocation } from "react-router-dom";
 
 const IndustriesSection = ({ data }) => {
     const { industriesSection } = data;
+    const location=useLocation()
     const [active, setActive] = useState(0);
 
     const tab = industriesSection.tabs[active];
@@ -72,17 +74,20 @@ const IndustriesSection = ({ data }) => {
                     viewport={{ once: true }}
                     whileHover={{ y: -5 }}
                 >
-                    <div className="grid md:grid-cols-2 gap-10 items-center">
-
+                    <div className="grid relative md:grid-cols-2 gap-10 items-center">
+   {
+                            location.pathname=="/"&&<img className="w-full absolute  z-0" src={tab.image} width={100} height={100}/>
+                        }
                         {/* Left Content */}
-                        <AnimatePresence mode="wait">
+                        <AnimatePresence  mode="wait">
                             <motion.div
                                 key={active}
-                                className="p-10"
+                                className={`p-10 ${ location.pathname=="/"&&"z-10"}`}
                                 initial={{ opacity: 0, x: -30 }}
                                 animate={{ opacity: 1, x: 0 }}
                                 exit={{ opacity: 0, x: 30 }}
                                 transition={{ duration: 0.5 }}
+
                             >
                                 <motion.span
                                     className="text-blue-600 text-sm font-semibold bg-blue-50 px-3 py-1 rounded-md"
@@ -151,8 +156,10 @@ const IndustriesSection = ({ data }) => {
                         {/* Right Image */}
                         <div className="relative">
                             {/* Absolute div of color */}
+                            {location.pathname!="/"&&
+                          <>
                             <div className="absolute inset-0 bg-[#F5F1ED]/10"></div>
-                            <AnimatePresence mode="wait">
+                             <AnimatePresence mode="wait">
                                 <motion.img
                                     key={active}
                                     src={tab.image}
@@ -164,7 +171,11 @@ const IndustriesSection = ({ data }) => {
                                     transition={{ duration: 0.5 }}
                                 />
                             </AnimatePresence>
+                          </>
+                            }
+                           
                         </div>
+                     
 
                     </div>
                 </motion.div>

@@ -1,7 +1,7 @@
 import React from 'react'
 import homeData from '../data/home.json'
 import HomeHero from '../components/home/HomeHero'
-import TrustedSlider from '../components/home/TrustedSlider'
+// import TrustedSlider from '../components/home/TrustedSlider'
 import PlatformSection from '../components/home/PlatformSection'
 import CenteredCtaSection from '../components/reusable/CenteredCtaSection'
 import { motion } from 'motion/react'
