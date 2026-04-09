@@ -2,7 +2,7 @@ import { motion } from 'motion/react'
 import Text from './Text'
 import { Link } from 'react-router-dom'
 
-const Hero = ({ hero, badge = false,showTheme=true,bgImage=false, person = false, status = false,h=false }) => {
+const Hero = ({ hero, badge = false,showTheme=true,bgImage=false, person = false, status = false,h=false,hmax=false }) => {
 
   
   return (
@@ -36,12 +36,12 @@ const Hero = ({ hero, badge = false,showTheme=true,bgImage=false, person = false
 
       {/* Content */}
       {/* hero-content */}
-      <div className={`${badge?"hero-content20  justify-between h-[50vh] lg:h-max  lg:-translate-y-1/2 lg:top-1/2 ":"hero-content"} ${h&&"justify-between"} ${h&&"flex-col"}`}>
+      <div className={`${badge||hmax?"hero-content20  justify-between h-[50vh] lg:h-max  lg:-translate-y-1/2 lg:top-1/2 ":"hero-content"} ${h&&"justify-between"} ${h&&"flex-col"}`}>
         <motion.div
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, delay: 0.5 }}
-        // className="w-[652px]"
+        className={`${hmax?"h-max my-auto":""}`}
         >
 
 

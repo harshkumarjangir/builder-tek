@@ -28,7 +28,7 @@ const Solutions = ({ solutionData }) => {
                 },[])
     return (
         <PageTransition>
-            <SolutionsHero hero={hero} showTheme={!isMobile}   badge={hero.badge} />
+            <SolutionsHero hero={hero} showTheme={!isMobile}  hmax={true}  badge={hero.badge} />
             {isMobile   && 
       <div className="hero-content2 w-full bg-[#001A38] flex-col p-10 items-start justify-center" style={{width:"100% !important"}}>
      
