@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
 import whoWeServe from '../data/General_Contractors.json'
 
@@ -15,10 +15,19 @@ const General = () => {
 
     const { whyChoose } = whoWeServe
     const { section } = whyChoose
-
+const [isMobile, setIsMobile] = useState(window.innerWidth < 768)
+        useEffect(()=>{
+            const handleResize = () => {
+                setIsMobile(window.innerWidth < 768)
+            }
+            window.addEventListener('resize', handleResize)
+            return () => {
+                window.removeEventListener('resize', handleResize)
+            }
+        },[])
     return (
         <div>
-            <SolutionsHero hero={whoWeServe.hero} bgImage={window.innerWidth < 768} h={window.innerWidth < 768}   badge={false} person={true} />
+            <SolutionsHero hero={whoWeServe.hero} bgImage={isMobile} h={isMobile}   badge={false} person={true} />
 
             <SimplifyConstruction data={whoWeServe.simplifyConstruction} />
 

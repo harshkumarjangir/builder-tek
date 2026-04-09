@@ -11,15 +11,25 @@ import CenteredCtaSection from '../components/reusable/CenteredCtaSection'
 import FaqSection from '../components/reusable/FaqSection'
 import PageTransition from '../components/reusable/PageTransition'
 import Text from '../components/reusable/Text'
+import { useEffect, useState } from 'react'
 
 const Solutions = ({ solutionData }) => {
     const { hero, sectionTitle, features, whyChoose, makeSmarter, bringStructure, faq } = solutionData
     const { section } = whyChoose
-
+      const [isMobile, setIsMobile] = useState(window.innerWidth < 768)
+                useEffect(() =>{
+                    const handleResize = () => {
+                        setIsMobile(window.innerWidth < 768)
+                    }
+                    window.addEventListener('resize', handleResize)
+                    return () => {
+                        window.removeEventListener('resize', handleResize)
+                    }
+                },[])
     return (
         <PageTransition>
-            <SolutionsHero hero={hero} showTheme={window.innerWidth>769}   badge={hero.badge} />
-            {window.innerWidth<769   && 
+            <SolutionsHero hero={hero} showTheme={!isMobile}   badge={hero.badge} />
+            {isMobile   && 
       <div className="hero-content2 w-full bg-[#001A38] flex-col p-10 items-start justify-center" style={{width:"100% !important"}}>
      
   {

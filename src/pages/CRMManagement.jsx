@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import CRMManagementData from '../data/CRMManagement.json'
 import SolutionsHero from '../components/reusable/Hero'
 import PageTransition from '../components/reusable/PageTransition';
@@ -17,11 +17,22 @@ import Text from '../components/reusable/Text';
 const CRMManagement = () => {
     const { hero, whyChoose, sharperFinancial, financialControl,build ,Financial,bringStructure} = CRMManagementData
     const { section } = whyChoose
+        const [isMobile, setIsMobile] = useState(window.innerWidth < 768)
+        useEffect(()=>{
+            const handleResize = () => {
+                setIsMobile(window.innerWidth < 768)
+            }
+            window.addEventListener('resize', handleResize)
+            return () => {
+                window.removeEventListener('resize', handleResize)
+            }
+        },[])
+    
     return (
         <PageTransition>
             <div className=''>
-                    <SolutionsHero hero={hero} showTheme={window.innerWidth>769} badge={false} />
-                       {window.innerWidth<769   && 
+                    <SolutionsHero hero={hero} showTheme={!isMobile} badge={false} />
+                       {isMobile   && 
       <div className="hero-content2 w-full bg-[#001A38] flex-col p-10 items-start justify-center" style={{width:"100% !important"}}>
      
 
